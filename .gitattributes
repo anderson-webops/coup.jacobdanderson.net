@@ -1,0 +1,3 @@
+# Preserve exact evidence bytes and source line endings across checkouts.
+* -text
+*.csv whitespace=cr-at-eol

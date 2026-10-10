@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-10",
+  "rules_profile": "standard base Coup, two-player first seat starts with one coin",
+  "rulebook": "https://www.qugs.org/rules/r131357.pdf",
+  "python": "3.9.6",
+  "players": [
+    4
+  ],
+  "fields": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "mixed"
+  ],
+  "candidates": [
+    "baseline",
+    "block_aggressive",
+    "bluff_heavy",
+    "challenge_heavy",
+    "challenge_low",
+    "exchange",
+    "taxer"
+  ],
+  "games_per_seat": 1500,
+  "panel": 1,
+  "seed_formula": "20261010 + panel*1000000000 + players*100000000 + field_index*10000000 + seat*1000000 + game",
+  "field_order": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "mixed"
+  ],
+  "opponent_fields": {
+    "honest": "all baseline",
+    "bluffing": "all bluff_heavy",
+    "skeptical": "all challenge_heavy",
+    "mixed": "opponents cycle baseline, bluff_heavy, challenge_heavy by game index; each player count uses n-1 opponents"
+  },
+  "game_max_turns": 1000,
+  "win_denominator": "all scheduled games, including turn-limit draws",
+  "checksums_sha256": {
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "run_experiments.py": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
+    "test_coup_simulator.py": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9",
+    "games.csv": "4293521bbbf243f162cb311cb62360f1108fd8b9846b4958d328ff87af641eef",
+    "results.csv": "aee41064f4d4e0916daca6a67003528064c02a31f1ae983cf691a8c870d1cf4a",
+    "benchmark_results.csv": "7e1ba52ccf03ffeee8e0301df567021dd5ef6191f484116c776f68a1df0bbc94"
+  }
+}

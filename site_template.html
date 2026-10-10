@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142b28">
+  <meta name="description" content="A reproducible comparison of simple Coup strategies against honest, bluffing, skeptical, and mixed opponents.">
+  <title>Coup Strategy Lab</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to results</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Coup Strategy Lab home"><span class="brand-mark">C</span><span>Coup Strategy Lab</span></a>
+    <nav aria-label="Main navigation"><a href="#findings">Findings</a><a href="#explore">Compare</a><a href="#rules">Rules</a><a href="#method">Method</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Base game · reproducible simulation</p>
+        <h1>Every claim is a wager.</h1>
+        <p class="hero-lede">Which simple Coup tactics survive a table that bluffs, challenges, or plays cautiously? Explore observed win rates by player count and opponent mix.</p>
+        <div class="hero-actions"><a class="button primary" href="#explore">Explore the results <span aria-hidden="true">↗</span></a><a class="button secondary" href="#method">How this was tested</a></div>
+        <p class="hero-note">Rankings describe these programmed policies in their named matchups. They are not a solved strategy for human play.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="card card-back"><span class="card-kicker">Influence</span><strong>?</strong><span class="card-foot">A hidden court</span></div>
+        <div class="card card-front"><span class="card-kicker">The Duke</span><strong>+3</strong><span class="card-foot">Tax or bluff</span></div>
+        <div class="coin coin-one">C</div><div class="coin coin-two">C</div>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="screen-games">__SCREEN_GAMES__</strong><span>screening games</span></div>
+        <div><strong id="confirm-games">__CONFIRM_GAMES__</strong><span>held-out games</span></div>
+        <div><strong>2–6</strong><span>players studied</span></div>
+        <div><strong>11</strong><span>named policies</span></div>
+      </div>
+    </section>
+
+    <section class="section findings" id="findings">
+      <div class="section-heading"><div><p class="eyebrow">The four-player table</p><h2>What held up in confirmation</h2></div><p>Shortlisted policies were rerun on a separate seed panel. Each card below names its opponent field, because the winner can change with the table.</p></div>
+      <div id="finding-cards" class="finding-grid"></div>
+      <p class="fineprint">An observed leader has the highest measured rate among confirmed finalists. The top-two pairs were selected in screening. Their paired intervals are adjusted across the four field comparisons.</p>
+    </section>
+
+    <section class="section explore" id="explore">
+      <div class="section-heading"><div><p class="eyebrow">Matchup explorer</p><h2>Compare like with like</h2></div><p>Use the confirmed four-player panel for the strongest ranking evidence. The wider screening covers 2–6 players and all eleven policies.</p></div>
+      <div class="explorer-panel">
+        <div class="controls">
+          <div class="mode-switch" role="group" aria-label="Study panel"><button id="mode-confirm" class="active" type="button" aria-pressed="true">Confirmed · 4 players</button><button id="mode-screen" type="button" aria-pressed="false">Screening · 2–6 players</button></div>
+          <div class="selectors"><label>Players <select id="players-select"></select></label><label>Opponent field <select id="field-select"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="mixed">Mixed</option></select></label></div>
+        </div>
+        <p id="field-description" class="field-description"></p>
+        <p class="swipe-hint">Scroll the table sideways to see rates, intervals, and draws.</p>
+        <div class="table-wrap"><table><caption id="table-caption">Policy win rates</caption><thead><tr><th scope="col">Rank</th><th scope="col">Policy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">95% interval</th><th scope="col">Draws</th></tr></thead><tbody id="results-body"></tbody></table></div>
+        <p id="panel-note" class="fineprint"></p>
+      </div>
+    </section>
+
+    <section class="section rules" id="rules">
+      <div class="section-heading"><div><p class="eyebrow">The rulebook model</p><h2>Claims, challenges, and costs</h2></div><p>Every game uses the standard five-role, fifteen-card court deck. Two influence cards are dealt to each player.</p></div>
+      <div class="rule-grid">
+        <article><span class="rule-number">01</span><h3>One action per turn</h3><p>Income gives 1 coin, Foreign Aid gives 2, Tax claims Duke for 3, and a Coup costs 7. A player starting a turn with at least 10 coins must Coup.</p></article>
+        <article><span class="rule-number">02</span><h3>Claim a role or bluff</h3><p>Assassin pays 3 to attack, Captain steals up to 2, and Ambassador exchanges with the court. A truthful claim survives a challenge and still resolves after the challenger loses influence.</p></article>
+        <article><span class="rule-number">03</span><h3>Blocks can be challenged</h3><p>Duke blocks Foreign Aid, Contessa blocks assassination, and Captain or Ambassador blocks stealing. A proven block holds; a disproved block fails.</p></article>
+        <article><span class="rule-number">04</span><h3>The Assassin's fee</h3><p>A successful Contessa block leaves the 3-coin fee spent. A successful challenge to the Assassin claim cancels the action and refunds the fee if the actor remains in play.</p></article>
+      </div>
+      <p class="source-line">Rules checked against the <a href="https://www.qugs.org/rules/r131357.pdf">base Coup rulebook PDF</a> and <a href="https://rules.dized.com/game/xzsTtI3VTV-2wvos3otxIg/coup">publisher-maintained Dized rules</a>.</p>
+    </section>
+
+    <section class="section policies" id="policies">
+      <div class="section-heading"><div><p class="eyebrow">What the bots actually do</p><h2>Policy definitions</h2></div><p>These are transparent heuristics. Every policy coups at 7 coins; the rulebook requires a coup only at 10. After two failed actions, a policy takes guaranteed Income once.</p></div>
+      <div class="policy-grid">
+        <article><h3>Baseline</h3><p>Claims only held roles. Prioritizes Duke tax, then Captain steals, occasional Ambassador exchanges, and Foreign Aid. Challenges impossible claims.</p></article>
+        <article><h3>Income</h3><p>Takes guaranteed Income until a Coup is affordable.</p></article>
+        <article><h3>Foreign Aid</h3><p>Seeks 2 coins per turn, subject to Duke blocks.</p></article>
+        <article><h3>Taxer</h3><p>Claims Duke tax on every non-Coup turn, including as a bluff.</p></article>
+        <article><h3>Captain</h3><p>Claims a steal whenever another player has coins, whether or not it holds Captain.</p></article>
+        <article><h3>Assassin</h3><p>Claims assassination at 3 or more coins and uses Foreign Aid to fund it.</p></article>
+        <article><h3>Exchange</h3><p>Sometimes exchanges when holding Ambassador without Duke; otherwise follows the truthful baseline.</p></article>
+        <article><h3>Bluff heavy</h3><p>Claims Tax without checking its hand and claims blocks whenever possible.</p></article>
+        <article><h3>Challenge low</h3><p>Uses baseline actions; sometimes challenges Assassin, Captain, or Contessa claims.</p></article>
+        <article><h3>Challenge heavy</h3><p>Uses baseline actions and challenges every role claim.</p></article>
+        <article><h3>Block aggressive</h3><p>Uses baseline actions but claims any available block, even without the card.</p></article>
+      </div>
+    </section>
+
+    <section class="section method" id="method">
+      <div class="section-heading"><div><p class="eyebrow">Evidence and limits</p><h2>How to read these numbers</h2></div><p>The simulator rotates a distinct focal player through every seat. Each candidate in the same matchup uses the same initial seed panel; mixed opponents cycle across positions.</p></div>
+      <div class="method-layout">
+        <div class="method-points">
+          <div><strong>Win rate</strong><p>Wins divided by all scheduled games, including games that reached the 1,000-action cap. Draws have their own column.</p></div>
+          <div><strong>Uncertainty</strong><p>Table intervals are 95% Wilson intervals for a policy's win rate. Finding cards use paired differences for the four preselected top-two pairs, with a simultaneous 95% correction.</p></div>
+          <div><strong>Scope</strong><p>Policies use only private cards and public information. The model omits negotiation, optional variants, and the choice to decline proof of a held role. Response priority is clockwise when several players could act.</p></div>
+          <div><strong>Two players</strong><p>The first seat starts with one coin under the base two-player rule. View those exploratory results separately from standard multiplayer games.</p></div>
+        </div>
+        <aside class="evidence-box"><h3>Reproduce or inspect</h3><p>The source, per-game outcomes, seat rows, study manifest, and rule citations are kept together. Prior invalid CSVs are clearly archived outside the active results.</p><a href="./evidence/confirmation-results.csv" download>Confirmed results CSV</a><a href="./evidence/confirmation-games.csv" download>Confirmed games CSV</a><a href="./evidence/screening-results.csv" download>Screening results CSV</a><a href="./evidence/screening-games.csv" download>Screening games CSV</a><a href="./evidence/confirmation-manifest.json" download>Confirmation manifest</a><a href="./evidence/screening-manifest.json" download>Screening manifest</a><a href="./evidence/coup_simulator.py" download>Simulator source</a><a href="./evidence/run_experiments.py" download>Study runner</a><a href="./evidence/source-ledger.md" download>Source ledger</a></aside>
+      </div>
+    </section>
+  </main>
+  <footer><span>Coup Strategy Lab</span><span>Research snapshot · 10 October 2026</span><a href="#top">Back to top ↑</a></footer>
+  <script id="study-data" type="application/json">__STUDY_DATA__</script>
+  <script>
+  (() => {
+    const data = JSON.parse(document.getElementById('study-data').textContent);
+    const labels = {baseline:'Baseline',income:'Income',foreign_aid:'Foreign Aid',taxer:'Taxer',captain:'Captain',assassin:'Assassin',exchange:'Exchange',bluff_heavy:'Bluff heavy',challenge_low:'Challenge low',challenge_heavy:'Challenge heavy',block_aggressive:'Block aggressive'};
+    const fields = {honest:'All opponents use the truthful baseline.',bluffing:'All opponents claim Tax and bluff blocks.',skeptical:'All opponents challenge every role claim.',mixed:'Opponents cycle through baseline, bluff-heavy, and challenge-heavy by game. The exact mix changes with player count.'};
+    const percentFormat = new Intl.NumberFormat('en-US',{style:'percent',minimumFractionDigits:1,maximumFractionDigits:1});
+    const countFormat = new Intl.NumberFormat('en-US');
+    const pct = value => percentFormat.format(Number(value));
+    const signed = value => (value >= 0 ? '+' : '') + (100 * value).toFixed(1) + ' points';
+    const cards = document.getElementById('finding-cards');
+    for (const finding of data.findings) {
+      const article = document.createElement('article'); article.className='finding-card';
+      const kicker = document.createElement('p'); kicker.className='eyebrow'; kicker.textContent=finding.field_label + ' opponents';
+      const title = document.createElement('h3'); title.textContent=labels[finding.leader];
+      const rate = document.createElement('div'); rate.className='finding-rate'; rate.textContent=pct(finding.win_rate);
+      const desc = document.createElement('p'); desc.textContent=`Observed wins: ${countFormat.format(finding.wins)} of ${countFormat.format(finding.games)} games. Runner-up: ${labels[finding.runner_up]} at ${pct(finding.runner_rate)}.`;
+      const diff = document.createElement('p'); diff.className='difference'; diff.textContent=`Paired lead: ${signed(finding.difference)} (simultaneous 95% interval ${signed(finding.lower95)} to ${signed(finding.upper95)}).`;
+      article.append(kicker,title,rate,desc,diff); cards.append(article);
+    }
+    const modeConfirm=document.getElementById('mode-confirm'), modeScreen=document.getElementById('mode-screen');
+    const playersSelect=document.getElementById('players-select'), fieldSelect=document.getElementById('field-select');
+    const tbody=document.getElementById('results-body'), caption=document.getElementById('table-caption');
+    let mode='confirmation';
+    function setMode(next) {
+      mode=next;
+      modeConfirm.classList.toggle('active',mode==='confirmation'); modeConfirm.setAttribute('aria-pressed',String(mode==='confirmation'));
+      modeScreen.classList.toggle('active',mode==='screening'); modeScreen.setAttribute('aria-pressed',String(mode==='screening'));
+      playersSelect.replaceChildren();
+      for (const count of (mode==='confirmation'?[4]:[2,3,4,5,6])) {
+        const option=document.createElement('option'); option.value=count; option.textContent=count+' players'; playersSelect.append(option);
+      }
+      playersSelect.disabled=mode==='confirmation';
+      render();
+    }
+    function render() {
+      const n=Number(playersSelect.value), field=fieldSelect.value;
+      const rows=data[mode].filter(row=>Number(row.players)===n&&row.field===field)
+        .sort((a,b)=>Number(b.win_rate)-Number(a.win_rate)||a.policy.localeCompare(b.policy));
+      document.getElementById('field-description').textContent=fields[field];
+      caption.textContent=`${n}-player ${field} field · ${mode==='confirmation'?'held-out confirmation':'exploratory screening'}`;
+      tbody.replaceChildren();
+      rows.forEach((row,index)=>{
+        const tr=document.createElement('tr');
+        [String(index+1),labels[row.policy],`${countFormat.format(row.wins)} / ${countFormat.format(row.games)}`,pct(row.win_rate),`${pct(row.lower95)}–${pct(row.upper95)}`,String(row.draws)].forEach((value,column)=>{
+          const cell=document.createElement(column===1?'th':'td'); if(column===1) cell.scope='row'; cell.textContent=value; tr.append(cell);
+        });
+        if (index===0) tr.className='leader-row';
+        tbody.append(tr);
+      });
+      document.getElementById('panel-note').textContent=mode==='confirmation'
+        ? 'Finalists were selected using the screening panel, then measured here on separate seeds. Ranked by observed win rate; close estimates may remain unresolved.'
+        : 'Screening rates identify candidates for further testing. The two-player setup is asymmetric, so compare only rows within this exact player count and field.';
+    }
+    modeConfirm.addEventListener('click',()=>setMode('confirmation'));
+    modeScreen.addEventListener('click',()=>setMode('screening'));
+    playersSelect.addEventListener('change',render); fieldSelect.addEventListener('change',render);
+    setMode('confirmation');
+  })();
+  </script>
+</body>
+</html>

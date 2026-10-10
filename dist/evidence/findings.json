@@ -1,0 +1,89 @@
+{
+  "screening_games": 88000,
+  "screening_draws": 9,
+  "confirmation_games": 168000,
+  "confirmation_draws": 17,
+  "findings": [
+    {
+      "field": "honest",
+      "field_label": "Honest",
+      "leader": "bluff_heavy",
+      "wins": 3485,
+      "games": 6000,
+      "draws": 0,
+      "win_rate": 0.580833,
+      "runner_up": "block_aggressive",
+      "runner_rate": 0.446833,
+      "difference": 0.134,
+      "lower95": 0.118589,
+      "upper95": 0.149411,
+      "paired_games": 6000,
+      "preselected_screening_pair": [
+        "bluff_heavy",
+        "block_aggressive"
+      ],
+      "separated_at_family95": true
+    },
+    {
+      "field": "bluffing",
+      "field_label": "Bluffing",
+      "leader": "challenge_heavy",
+      "wins": 2558,
+      "games": 6000,
+      "draws": 0,
+      "win_rate": 0.426333,
+      "runner_up": "bluff_heavy",
+      "runner_rate": 0.255,
+      "difference": 0.171333,
+      "lower95": 0.150187,
+      "upper95": 0.192479,
+      "paired_games": 6000,
+      "preselected_screening_pair": [
+        "challenge_heavy",
+        "bluff_heavy"
+      ],
+      "separated_at_family95": true
+    },
+    {
+      "field": "skeptical",
+      "field_label": "Skeptical",
+      "leader": "exchange",
+      "wins": 4999,
+      "games": 6000,
+      "draws": 0,
+      "win_rate": 0.833167,
+      "runner_up": "baseline",
+      "runner_rate": 0.7865,
+      "difference": 0.046667,
+      "lower95": 0.038845,
+      "upper95": 0.054488,
+      "paired_games": 6000,
+      "preselected_screening_pair": [
+        "exchange",
+        "baseline"
+      ],
+      "separated_at_family95": true
+    },
+    {
+      "field": "mixed",
+      "field_label": "Mixed",
+      "leader": "exchange",
+      "wins": 1786,
+      "games": 6000,
+      "draws": 0,
+      "win_rate": 0.297667,
+      "runner_up": "block_aggressive",
+      "runner_rate": 0.278833,
+      "difference": 0.018833,
+      "lower95": 0.004995,
+      "upper95": 0.032672,
+      "paired_games": 6000,
+      "preselected_screening_pair": [
+        "block_aggressive",
+        "exchange"
+      ],
+      "separated_at_family95": true
+    }
+  ],
+  "comparison_method": "paired mean of winner indicators across identical seat and seed indices; simultaneous normal 95% intervals across four preselected field comparisons using Bonferroni correction"
+}

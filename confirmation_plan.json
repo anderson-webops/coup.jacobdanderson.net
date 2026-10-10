@@ -1,0 +1,49 @@
+{
+  "selection_rule": "top three observed policies per four-player opponent field in panel 0, plus baseline; union tested against every field",
+  "screening_results_sha256": "ebae5f47715bc7a2c6ecffec17aaf4020dfc88967e9b758c4bc1ccbb757bf950",
+  "screening_games": 88000,
+  "shortlist_by_field": {
+    "honest": [
+      "bluff_heavy",
+      "block_aggressive",
+      "taxer"
+    ],
+    "bluffing": [
+      "challenge_heavy",
+      "bluff_heavy",
+      "taxer"
+    ],
+    "skeptical": [
+      "exchange",
+      "baseline",
+      "challenge_low"
+    ],
+    "mixed": [
+      "block_aggressive",
+      "exchange",
+      "bluff_heavy"
+    ]
+  },
+  "confirmation_candidates": [
+    "baseline",
+    "block_aggressive",
+    "bluff_heavy",
+    "challenge_heavy",
+    "challenge_low",
+    "exchange",
+    "taxer"
+  ],
+  "confirmation_players": [
+    4
+  ],
+  "confirmation_fields": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "mixed"
+  ],
+  "confirmation_games_per_seat": 1500,
+  "confirmation_panel": 1,
+  "primary_metric": "wins divided by all scheduled games",
+  "comparison": "paired win-rate difference by matching field, seat, and game index"
+}
