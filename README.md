@@ -54,3 +54,20 @@ The model omits negotiations, nonbinding deals, expansion roles, team rules, and
 | [build_site.py](build_site.py) | Builds the static local recap and evidence bundle |
 | [check_site.py](check_site.py) | Checks page data and downloaded files against the frozen study |
 | [dist/index.html](dist/index.html) | Interactive result table, rules, method, and downloads |
+
+## GitHub and publication
+
+Public source: [anderson-webops/coup.jacobdanderson.net](https://github.com/anderson-webops/coup.jacobdanderson.net). Intended custom domain: [coup.jacobdanderson.net](https://coup.jacobdanderson.net). Source delivery and a GitHub release do not establish domain activation.
+
+The complete static site is tracked in `dist/`. It has no application server, package dependencies, accounts, or writable state. Its small browser script filters frozen result tables. `security/site-policy.json` permits only the exact inline script hashes and supplies the required hosting headers. `security/approved-publication.json` pins the complete reviewed publication inventory and research sources.
+
+Before delivery, run:
+
+```sh
+python3 -B -m unittest -v test_coup_simulator test_site scripts.test_release_artifact
+python3 -I -B check_site.py
+```
+
+A clean committed checkout can build and verify the deterministic release archive, manifest, and checksums using `scripts/release_artifact.py`. Only the archive's `dist/` contents belong in the public root. The source-to-host contract and protected operator onboarding requirements are in [docs/PUBLICATION.md](docs/PUBLICATION.md). Preserve both IPv4 and IPv6 hosting. Production activation is performed by protected server automation.
+
+The 11 October divergent draft and its inaccurate provenance claims are preserved in `archive/unvalidated-regression-draft-2026-10-11/`. They are excluded from the active study and public site; see [RESULTS_PROVENANCE.md](RESULTS_PROVENANCE.md).

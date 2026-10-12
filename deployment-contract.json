@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "application_id": "coup.jacobdanderson.net",
+  "domain": "coup.jacobdanderson.net",
+  "artifact_format": "coup-static-dist-tar-v1",
+  "public_root": "dist",
+  "runtime": {
+    "kind": "static-files",
+    "operating_system": "linux",
+    "architecture": "any",
+    "site_process": false,
+    "writable_state": false
+  },
+  "minimum_host_capabilities": [
+    "verify-source-and-artifact-digests-v1",
+    "protected-immutable-static-staging-v1",
+    "enforce-reviewed-static-response-policy-v1",
+    "dual-stack-static-identity-probes-v1",
+    "retained-immutable-release-rollback-v1"
+  ],
+  "response_policy_file": "security/site-policy.json",
+  "readiness": {
+    "address_families": ["ipv4", "ipv6"],
+    "scheme": "https",
+    "identity_path": "/",
+    "identity_file": "dist/index.html",
+    "identity_sha256_from": "release-manifest.json.files",
+    "asset_sha256_from": "release-manifest.json.files",
+    "missing_path": "/__coup_release_probe_missing__",
+    "missing_status": 404,
+    "required_headers_from": "release-manifest.json.site_policy"
+  },
+  "migrations": {
+    "required": false
+  },
+  "rollback": {
+    "required": true,
+    "mode": "immutable-retained-prior-release-when-present",
+    "first_activation_failure": "restore-prior-absent-state",
+    "retain_after_first_activation": true,
+    "verification": "prior-manifest-and-readiness-when-present"
+  },
+  "host_configuration": {
+    "dns": "protected",
+    "tls": "protected",
+    "static_root": "protected",
+    "nginx_policy": "protected"
+  }
+}

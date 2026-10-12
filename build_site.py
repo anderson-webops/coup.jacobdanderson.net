@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import csv
+import base64
+import hashlib
 import json
 import re
 import shutil
@@ -44,6 +46,11 @@ def main() -> None:
             .replace("__STUDY_DATA__", embedded))
     if "__STUDY_DATA__" in html or "__SCREEN_GAMES__" in html or "__CONFIRM_GAMES__" in html:
         raise ValueError("unfilled site template")
+    script_hashes = ["'sha256-" + base64.b64encode(hashlib.sha256(script.encode()).digest()).decode() + "'"
+                     for script in re.findall(r'<script\b[^>]*>(.*?)</script>', html, re.S)]
+    csp = ("default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; "
+           "img-src 'self'; style-src 'self'; script-src " + " ".join(script_hashes) + "; connect-src 'none'")
+    html = html.replace("__CONTENT_SECURITY_POLICY__", csp)
     EVIDENCE.mkdir(parents=True, exist_ok=True)
     copies = {
         "screening-results.csv": ROOT / "results.csv",
@@ -66,6 +73,21 @@ def main() -> None:
     (DIST / "index.html").write_text(html)
     shutil.copy2(ROOT / "site.css", DIST / "site.css")
     shutil.copy2(ROOT / "favicon.svg", DIST / "favicon.svg")
+    (DIST / "publication.json").write_text(json.dumps({
+        "application_id": "coup.jacobdanderson.net", "version": (ROOT / "VERSION").read_text().strip(),
+        "research_snapshot": "2026-10-10", "screening_games": findings["screening_games"],
+        "confirmation_games": findings["confirmation_games"],
+    }, indent=2) + "\n")
+    (ROOT / "security").mkdir(exist_ok=True)
+    (ROOT / "security" / "site-policy.json").write_text(json.dumps({
+        "schema_version": 1,
+        "headers": {
+            "Content-Security-Policy": csp + "; frame-ancestors 'none'; upgrade-insecure-requests",
+            "X-Content-Type-Options": "nosniff", "Referrer-Policy": "no-referrer",
+            "X-Frame-Options": "DENY",
+        },
+        "static_only": True,
+    }, indent=2) + "\n")
     for href in re.findall(r'href="\./evidence/([^"]+)"', html):
         if not (EVIDENCE / href).is_file():
             raise ValueError(f"broken evidence link: {href}")

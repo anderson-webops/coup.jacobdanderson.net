@@ -1,0 +1,11 @@
+{
+  "README.md": "028fe69fac3dd38fa02e54b9357e43b8ad03f6c23538a47642565fa65cfcf942",
+  "SOURCE_LEDGER.md": "f17ffcff24e6250dfb58a91a5c6aa8f62d09c150c97a29ca4ecc7fe6c33b7d8c",
+  "benchmark_policies.py": "57449eaf0a310d970fc41242ced4772668f642a83da78ae82d29bc808731241a",
+  "benchmark_results.csv": "921cd18eea342105dde58e46e531613e2aa4f07c43724917fab7e06cdc2d414b",
+  "coup_simulator.py": "63cb84191c8b1f61cb72901afe70082651bcf28d3e7d5b42f309a79dcb4a3782",
+  "results.csv": "02b01a36b05dcc3357b16a8abf34d405bb73b7d33cd276b13cfa96a944666a37",
+  "run_experiments.py": "255409847922779d42a7e7d7790a09129f739694ad30c5dffb59eb113c7ac2ae",
+  "test_coup_simulator.py": "a6d5b9bbaa373f0ce9ac06a814be6149671351363095bb1dc2d4619ac3700bba",
+  "RESULTS_PROVENANCE.md": "9cca256fdfbc871427f556b9ca1baf255d90690620fcc87064a1ae464047c884"
+}

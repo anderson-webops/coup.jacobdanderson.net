@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "review_scope": "Validated 2026-10-10 study and publication snapshot; rotate only after reviewing exact research sources, evidence counts, displayed claims, browser behavior, and complete publication inventory.",
+  "research_source_commit": "880fa13",
+  "research_source_sha256": {
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "run_experiments.py": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
+    "test_coup_simulator.py": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9"
+  },
+  "independent_verification": "25 rule tests, frozen manifests, raw outcome/summary comparisons, and stratified 48-game confirmation replay passed 2026-10-12.",
+  "publication_files": {
+    "evidence/confirmation-games.csv": {
+      "media_type": "text/csv",
+      "sha256": "4293521bbbf243f162cb311cb62360f1108fd8b9846b4958d328ff87af641eef",
+      "size": 8212489
+    },
+    "evidence/confirmation-manifest.json": {
+      "media_type": "application/json",
+      "sha256": "174845afdfae8c513539ec8cc33136c4b062d604d021176d36ab5c298f95c2d0",
+      "size": 1619
+    },
+    "evidence/confirmation-plan.json": {
+      "media_type": "application/json",
+      "sha256": "c1e6993b1ad53e2eabaa12896ff7d87ff79723bc6919da19215b2d0223beb1f6",
+      "size": 1148
+    },
+    "evidence/confirmation-results.csv": {
+      "media_type": "text/csv",
+      "sha256": "aee41064f4d4e0916daca6a67003528064c02a31f1ae983cf691a8c870d1cf4a",
+      "size": 1903
+    },
+    "evidence/confirmation-seats.csv": {
+      "media_type": "text/csv",
+      "sha256": "7e1ba52ccf03ffeee8e0301df567021dd5ef6191f484116c776f68a1df0bbc94",
+      "size": 6930
+    },
+    "evidence/coup_simulator.py": {
+      "media_type": "text/x-python",
+      "sha256": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+      "size": 11923
+    },
+    "evidence/findings.json": {
+      "media_type": "application/json",
+      "sha256": "6b036f43674a7580c20048de21e20f69a07254e7e65583f9888a424b9247a686",
+      "size": 2316
+    },
+    "evidence/run_experiments.py": {
+      "media_type": "text/x-python",
+      "sha256": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
+      "size": 8220
+    },
+    "evidence/screening-games.csv": {
+      "media_type": "text/csv",
+      "sha256": "ae80d5f8b957e4019b35b4491296a746af4f9e2c9aac090644b7ecc591fa0ced",
+      "size": 4010183
+    },
+    "evidence/screening-manifest.json": {
+      "media_type": "application/json",
+      "sha256": "ce70f4f92c9172dd415cb832de9d0a5ad1b37c72bca1efc0bd3433f3fc6524a9",
+      "size": 1710
+    },
+    "evidence/screening-results.csv": {
+      "media_type": "text/csv",
+      "sha256": "ebae5f47715bc7a2c6ecffec17aaf4020dfc88967e9b758c4bc1ccbb757bf950",
+      "size": 13474
+    },
+    "evidence/screening-seats.csv": {
+      "media_type": "text/csv",
+      "sha256": "c495f5b4c67de1b3654774bebf24b6c95cb23d6235788626159c1a7c45734bc9",
+      "size": 48514
+    },
+    "evidence/source-ledger.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "7b3375715559abf7be0856b437afb899bef96b0f91616bf7a9a9049c518996cf",
+      "size": 2026
+    },
+    "evidence/test_coup_simulator.py": {
+      "media_type": "text/x-python",
+      "sha256": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9",
+      "size": 7076
+    },
+    "favicon.svg": {
+      "media_type": "image/svg+xml",
+      "sha256": "d713c23da05d32613addfb689c108027b11ee2ec58c78ad38acee23120d86c06",
+      "size": 332
+    },
+    "index.html": {
+      "media_type": "text/html",
+      "sha256": "4d8eed601b9095dbb0ffa157f633ad44b928c43844cc8c1316771ec374db7384",
+      "size": 61154
+    },
+    "publication.json": {
+      "media_type": "application/json",
+      "sha256": "b3b562d2be0efb5d5f3e648db6479715b02f595ed9e9fa87eadeece6dc8cc081",
+      "size": 169
+    },
+    "site.css": {
+      "media_type": "text/css",
+      "sha256": "43e3ab4c9e815bbd5a035a6a28cae1d84777c1d53782229b68fcc45a4dcfb18e",
+      "size": 10123
+    }
+  }
+}
