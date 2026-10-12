@@ -13,7 +13,7 @@ import tarfile
 from pathlib import Path
 
 from analyze_results import verify_manifest
-from analyze_strategy_research import analyze_study
+from verify_strategy_research import verify_research
 from check_site import verify_research_findings
 
 ROOT = Path(__file__).parent
@@ -98,7 +98,7 @@ def main() -> None:
     verify_manifest(ROOT / "confirmation")
     findings = json.loads((ROOT / "findings.json").read_text())
     research = json.loads((RESEARCH / 'findings.json').read_text())
-    audited_research = analyze_study(RESEARCH, write=False, verify_saved=True)
+    audited_research, _ = verify_research(RESEARCH)
     if research != audited_research:
         raise ValueError('Expanded findings differ from audited raw outcomes')
     verify_research_findings(research, read_csv(RESEARCH / 'confirmation' / 'summaries.csv'))

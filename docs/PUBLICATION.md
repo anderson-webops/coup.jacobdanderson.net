@@ -7,10 +7,12 @@ The deployable website is the tracked `dist/` tree. It is served as static files
 Run the simulator tests and the publication checker before source delivery:
 
 ```sh
-python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_site scripts.test_release_artifact
-python3 -B analyze_strategy_research.py --verify-only
+python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_verify_strategy_research test_site scripts.test_release_artifact
+python3 -B verify_strategy_research.py
 python3 -I -B check_site.py --root .
 ```
+
+The portable research verifier retains the full frozen raw-data audit, permits only bounded derived-float rounding across Python versions, and keeps discrete results and public evidence exact. See [RESEARCH_PORTABILITY.md](RESEARCH_PORTABILITY.md).
 
 The site checker validates the complete `dist/` inventory against `security/approved-publication.json`. That independently reviewed anchor records each public file hash, size, and media type. It must be updated only after the exact source evidence, displayed claims, downloadable study files, and browser policy are reviewed. `security/site-policy.json` records the required response headers, including the approved inline-script hashes in Content Security Policy. The versioned `deployment-contract.json` declares static hosting and protected host capabilities. None of these three control files belongs inside the public tree.
 

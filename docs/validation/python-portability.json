@@ -1,0 +1,52 @@
+{
+  "canonical_saved_json_and_markdown": "unchanged",
+  "decimal_tie_display_changes_only_in_unfrozen_recomputation": 2,
+  "delivery_absolute_tolerance": 1e-14,
+  "delivery_suite": {
+    "local_seconds": 149.775,
+    "result": "passed",
+    "test_methods": 133
+  },
+  "frozen_source_commit": "12ab9e1",
+  "python312": {
+    "changed_family_counts": {
+      "ablations": 88,
+      "confirmation_pairs": 118,
+      "counters": 8,
+      "equal_field_robustness": 24,
+      "field_weighting_sensitivity": 45
+    },
+    "changed_leaf_key_counts": {
+      "conservative_family_lower": 16,
+      "conservative_family_upper": 14,
+      "difference": 20,
+      "equal_field_mean": 48,
+      "normal_family_lower": 82,
+      "normal_family_upper": 82,
+      "scenario_mean": 21
+    },
+    "float_change_count": 283,
+    "max_absolute_difference": 3.469446951953614e-16,
+    "python_version": "3.12.13",
+    "raw_study_recomputed": true,
+    "saved_findings_sha256": "1178be0a0729a0af6b8577c957e0cf800ffeba3a041e9e955833ef2e46f4df2f",
+    "saved_markdown_sha256": "aa2097b96fafafa9ffbdc73477f7d7d1788a2cad6c3b5c9ea7ff746469887a47",
+    "study_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383"
+  },
+  "python314": {
+    "changed_float_leaves": 283,
+    "changed_leaf_key_counts": {
+      "conservative_family_lower": 16,
+      "conservative_family_upper": 14,
+      "difference": 20,
+      "equal_field_mean": 48,
+      "normal_family_lower": 82,
+      "normal_family_upper": 82,
+      "scenario_mean": 21
+    },
+    "maximum_absolute_difference": 3.469446951953614e-16
+  },
+  "raw_games_per_audit": 2814728,
+  "status": "passed",
+  "tolerance_scope": "only paired differences/interval bounds and descriptive scenario means; exact types, direct rates, counts, selections, flags, signs, ranking order and hashes"
+}

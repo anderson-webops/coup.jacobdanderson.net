@@ -75,7 +75,8 @@ The model omits negotiations, nonbinding deals, expansion roles, team rules, and
 | [research_strategies.py](research_strategies.py) | Richer public-information policies and frozen parameter configurations |
 | [run_strategy_research.py](run_strategy_research.py) | Seven separate research stages with immutable plans and compressed raw games |
 | [research_statistics.py](research_statistics.py) | Paired rotation-block comparisons and simultaneous uncertainty bounds |
-| [analyze_strategy_research.py](analyze_strategy_research.py) | Independent raw outcome and saved-findings audit |
+| [analyze_strategy_research.py](analyze_strategy_research.py) | Frozen independent raw outcome analyzer |
+| [verify_strategy_research.py](verify_strategy_research.py) | Portable delivery audit with exact discrete evidence |
 | [scripts/audit_research_replay.py](scripts/audit_research_replay.py) | Independent lineup reconstruction and strict saved-game replays |
 | [build_site.py](build_site.py) | Builds the static local recap and evidence bundle |
 | [check_site.py](check_site.py) | Checks page data and downloaded files against the frozen study |
@@ -90,11 +91,13 @@ The complete static site is tracked in `dist/`. It has no application server, pa
 Before delivery, run:
 
 ```sh
-python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_site scripts.test_release_artifact
-python3 -B analyze_strategy_research.py --verify-only
+python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_verify_strategy_research test_site scripts.test_release_artifact
+python3 -B verify_strategy_research.py
 python3 -I -B check_site.py
 ```
 
 A clean committed checkout can build and verify the deterministic release archive, manifest, and checksums using `scripts/release_artifact.py`. Only the archive's `dist/` contents belong in the public root. The source-to-host contract and protected operator onboarding requirements are in [docs/PUBLICATION.md](docs/PUBLICATION.md). Preserve both IPv4 and IPv6 hosting. Production activation is performed by protected server automation.
 
 The 11 October divergent draft and its inaccurate provenance claims are preserved in `archive/unvalidated-regression-draft-2026-10-11/`. They are excluded from the active study and public site; see [RESULTS_PROVENANCE.md](RESULTS_PROVENANCE.md).
+
+The frozen 122-test suite is supplemented by eleven delivery compatibility tests. See [cross-version verification](docs/RESEARCH_PORTABILITY.md); all scientific source and public evidence bytes remain frozen.

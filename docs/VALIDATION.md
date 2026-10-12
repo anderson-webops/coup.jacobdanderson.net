@@ -38,7 +38,7 @@ internal event tally.
 
 ## Automated suite
 
-The required suite has **122 test methods**:
+The frozen research and initial publication suite has **122 test methods**:
 
 | Coverage | Methods |
 | --- | ---: |
@@ -55,11 +55,13 @@ Exchange. Tests also reject corrupted summaries, missing rotations, wrong seeds,
 false winner flags, changed sources, linked downloads, unsafe archive paths,
 changed public evidence and optimized-Python validation.
 
+Eleven additional delivery compatibility methods bring the required suite to **133**. They reject type, numeric, sign, structure, hash, canonical-rendering and ranking drift while preserving all frozen study bytes. See [RESEARCH_PORTABILITY.md](RESEARCH_PORTABILITY.md).
+
 ## Final publication gates
 
-The full 122-method suite passed on the completed site, including the 10,000-game
+The full 133-method delivery suite passed on the completed site, including the 10,000-game
 strict policy test. The final analysis verifier again reconciled all 2,814,728
-rows and exactly reproduced the saved findings. Isolated static validation
+rows and reproduced the saved findings. The portable verifier also passed a full CPython 3.14 audit, with 283 bounded derived-float differences (maximum `3.4694469519536142e-16`), exact discrete results and canonical Markdown. The final site rebuild left every public and frozen research byte unchanged. Isolated static validation
 accepted all 29 publication files and their embedded data, downloads, source
 hashes and CSP. Optimized Python was explicitly rejected.
 
