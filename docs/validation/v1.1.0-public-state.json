@@ -1,0 +1,70 @@
+{
+  "dns": {
+    "checked_at": "2026-10-12T23:29:35.587682+00:00",
+    "checks": [
+      {
+        "name": "coup.jacobdanderson.net",
+        "server": "1.1.1.1",
+        "type": "A",
+        "value": "45.17.197.196"
+      },
+      {
+        "name": "coup.jacobdanderson.net",
+        "server": "1.1.1.1",
+        "type": "AAAA",
+        "value": "2600:1700:1960:2adf::41"
+      },
+      {
+        "name": "coup.jacobdanderson.net",
+        "server": "ns-1243.awsdns-27.org.",
+        "type": "A",
+        "value": "45.17.197.196"
+      },
+      {
+        "name": "coup.jacobdanderson.net",
+        "server": "ns-1243.awsdns-27.org.",
+        "type": "AAAA",
+        "value": "2600:1700:1960:2adf::41"
+      }
+    ],
+    "status": "passed"
+  },
+  "expected_homepage_sha256": "0a3515624d6ce4ce7d4eb82fe0ab9022775bf4415728711be326b4b7e15a3868",
+  "expected_publication_sha256": "12b8c8a2670c436249bbce49e3dd4b10a85ef180dceeeb54c34aad9808acc153",
+  "full_new_release_public_acceptance": "not established: requested public identity is not active",
+  "host_side_activation_attempt_status": "unknown",
+  "last_observation": {
+    "checked_at": "2026-10-12T23:44:24.352983+00:00",
+    "checks": [
+      {
+        "error": "",
+        "family": "ipv4",
+        "release_identity_match": false,
+        "remote_ip": "45.17.197.196",
+        "sha256": "85892bbdbf78707b09f040b247e9eb105f96b0dbd6cc7ffa1ce2ca184af374e4",
+        "status": "200"
+      },
+      {
+        "error": "",
+        "family": "ipv6",
+        "release_identity_match": false,
+        "remote_ip": "2600:1700:1960:2adf::41",
+        "sha256": "85892bbdbf78707b09f040b247e9eb105f96b0dbd6cc7ffa1ce2ca184af374e4",
+        "status": "200"
+      }
+    ]
+  },
+  "next_required_action": "Protected server automation must activate the exact v1.1.0 immutable release, then verify all 29 files, required headers and real 404 over both direct HTTPS address families.",
+  "observed_publication": {
+    "application_id": "coup.jacobdanderson.net",
+    "confirmation_games": 168000,
+    "research_snapshot": "2026-10-10",
+    "screening_games": 88000,
+    "version": "1.0.1"
+  },
+  "release_url": "https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.1.0",
+  "requested_version": "1.1.0",
+  "source_agent_boundary": "Shared Sites/AGENTS.md reserves production activation for protected server automation; no server administration was attempted.",
+  "source_commit": "ef14949540a4c2c251cc95c513509ddb5c530ab5",
+  "status": "pending-protected-activation"
+}

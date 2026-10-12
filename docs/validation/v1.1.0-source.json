@@ -1,0 +1,146 @@
+{
+  "annotated_tag": "v1.1.0",
+  "assets": [
+    {
+      "name": "SHA256SUMS",
+      "sha256": "2c9a06b34c710efb8748b5dbb3ff373fb9df44ba93c6ab3ee11a586b2e404325",
+      "size": 191
+    },
+    {
+      "name": "coup-site-v1.1.0-ef14949540a4.tar.gz",
+      "sha256": "ee5b2cc59fd4d0bddec6172c53d915bf535f20b83f5661b3a9e991fbc212e0fc",
+      "size": 18804356
+    },
+    {
+      "name": "release-manifest.json",
+      "sha256": "160bb57d69ae5476ae41dcaeb959fb5a5631842ef930eaea576a8e82a3916506",
+      "size": 9235
+    }
+  ],
+  "github_ci": {
+    "conclusion": "success",
+    "headSha": "ef14949540a4c2c251cc95c513509ddb5c530ab5",
+    "jobs": [
+      {
+        "completedAt": "2026-10-12T23:34:02Z",
+        "conclusion": "success",
+        "databaseId": 115053940649,
+        "name": "verify",
+        "startedAt": "2026-10-12T23:31:53Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-12T23:31:54Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-12T23:31:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:31:56Z",
+            "conclusion": "success",
+            "name": "Check out exact source",
+            "number": 2,
+            "startedAt": "2026-10-12T23:31:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:33:11Z",
+            "conclusion": "success",
+            "name": "Run rules and release regression suites",
+            "number": 3,
+            "startedAt": "2026-10-12T23:31:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:33:51Z",
+            "conclusion": "success",
+            "name": "Independently audit the expanded frozen research",
+            "number": 4,
+            "startedAt": "2026-10-12T23:33:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:33:52Z",
+            "conclusion": "success",
+            "name": "Validate exact static publication",
+            "number": 5,
+            "startedAt": "2026-10-12T23:33:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:33:53Z",
+            "conclusion": "success",
+            "name": "Confirm optimized Python fails closed",
+            "number": 6,
+            "startedAt": "2026-10-12T23:33:52Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:33:58Z",
+            "conclusion": "success",
+            "name": "Build and verify exact static release candidate",
+            "number": 7,
+            "startedAt": "2026-10-12T23:33:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:34:00Z",
+            "conclusion": "success",
+            "name": "Retain verified release candidate",
+            "number": 8,
+            "startedAt": "2026-10-12T23:33:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:34:00Z",
+            "conclusion": "success",
+            "name": "Post Check out exact source",
+            "number": 16,
+            "startedAt": "2026-10-12T23:34:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-12T23:34:00Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 17,
+            "startedAt": "2026-10-12T23:34:00Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/anderson-webops/coup.jacobdanderson.net/actions/runs/38322612775/job/115053940649"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/anderson-webops/coup.jacobdanderson.net/actions/runs/38322612775"
+  },
+  "github_upload_digests_match": true,
+  "linux_ci_assets_match_local": true,
+  "public_activation": "pending-separate-public-acceptance",
+  "recorded_at": "2026-10-12T23:36:29.254117+00:00",
+  "release_published_at": "2026-10-12T23:35:12Z",
+  "release_url": "https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.1.0",
+  "source_commit": "ef14949540a4c2c251cc95c513509ddb5c530ab5",
+  "status": "source-and-release-verified",
+  "study": {
+    "confirmation_pairs": 35,
+    "conservative_positive_counters": 4,
+    "conservative_positive_pairs": 5,
+    "counter_pairs": 4,
+    "frozen_protocol_commit": "12ab9e1",
+    "jobs": 2138,
+    "new_games": 2814728,
+    "replayed_games": 26912,
+    "stages": 7
+  },
+  "tag_object_sha": "c86591d43ccc822bbbd816333993244f93479983",
+  "tests": {
+    "desktop_and_phone_browser_review": "passed",
+    "passed_methods": 133,
+    "public_files": 29,
+    "strict_policy_fuzz_games": 10000
+  },
+  "version": "1.1.0"
+}

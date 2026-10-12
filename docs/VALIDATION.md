@@ -75,7 +75,6 @@ policy. The local source/evidence secret scan reported no leaks.
 
 The manually reviewed publication anchor preserves original evidence hashes and
 pins the expanded source fingerprints and the complete 29-file inventory.
-Clean-commit release build and extracted-tree verification remain required
-before the immutable version 1.1.0 archive is published. No public-domain acceptance has
-been established by this local validation record. Protected activation requires
-exact served-byte and response-policy checks over both HTTPS address families.
+Clean-commit release build and extracted-tree verification passed at `ef14949540a4c2c251cc95c513509ddb5c530ab5`. GitHub CI 38322612775 passed all required gates. All three Linux CI assets, local assets and GitHub uploaded digests match exactly. The annotated immutable [v1.1.0 release](https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.1.0) was published at 23:35:12 UTC on 12 October 2026. See [source/release receipt](validation/v1.1.0-source.json).
+
+Public activation remains separate. At 23:44:24 UTC, direct IPv4 and IPv6 checks still returned the old `1.0.1` publication identity. New-release public acceptance has not been established. Shared Sites/AGENTS.md reserves activation for protected server automation; after activation, all 29 served-byte hashes, required response headers and real 404 must pass over both HTTPS address families. The exact observations, DNS readback and next action are in [public-state receipt](validation/v1.1.0-public-state.json).

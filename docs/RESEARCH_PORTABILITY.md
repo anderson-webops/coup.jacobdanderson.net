@@ -6,7 +6,7 @@ source, manifest, schedule and selection checks, but failed the frozen analyzer'
 exact comparison of recomputed floating-point values with saved findings.
 
 Independent CPython 3.12 and 3.14 audits reproduced the issue: 283 derived floats
-differed, with a maximum absolute difference of `3.469446951953614e-16`.
+differed, with a maximum absolute difference of `3.47e-16`.
 Every count, directly divided rate, flag, identity, source hash, type and
 descriptive ranking matched. CPython 3.12 changed floating-point summation to a
 more accurate algorithm, as documented in the [Python documentation](https://docs.python.org/3.12/library/functions.html#sum).
