@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 3524,
+    "coup": 3731,
+    "exchange": 1960,
+    "foreign_aid": 18940,
+    "income": 7188,
+    "steal": 16450,
+    "tax": 19619
+  },
+  "events": {
+    "action": 71412,
+    "block": 20806,
+    "challenge": 57590,
+    "disproved": 3182,
+    "eliminate": 30000,
+    "exchange": 1960,
+    "lose": 62458,
+    "proved": 54408
+  },
+  "focal_actions": {
+    "assassinate": 2125,
+    "coup": 960,
+    "exchange": 656,
+    "foreign_aid": 2204,
+    "income": 6549,
+    "steal": 2740,
+    "tax": 6000
+  },
+  "focal_events": {
+    "action": 21234,
+    "block": 7125,
+    "challenge": 432,
+    "disproved": 3182,
+    "eliminate": 2358,
+    "exchange": 656,
+    "lose": 5908,
+    "proved": 15464
+  },
+  "focal_roles": {
+    "disproved:assassin": 384,
+    "disproved:captain": 213,
+    "disproved:contessa": 189,
+    "disproved:duke": 2396,
+    "lose:ambassador": 1423,
+    "lose:assassin": 1237,
+    "lose:captain": 1105,
+    "lose:contessa": 2008,
+    "lose:duke": 135,
+    "proved:ambassador": 1817,
+    "proved:assassin": 1741,
+    "proved:captain": 4233,
+    "proved:contessa": 119,
+    "proved:duke": 7554
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "card_balanced",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "43b305161366830ce226825a9585ec922bbe580e9568d84edbccb906e5bc6ad9",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 616
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 591
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 582
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 600
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 600
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 653
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "card_balanced",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 6000,
+    "mean_turns": 11.902,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.607,
+    "wins": 3642
+  }
+}

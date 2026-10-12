@@ -1,0 +1,103 @@
+{
+  "actions": {
+    "assassinate": 8434,
+    "coup": 45797,
+    "exchange": 6213,
+    "foreign_aid": 19475,
+    "income": 60405,
+    "steal": 20948,
+    "tax": 120524
+  },
+  "events": {
+    "action": 281796,
+    "block": 31996,
+    "challenge": 15227,
+    "disproved": 12774,
+    "eliminate": 30000,
+    "exchange": 6213,
+    "lose": 62258,
+    "proved": 2453
+  },
+  "focal_actions": {
+    "assassinate": 1397,
+    "coup": 7009,
+    "exchange": 1914,
+    "foreign_aid": 12361,
+    "income": 7416,
+    "steal": 12941,
+    "tax": 14481
+  },
+  "focal_events": {
+    "action": 57519,
+    "block": 1372,
+    "challenge": 2611,
+    "eliminate": 4085,
+    "exchange": 1914,
+    "lose": 8958,
+    "proved": 824
+  },
+  "focal_roles": {
+    "lose:ambassador": 598,
+    "lose:assassin": 2338,
+    "lose:captain": 1699,
+    "lose:contessa": 2153,
+    "lose:duke": 2170,
+    "proved:ambassador": 3,
+    "proved:assassin": 159,
+    "proved:captain": 568,
+    "proved:contessa": 25,
+    "proved:duke": 69
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "ec6c65ed174a6d3fe8c0be552f4b622dde100e6a1a62443a239de8793d521a19",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 387
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 374
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 322
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 312
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 268
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 252
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "draws": 0,
+    "field": "learning",
+    "games": 6000,
+    "mean_turns": 46.966,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.31916666666666665,
+    "wins": 1915
+  }
+}

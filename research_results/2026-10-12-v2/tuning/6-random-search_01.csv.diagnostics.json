@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 995,
+    "coup": 679,
+    "exchange": 1779,
+    "foreign_aid": 1974,
+    "income": 2534,
+    "steal": 1996,
+    "tax": 2554
+  },
+  "events": {
+    "action": 12511,
+    "block": 3458,
+    "challenge": 1145,
+    "disproved": 1000,
+    "eliminate": 960,
+    "exchange": 1737,
+    "lose": 2019,
+    "proved": 145
+  },
+  "focal_actions": {
+    "assassinate": 71,
+    "coup": 361,
+    "exchange": 45,
+    "foreign_aid": 178,
+    "income": 707,
+    "steal": 150,
+    "tax": 833
+  },
+  "focal_events": {
+    "action": 2345,
+    "block": 609,
+    "challenge": 211,
+    "disproved": 99,
+    "eliminate": 107,
+    "exchange": 45,
+    "lose": 247,
+    "proved": 30
+  },
+  "focal_roles": {
+    "disproved:contessa": 46,
+    "disproved:duke": 53,
+    "lose:ambassador": 46,
+    "lose:assassin": 67,
+    "lose:captain": 57,
+    "lose:contessa": 36,
+    "lose:duke": 41,
+    "proved:ambassador": 1,
+    "proved:assassin": 6,
+    "proved:captain": 9,
+    "proved:contessa": 6,
+    "proved:duke": 8
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_01",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "af91e9dafb399bf065883e2a30a855cd02fb30c2eeaa018f27062434c812c3a9",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 13
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 18
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 13
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_01",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 65.16145833333333,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.4427083333333333,
+    "wins": 85
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "actions": {
+    "assassinate": 2080,
+    "coup": 1320,
+    "exchange": 3393,
+    "foreign_aid": 3591,
+    "income": 4739,
+    "steal": 3443,
+    "tax": 4987
+  },
+  "events": {
+    "action": 23553,
+    "block": 6230,
+    "challenge": 2478,
+    "disproved": 1852,
+    "eliminate": 2000,
+    "exchange": 3335,
+    "lose": 4276,
+    "proved": 626
+  },
+  "focal_actions": {
+    "assassinate": 423,
+    "coup": 664,
+    "exchange": 83,
+    "foreign_aid": 343,
+    "income": 1344,
+    "steal": 251,
+    "tax": 1740
+  },
+  "focal_events": {
+    "action": 4848,
+    "block": 1359,
+    "challenge": 908,
+    "disproved": 203,
+    "eliminate": 373,
+    "exchange": 83,
+    "lose": 822,
+    "proved": 107
+  },
+  "focal_roles": {
+    "disproved:assassin": 18,
+    "disproved:captain": 10,
+    "disproved:contessa": 93,
+    "disproved:duke": 82,
+    "lose:ambassador": 131,
+    "lose:assassin": 207,
+    "lose:captain": 200,
+    "lose:contessa": 170,
+    "lose:duke": 114,
+    "proved:ambassador": 2,
+    "proved:assassin": 20,
+    "proved:captain": 17,
+    "proved:contessa": 27,
+    "proved:duke": 41
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "eliminator",
+    "field": "random",
+    "players": 5
+  },
+  "raw_sha256": "26e3a0f243f4f945a8d21b60e67eb11eae55bfe5d9a003af73b2ca0e38f25cee",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 30
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 27
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 24
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 20
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "eliminator",
+    "draws": 0,
+    "field": "random",
+    "games": 500,
+    "mean_turns": 47.106,
+    "players": 5,
+    "stage": "screening",
+    "win_rate": 0.254,
+    "wins": 127
+  }
+}

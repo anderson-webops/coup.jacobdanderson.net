@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 978,
+    "coup": 4440,
+    "exchange": 1842,
+    "foreign_aid": 1482,
+    "income": 7806,
+    "steal": 1620,
+    "tax": 11058
+  },
+  "events": {
+    "action": 29226,
+    "block": 2592,
+    "challenge": 1734,
+    "disproved": 1338,
+    "eliminate": 3000,
+    "exchange": 1842,
+    "lose": 6174,
+    "proved": 396
+  },
+  "focal_actions": {
+    "assassinate": 163,
+    "coup": 740,
+    "exchange": 307,
+    "foreign_aid": 247,
+    "income": 1301,
+    "steal": 270,
+    "tax": 1843
+  },
+  "focal_events": {
+    "action": 4871,
+    "block": 432,
+    "challenge": 289,
+    "disproved": 223,
+    "eliminate": 500,
+    "exchange": 307,
+    "lose": 1029,
+    "proved": 66
+  },
+  "focal_roles": {
+    "disproved:captain": 8,
+    "disproved:contessa": 91,
+    "disproved:duke": 124,
+    "lose:ambassador": 92,
+    "lose:assassin": 217,
+    "lose:captain": 261,
+    "lose:contessa": 260,
+    "lose:duke": 199,
+    "proved:assassin": 10,
+    "proved:captain": 20,
+    "proved:contessa": 20,
+    "proved:duke": 16
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "exchange_builder",
+    "field": "selfplay",
+    "players": 6
+  },
+  "raw_sha256": "40da58c18d8ef46d60ffc1a8623a1fc5565652bbf3408d92e8c03099d2ae42dd",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 16
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 16
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 12
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 16
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "exchange_builder",
+    "draws": 0,
+    "field": "selfplay",
+    "games": 600,
+    "mean_turns": 48.71,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.16666666666666666,
+    "wins": 100
+  }
+}

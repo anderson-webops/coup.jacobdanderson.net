@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 1477,
+    "coup": 4633,
+    "exchange": 675,
+    "foreign_aid": 2663,
+    "income": 7804,
+    "steal": 1319,
+    "tax": 11231
+  },
+  "events": {
+    "action": 29802,
+    "block": 2693,
+    "challenge": 1607,
+    "disproved": 1078,
+    "eliminate": 2999,
+    "exchange": 675,
+    "lose": 6269,
+    "proved": 529
+  },
+  "focal_actions": {
+    "assassinate": 426,
+    "coup": 764,
+    "exchange": 129,
+    "foreign_aid": 969,
+    "income": 2030,
+    "steal": 346,
+    "tax": 1412
+  },
+  "focal_events": {
+    "action": 6076,
+    "block": 548,
+    "challenge": 153,
+    "disproved": 97,
+    "eliminate": 468,
+    "exchange": 129,
+    "lose": 998,
+    "proved": 106
+  },
+  "focal_roles": {
+    "disproved:contessa": 97,
+    "lose:ambassador": 140,
+    "lose:assassin": 207,
+    "lose:captain": 227,
+    "lose:contessa": 245,
+    "lose:duke": 179,
+    "proved:ambassador": 2,
+    "proved:assassin": 39,
+    "proved:captain": 23,
+    "proved:contessa": 5,
+    "proved:duke": 37
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "field": "alternating",
+    "players": 6
+  },
+  "raw_sha256": "786ee99d620db8b4b4b83947ad71dcbc5566aca03245d67e2a49a90cc4aad27a",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 30
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 35
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 16
+    },
+    "5": {
+      "draws": 1,
+      "games": 100,
+      "wins": 10
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "draws": 1,
+    "field": "alternating",
+    "games": 600,
+    "mean_turns": 49.67,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.21833333333333332,
+    "wins": 131
+  }
+}

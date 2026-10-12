@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 1178,
+    "coup": 3148,
+    "exchange": 999,
+    "foreign_aid": 2461,
+    "income": 4605,
+    "steal": 2261,
+    "tax": 9317
+  },
+  "events": {
+    "action": 23969,
+    "block": 4114,
+    "challenge": 2917,
+    "disproved": 1743,
+    "eliminate": 3000,
+    "exchange": 957,
+    "lose": 6270,
+    "proved": 1174
+  },
+  "focal_actions": {
+    "assassinate": 26,
+    "coup": 858,
+    "exchange": 207,
+    "foreign_aid": 65,
+    "income": 483,
+    "steal": 120,
+    "tax": 2529
+  },
+  "focal_events": {
+    "action": 4288,
+    "block": 1073,
+    "challenge": 136,
+    "disproved": 416,
+    "eliminate": 455,
+    "exchange": 207,
+    "lose": 962,
+    "proved": 252
+  },
+  "focal_roles": {
+    "disproved:captain": 49,
+    "disproved:contessa": 112,
+    "disproved:duke": 255,
+    "lose:ambassador": 71,
+    "lose:assassin": 211,
+    "lose:captain": 254,
+    "lose:contessa": 225,
+    "lose:duke": 201,
+    "proved:ambassador": 45,
+    "proved:assassin": 3,
+    "proved:captain": 37,
+    "proved:contessa": 40,
+    "proved:duke": 127
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "search_08",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "8853583bd2c5e42e954057cc7bc686f4bd48553b836b466ec89923a1080255f8",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 23
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 23
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 22
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 23
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 28
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "search_08",
+    "draws": 0,
+    "field": "mixed",
+    "games": 600,
+    "mean_turns": 39.94833333333333,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.24166666666666667,
+    "wins": 145
+  }
+}

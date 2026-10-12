@@ -1,0 +1,3600 @@
+{
+  "extra": {},
+  "fields": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "rational",
+    "learning",
+    "random",
+    "mixed"
+  ],
+  "global_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383",
+  "jobs": [
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "honest",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "bluffing",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "skeptical",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "rational",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "learning",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "random",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "mixed",
+      "players": 3
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "honest",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "bluffing",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "skeptical",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "rational",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "learning",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "random",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "mixed",
+      "players": 5
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "assassin",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "baseline",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "block_aggressive",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_balanced",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_bold",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "challenge_heavy",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "foreign_aid",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "public_learning",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 1000,
+      "candidate": "taxer",
+      "field": "mixed",
+      "players": 6
+    }
+  ],
+  "pairs": [
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 2,
+      "second": "card_bold"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "taxer"
+    },
+    {
+      "field": "mixed",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "challenge_heavy"
+    },
+    {
+      "field": "random",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "taxer"
+    },
+    {
+      "field": "rational",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "exchange"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 2,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 3,
+      "second": "search_08"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "learning",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "mixed",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "exchange"
+    },
+    {
+      "field": "random",
+      "first": "search_08",
+      "players": 3,
+      "second": "bluff_heavy"
+    },
+    {
+      "field": "rational",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 3,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "search_08",
+      "players": 4,
+      "second": "challenge_heavy"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "mixed",
+      "first": "exchange",
+      "players": 4,
+      "second": "search_21"
+    },
+    {
+      "field": "random",
+      "first": "exchange",
+      "players": 4,
+      "second": "search_08"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 5,
+      "second": "card_bold"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 5,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "search_08",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "mixed",
+      "first": "search_21",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "random",
+      "first": "assassin",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 5,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 5,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "search_21",
+      "players": 6,
+      "second": "search_12"
+    },
+    {
+      "field": "honest",
+      "first": "search_00",
+      "players": 6,
+      "second": "card_cautious"
+    },
+    {
+      "field": "learning",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "mixed",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "random",
+      "first": "foreign_aid",
+      "players": 6,
+      "second": "exchange"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    }
+  ],
+  "source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "stage": "confirmation"
+}

@@ -1,0 +1,66 @@
+{
+  "actions": {
+    "coup": 4881,
+    "exchange": 467,
+    "foreign_aid": 2161,
+    "income": 1938,
+    "steal": 2328,
+    "tax": 12854
+  },
+  "events": {
+    "action": 24629,
+    "block": 4489,
+    "eliminate": 2000,
+    "exchange": 467,
+    "lose": 4881
+  },
+  "focal_actions": {
+    "coup": 3629,
+    "tax": 9000
+  },
+  "focal_events": {
+    "action": 12629,
+    "block": 4489,
+    "eliminate": 371,
+    "lose": 1252
+  },
+  "focal_roles": {
+    "lose:ambassador": 285,
+    "lose:assassin": 278,
+    "lose:captain": 207,
+    "lose:contessa": 377,
+    "lose:duke": 105
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "bluff_heavy",
+    "field": "vs_exchange",
+    "players": 2
+  },
+  "raw_sha256": "773d38f8fb541e22e29e8a92402fc9cc340f20bf94e8d4e91459373cb1e0d6d7",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 629
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 1000
+    }
+  },
+  "stage": "counters",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "bluff_heavy",
+    "draws": 0,
+    "field": "vs_exchange",
+    "games": 2000,
+    "mean_turns": 12.3145,
+    "players": 2,
+    "stage": "counters",
+    "win_rate": 0.8145,
+    "wins": 1629
+  }
+}

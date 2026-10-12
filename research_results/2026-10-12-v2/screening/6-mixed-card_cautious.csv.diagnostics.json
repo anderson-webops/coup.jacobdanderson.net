@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 1472,
+    "coup": 3329,
+    "exchange": 966,
+    "foreign_aid": 3036,
+    "income": 6586,
+    "steal": 2715,
+    "tax": 8632
+  },
+  "events": {
+    "action": 26736,
+    "block": 4547,
+    "challenge": 2626,
+    "disproved": 1483,
+    "eliminate": 3000,
+    "exchange": 917,
+    "lose": 6244,
+    "proved": 1143
+  },
+  "focal_actions": {
+    "assassinate": 340,
+    "coup": 735,
+    "exchange": 133,
+    "foreign_aid": 676,
+    "income": 2265,
+    "steal": 485,
+    "tax": 1382
+  },
+  "focal_events": {
+    "action": 6016,
+    "block": 765,
+    "challenge": 207,
+    "disproved": 125,
+    "eliminate": 428,
+    "exchange": 133,
+    "lose": 930,
+    "proved": 261
+  },
+  "focal_roles": {
+    "disproved:contessa": 125,
+    "lose:ambassador": 133,
+    "lose:assassin": 194,
+    "lose:captain": 200,
+    "lose:contessa": 243,
+    "lose:duke": 160,
+    "proved:ambassador": 20,
+    "proved:assassin": 34,
+    "proved:captain": 62,
+    "proved:contessa": 19,
+    "proved:duke": 126
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "a121bec59070d846ea0fc655b0c0db9a9e77e3d3a9dae128b5e354ff07f99f51",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 24
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 33
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 32
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 32
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "draws": 0,
+    "field": "mixed",
+    "games": 600,
+    "mean_turns": 44.56,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.2866666666666667,
+    "wins": 172
+  }
+}

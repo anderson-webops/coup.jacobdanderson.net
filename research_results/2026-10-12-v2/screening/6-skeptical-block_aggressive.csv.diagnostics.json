@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 183,
+    "coup": 315,
+    "exchange": 149,
+    "foreign_aid": 2040,
+    "income": 179,
+    "steal": 1711,
+    "tax": 1650
+  },
+  "events": {
+    "action": 6227,
+    "block": 2789,
+    "challenge": 5932,
+    "disproved": 621,
+    "eliminate": 3000,
+    "exchange": 149,
+    "lose": 6300,
+    "proved": 5311
+  },
+  "focal_actions": {
+    "assassinate": 47,
+    "coup": 64,
+    "exchange": 40,
+    "foreign_aid": 546,
+    "income": 134,
+    "steal": 365,
+    "tax": 348
+  },
+  "focal_events": {
+    "action": 1544,
+    "block": 1117,
+    "disproved": 621,
+    "eliminate": 344,
+    "exchange": 40,
+    "lose": 806,
+    "proved": 1296
+  },
+  "focal_roles": {
+    "disproved:captain": 139,
+    "disproved:contessa": 35,
+    "disproved:duke": 447,
+    "lose:ambassador": 182,
+    "lose:assassin": 224,
+    "lose:captain": 92,
+    "lose:contessa": 257,
+    "lose:duke": 51,
+    "proved:ambassador": 163,
+    "proved:assassin": 47,
+    "proved:captain": 485,
+    "proved:duke": 601
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "block_aggressive",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "cda4740ca50e90609c7403309a0e9bf79c28f7c8125d702878b0bdac6f105fc7",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 42
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 43
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 44
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 41
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 38
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 48
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "block_aggressive",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 600,
+    "mean_turns": 10.378333333333334,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.4266666666666667,
+    "wins": 256
+  }
+}

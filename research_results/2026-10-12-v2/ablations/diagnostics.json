@@ -1,0 +1,1215 @@
+{
+  "actions": {
+    "assassinate": 80845,
+    "coup": 349612,
+    "exchange": 86521,
+    "foreign_aid": 341845,
+    "income": 368856,
+    "steal": 209979,
+    "tax": 889025
+  },
+  "draws": 0,
+  "events": {
+    "action": 2326683,
+    "block": 382024,
+    "challenge": 176579,
+    "disproved": 75741,
+    "eliminate": 245000,
+    "exchange": 85299,
+    "lose": 541058,
+    "proved": 100838
+  },
+  "games": 105000,
+  "seats": {
+    "2-bluffing-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 189
+      }
+    },
+    "2-bluffing-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 0
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 188
+      }
+    },
+    "2-bluffing-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 17
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 197
+      }
+    },
+    "2-bluffing-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 189
+      }
+    },
+    "2-bluffing-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 189
+      }
+    },
+    "2-honest-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 185
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 244
+      }
+    },
+    "2-honest-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 251
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 308
+      }
+    },
+    "2-honest-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 182
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 243
+      }
+    },
+    "2-honest-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 180
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 244
+      }
+    },
+    "2-honest-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 180
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 244
+      }
+    },
+    "2-learning-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 228
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 283
+      }
+    },
+    "2-learning-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 221
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 279
+      }
+    },
+    "2-learning-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 225
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 287
+      }
+    },
+    "2-learning-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 224
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 276
+      }
+    },
+    "2-learning-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 224
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 276
+      }
+    },
+    "2-mixed-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 211
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 283
+      }
+    },
+    "2-mixed-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 220
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 291
+      }
+    },
+    "2-mixed-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 214
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 272
+      }
+    },
+    "2-mixed-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 209
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 274
+      }
+    },
+    "2-mixed-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 209
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 274
+      }
+    },
+    "2-random-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 372
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 368
+      }
+    },
+    "2-random-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 373
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 359
+      }
+    },
+    "2-random-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 384
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 373
+      }
+    },
+    "2-random-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 375
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 368
+      }
+    },
+    "2-random-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 375
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 368
+      }
+    },
+    "2-rational-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 246
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 307
+      }
+    },
+    "2-rational-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 251
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 316
+      }
+    },
+    "2-rational-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 244
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 310
+      }
+    },
+    "2-rational-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 243
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 310
+      }
+    },
+    "2-rational-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 243
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 310
+      }
+    },
+    "2-skeptical-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 208
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 174
+      }
+    },
+    "2-skeptical-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 225
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 190
+      }
+    },
+    "2-skeptical-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 185
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 150
+      }
+    },
+    "2-skeptical-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 204
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 171
+      }
+    },
+    "2-skeptical-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 204
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 171
+      }
+    },
+    "4-bluffing-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 131
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 111
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 138
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 105
+      }
+    },
+    "4-bluffing-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 58
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 93
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 126
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 82
+      }
+    },
+    "4-bluffing-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 130
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 109
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 135
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 115
+      }
+    },
+    "4-bluffing-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 193
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 185
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 183
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 161
+      }
+    },
+    "4-bluffing-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 128
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 112
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 138
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 105
+      }
+    },
+    "4-honest-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 110
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 89
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 83
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 54
+      }
+    },
+    "4-honest-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 161
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 137
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 126
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 85
+      }
+    },
+    "4-honest-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 113
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 93
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 83
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 54
+      }
+    },
+    "4-honest-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 134
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 119
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 92
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 68
+      }
+    },
+    "4-honest-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 107
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 92
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 85
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 53
+      }
+    },
+    "4-learning-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 174
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 124
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 111
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 85
+      }
+    },
+    "4-learning-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 185
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 139
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 116
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 94
+      }
+    },
+    "4-learning-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 170
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 116
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 103
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 90
+      }
+    },
+    "4-learning-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 189
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 136
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 139
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 110
+      }
+    },
+    "4-learning-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 175
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 122
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 113
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 90
+      }
+    },
+    "4-mixed-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 160
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 129
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 138
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 111
+      }
+    },
+    "4-mixed-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 165
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 136
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 155
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 123
+      }
+    },
+    "4-mixed-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 156
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 130
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 138
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 112
+      }
+    },
+    "4-mixed-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 176
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 148
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 167
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 143
+      }
+    },
+    "4-mixed-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 156
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 128
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 138
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 113
+      }
+    },
+    "4-random-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 236
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 221
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 217
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 223
+      }
+    },
+    "4-random-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 233
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 210
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 218
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 206
+      }
+    },
+    "4-random-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 243
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 222
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 230
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 213
+      }
+    },
+    "4-random-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 272
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 238
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 266
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 249
+      }
+    },
+    "4-random-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 240
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 218
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 229
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 215
+      }
+    },
+    "4-rational-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 178
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 143
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 109
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 64
+      }
+    },
+    "4-rational-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 184
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 157
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 100
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 80
+      }
+    },
+    "4-rational-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 176
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 148
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 97
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 62
+      }
+    },
+    "4-rational-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 189
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 158
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 116
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 86
+      }
+    },
+    "4-rational-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 178
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 143
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 102
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 67
+      }
+    },
+    "4-skeptical-ablate_fixed_retention.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 291
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 288
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 304
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 311
+      }
+    },
+    "4-skeptical-ablate_no_claim_cards.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 292
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 276
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 302
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 304
+      }
+    },
+    "4-skeptical-ablate_no_history.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 212
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 177
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 173
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 213
+      }
+    },
+    "4-skeptical-ablate_random_target.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 271
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 271
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 294
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 289
+      }
+    },
+    "4-skeptical-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 500,
+        "wins": 287
+      },
+      "1": {
+        "draws": 0,
+        "games": 500,
+        "wins": 273
+      },
+      "2": {
+        "draws": 0,
+        "games": 500,
+        "wins": 294
+      },
+      "3": {
+        "draws": 0,
+        "games": 500,
+        "wins": 298
+      }
+    }
+  }
+}

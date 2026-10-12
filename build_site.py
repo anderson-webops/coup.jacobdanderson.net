@@ -4,16 +4,88 @@ from __future__ import annotations
 import csv
 import base64
 import hashlib
+import gzip
+import io
 import json
 import re
 import shutil
+import tarfile
 from pathlib import Path
 
 from analyze_results import verify_manifest
+from analyze_strategy_research import analyze_study
+from check_site import verify_research_findings
 
 ROOT = Path(__file__).parent
 DIST = ROOT / "dist"
 EVIDENCE = DIST / "evidence"
+RESEARCH = ROOT / "research_results" / "2026-10-12-v2"
+RESEARCH_ROOT_FILES = {'plan.json', 'selection.json', 'counter_selection.json',
+                       'findings.json', 'FINDINGS.md', 'replay-audit.json'}
+RESEARCH_DOCS = ('docs/STRATEGY_REVIEW.md', 'docs/RESEARCH_DESIGN.md',
+                 'docs/RULES_TEST_REVIEW.md', 'docs/REPLAY_AUDIT.md',
+                 'docs/STRATEGY_FINDINGS.md')
+
+
+def checked_research_files():
+    """Include only the audited research files, never work files or links."""
+    if RESEARCH.is_symlink():
+        raise ValueError('Research directory is a symlink')
+    observed = set()
+    for path in RESEARCH.rglob('*'):
+        if path.is_symlink():
+            raise ValueError(f'Research contains symlink: {path}')
+        if path.is_file():
+            observed.add(path.relative_to(RESEARCH).as_posix())
+    plan = json.loads((RESEARCH / 'plan.json').read_text())
+    expected = set(RESEARCH_ROOT_FILES)
+    for stage in plan['seed_namespaces']:
+        stage_manifest = json.loads((RESEARCH / stage / 'manifest.json').read_text())
+        expected.update(f'{stage}/{name}' for name in
+                        ({'manifest.json'} | set(stage_manifest['files'])))
+    if observed != expected:
+        raise ValueError(f'Research inventory differs: missing={sorted(expected-observed)[:5]}, '
+                         f'extra={sorted(observed-expected)[:5]}')
+    return {f'research_results/2026-10-12-v2/{name}': RESEARCH / name
+            for name in sorted(expected)}
+
+
+def research_bundle():
+    """Deterministic, downloadable evidence; never execute bundled source."""
+    source_files = json.loads((RESEARCH / 'plan.json').read_text())['source_sha256']
+    files = checked_research_files()
+    files.update({name: ROOT / name for name in source_files})
+    for name in RESEARCH_DOCS:
+        files[name] = ROOT / name
+    files['scripts/audit_research_replay.py'] = ROOT / 'scripts/audit_research_replay.py'
+    for name, file in files.items():
+        if not file.is_file() or file.is_symlink():
+            raise ValueError(f'Research bundle input is missing or linked: {name}')
+        for parent in file.parents:
+            if parent == ROOT:
+                break
+            if parent.is_symlink():
+                raise ValueError(f'Research bundle path has a linked directory: {name}')
+    manifest = {name: {'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'size': path.stat().st_size}
+                for name, path in sorted(files.items())}
+    if sum(item['size'] for item in manifest.values()) > 128 * 1024 * 1024:
+        raise ValueError('Research bundle exceeds reviewed size bound')
+    path = EVIDENCE / 'research-evidence.tar.gz'
+    temporary = path.with_name(path.name + '.part')
+    with temporary.open('wb') as raw:
+        with gzip.GzipFile(filename='', fileobj=raw, mode='wb', mtime=0) as zipped:
+            with tarfile.open(fileobj=zipped, mode='w') as archive:
+                for name, file in sorted(files.items()):
+                    data = file.read_bytes()
+                    info = tarfile.TarInfo(name)
+                    info.size = len(data); info.mode = 0o644; info.mtime = 0
+                    info.uid = info.gid = 0; info.uname = info.gname = ''
+                    archive.addfile(info, io.BytesIO(data))
+    for name, file in files.items():
+        if hashlib.sha256(file.read_bytes()).hexdigest() != manifest[name]['sha256']:
+            raise ValueError(f'Research input changed during bundle: {name}')
+    temporary.replace(path)
+    (EVIDENCE / 'research-bundle-manifest.json').write_text(json.dumps(manifest, indent=2, sort_keys=True) + '\n')
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -25,6 +97,30 @@ def main() -> None:
     verify_manifest(ROOT)
     verify_manifest(ROOT / "confirmation")
     findings = json.loads((ROOT / "findings.json").read_text())
+    research = json.loads((RESEARCH / 'findings.json').read_text())
+    audited_research = analyze_study(RESEARCH, write=False, verify_saved=True)
+    if research != audited_research:
+        raise ValueError('Expanded findings differ from audited raw outcomes')
+    verify_research_findings(research, read_csv(RESEARCH / 'confirmation' / 'summaries.csv'))
+    receipt = json.loads((RESEARCH / 'replay-audit.json').read_text())
+    plan = json.loads((RESEARCH / 'plan.json').read_text())
+    if (receipt.get('status') != 'passed' or
+            receipt.get('global_plan_sha256') != hashlib.sha256((RESEARCH / 'plan.json').read_bytes()).hexdigest() or
+            receipt.get('source_sha256') != plan['source_sha256'] or
+            receipt.get('audit_source_sha256') != hashlib.sha256((ROOT / 'scripts/audit_research_replay.py').read_bytes()).hexdigest() or
+            receipt.get('total_raw_games') != research['total_games'] or
+            [entry.get('stage') for entry in receipt.get('stages', [])] != plan['seed_namespaces'] or
+            receipt.get('total_replayed_games') != sum(entry.get('replayed_games', 0) for entry in receipt['stages']) or
+            receipt.get('total_replayed_games', 0) <= 0):
+        raise ValueError('Expanded independent replay receipt differs from audited study')
+    for stage_entry in receipt['stages']:
+        stage = stage_entry['stage']
+        if (stage_entry.get('stage_plan_sha256') != hashlib.sha256((RESEARCH / stage / 'plan.json').read_bytes()).hexdigest() or
+                stage_entry.get('stage_manifest_sha256') != hashlib.sha256((RESEARCH / stage / 'manifest.json').read_bytes()).hexdigest() or
+                stage_entry.get('raw_games') != research['stages'][stage]['games'] or
+                stage_entry.get('jobs') != research['stages'][stage]['jobs'] or
+                stage_entry.get('replayed_games', 0) <= 0):
+            raise ValueError(f'Expanded replay receipt differs for {stage}')
     screening = read_csv(ROOT / "results.csv")
     confirmation = read_csv(ROOT / "confirmation" / "results.csv")
     if sum(int(row["games"]) for row in screening) != findings["screening_games"]:
@@ -37,12 +133,16 @@ def main() -> None:
         "screening": screening,
         "confirmation": confirmation,
         "findings": findings["findings"],
+        "research": research,
+        "research_configs": plan['configurations'],
     }
     template = (ROOT / "site_template.html").read_text()
     embedded = json.dumps(data, separators=(",", ":")).replace("<", "\\u003c")
     html = (template
             .replace("__SCREEN_GAMES__", f'{findings["screening_games"]:,}')
             .replace("__CONFIRM_GAMES__", f'{findings["confirmation_games"]:,}')
+            .replace("__RESEARCH_GAMES__", f'{research["total_games"]:,}')
+            .replace("__RESEARCH_CONFIRM_GAMES__", f'{research["stages"]["confirmation"]["games"]:,}')
             .replace("__STUDY_DATA__", embedded))
     if "__STUDY_DATA__" in html or "__SCREEN_GAMES__" in html or "__CONFIRM_GAMES__" in html:
         raise ValueError("unfilled site template")
@@ -51,6 +151,8 @@ def main() -> None:
     csp = ("default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; "
            "img-src 'self'; style-src 'self'; script-src " + " ".join(script_hashes) + "; connect-src 'none'")
     html = html.replace("__CONTENT_SECURITY_POLICY__", csp)
+    if re.search(r'__[A-Z][A-Z0-9_]*__', html):
+        raise ValueError('Unfilled site template marker')
     EVIDENCE.mkdir(parents=True, exist_ok=True)
     copies = {
         "screening-results.csv": ROOT / "results.csv",
@@ -67,16 +169,28 @@ def main() -> None:
         "coup_simulator.py": ROOT / "coup_simulator.py",
         "run_experiments.py": ROOT / "run_experiments.py",
         "test_coup_simulator.py": ROOT / "test_coup_simulator.py",
+        'research-findings.json': RESEARCH / 'findings.json',
+        'research-confirmation.csv': RESEARCH / 'confirmation' / 'summaries.csv',
+        'research-replay-audit.json': RESEARCH / 'replay-audit.json',
+        'research-design.md': ROOT / 'docs' / 'RESEARCH_DESIGN.md',
+        'strategy-review.md': ROOT / 'docs' / 'STRATEGY_REVIEW.md',
+        'rules-test-review.md': ROOT / 'docs' / 'RULES_TEST_REVIEW.md',
+        'replay-audit-review.md': ROOT / 'docs' / 'REPLAY_AUDIT.md',
+        'strategy-findings.md': ROOT / 'docs' / 'STRATEGY_FINDINGS.md',
+        'research_strategies.py': ROOT / 'research_strategies.py',
     }
     for destination, source in copies.items():
         shutil.copy2(source, EVIDENCE / destination)
+    research_bundle()
     (DIST / "index.html").write_text(html)
     shutil.copy2(ROOT / "site.css", DIST / "site.css")
     shutil.copy2(ROOT / "favicon.svg", DIST / "favicon.svg")
     (DIST / "publication.json").write_text(json.dumps({
         "application_id": "coup.jacobdanderson.net", "version": (ROOT / "VERSION").read_text().strip(),
-        "research_snapshot": "2026-10-10", "screening_games": findings["screening_games"],
+        "research_snapshot": "2026-10-12", "initial_research_snapshot": "2026-10-10", "screening_games": findings["screening_games"],
         "confirmation_games": findings["confirmation_games"],
+        'expanded_study_games': research['total_games'],
+        'expanded_confirmation_games': research['stages']['confirmation']['games'],
     }, indent=2) + "\n")
     (ROOT / "security").mkdir(exist_ok=True)
     (ROOT / "security" / "site-policy.json").write_text(json.dumps({

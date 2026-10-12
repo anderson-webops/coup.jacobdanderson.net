@@ -1,6 +1,6 @@
 # Coup strategy research design
 
-Status: implementation protocol. Freeze exact policy configurations, rosters, sample counts, comparisons, and seeds in a versioned plan before running each panel. This document does not revise the validated 10 October 2026 study. Its screening and confirmation manifests, CSVs, source fingerprints, and public evidence remain separate.
+Status: completed protocol for the [2026-10-12-v2 study](../research_results/2026-10-12-v2/plan.json); realized outcomes and limits are in [STRATEGY_FINDINGS.md](STRATEGY_FINDINGS.md). The versioned plan froze exact policy configurations, rosters, sample counts, comparisons, and seeds before each panel. This document does not revise the validated 10 October 2026 study. Its screening and confirmation manifests, CSVs, source fingerprints, and public evidence remain separate.
 
 ## Question and scope
 

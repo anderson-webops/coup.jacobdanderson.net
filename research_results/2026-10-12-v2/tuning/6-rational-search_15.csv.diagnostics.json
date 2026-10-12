@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 501,
+    "coup": 1352,
+    "exchange": 209,
+    "foreign_aid": 426,
+    "income": 3247,
+    "steal": 496,
+    "tax": 3337
+  },
+  "events": {
+    "action": 9568,
+    "block": 911,
+    "challenge": 613,
+    "disproved": 434,
+    "eliminate": 960,
+    "exchange": 209,
+    "lose": 1990,
+    "proved": 179
+  },
+  "focal_actions": {
+    "assassinate": 101,
+    "coup": 65,
+    "exchange": 27,
+    "foreign_aid": 41,
+    "income": 579,
+    "steal": 71,
+    "tax": 286
+  },
+  "focal_events": {
+    "action": 1170,
+    "block": 152,
+    "challenge": 175,
+    "disproved": 41,
+    "eliminate": 185,
+    "exchange": 27,
+    "lose": 375,
+    "proved": 23
+  },
+  "focal_roles": {
+    "disproved:captain": 11,
+    "disproved:contessa": 20,
+    "disproved:duke": 10,
+    "lose:ambassador": 60,
+    "lose:assassin": 79,
+    "lose:captain": 78,
+    "lose:contessa": 74,
+    "lose:duke": 84,
+    "proved:ambassador": 2,
+    "proved:assassin": 4,
+    "proved:captain": 6,
+    "proved:contessa": 11
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_15",
+    "field": "rational",
+    "players": 6
+  },
+  "raw_sha256": "0766604e6b567ed6c24c107cde65e8c0e82f5ce1cd1678628d706451e4b27f69",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 0
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 0
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 1
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 4
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 1
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 1
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_15",
+    "draws": 0,
+    "field": "rational",
+    "games": 192,
+    "mean_turns": 49.833333333333336,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.036458333333333336,
+    "wins": 7
+  }
+}

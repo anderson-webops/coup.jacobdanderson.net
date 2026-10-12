@@ -1,0 +1,59 @@
+{
+  "actions": {
+    "coup": 600,
+    "tax": 1800
+  },
+  "events": {
+    "action": 2400,
+    "eliminate": 200,
+    "lose": 600
+  },
+  "focal_actions": {
+    "coup": 300,
+    "tax": 900
+  },
+  "focal_events": {
+    "action": 1200,
+    "eliminate": 100,
+    "lose": 300
+  },
+  "focal_roles": {
+    "lose:ambassador": 66,
+    "lose:assassin": 55,
+    "lose:captain": 57,
+    "lose:contessa": 70,
+    "lose:duke": 52
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "bluff_heavy",
+    "field": "bluffing",
+    "players": 2
+  },
+  "raw_sha256": "1a243f121312793db1234d0c82844c16a529d2a1a1c0eac84ed8a083f01321d4",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 0
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 100
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "bluff_heavy",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 200,
+    "mean_turns": 12.0,
+    "players": 2,
+    "stage": "screening",
+    "win_rate": 0.5,
+    "wins": 100
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "actions": {
+    "assassinate": 3309,
+    "coup": 5168,
+    "exchange": 2158,
+    "foreign_aid": 20995,
+    "income": 10044,
+    "steal": 17916,
+    "tax": 19216
+  },
+  "events": {
+    "action": 78806,
+    "block": 20921,
+    "challenge": 55252,
+    "disproved": 75,
+    "eliminate": 30000,
+    "exchange": 2158,
+    "lose": 61715,
+    "proved": 55177
+  },
+  "focal_actions": {
+    "assassinate": 2230,
+    "coup": 1479,
+    "exchange": 823,
+    "foreign_aid": 4002,
+    "income": 9430,
+    "steal": 3259,
+    "tax": 4585
+  },
+  "focal_events": {
+    "action": 25808,
+    "block": 6653,
+    "disproved": 75,
+    "eliminate": 1178,
+    "exchange": 823,
+    "lose": 3362,
+    "proved": 17475
+  },
+  "focal_roles": {
+    "disproved:contessa": 75,
+    "lose:ambassador": 745,
+    "lose:assassin": 652,
+    "lose:captain": 493,
+    "lose:contessa": 1440,
+    "lose:duke": 32,
+    "proved:ambassador": 2255,
+    "proved:assassin": 2230,
+    "proved:captain": 4836,
+    "proved:contessa": 52,
+    "proved:duke": 8102
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "card_cautious",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "17baaef49bd081ca5d9da65c5c8b47b83835a91ad3be206961f48c10177bec1c",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 813
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 779
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 793
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 791
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 805
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 841
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "card_cautious",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 6000,
+    "mean_turns": 13.134333333333334,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.8036666666666666,
+    "wins": 4822
+  }
+}

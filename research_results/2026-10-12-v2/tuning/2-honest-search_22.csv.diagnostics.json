@@ -1,0 +1,72 @@
+{
+  "actions": {
+    "assassinate": 27,
+    "coup": 142,
+    "exchange": 30,
+    "foreign_aid": 235,
+    "income": 65,
+    "steal": 144,
+    "tax": 307
+  },
+  "events": {
+    "action": 950,
+    "block": 190,
+    "eliminate": 64,
+    "exchange": 30,
+    "lose": 160
+  },
+  "focal_actions": {
+    "assassinate": 25,
+    "coup": 70,
+    "exchange": 22,
+    "foreign_aid": 144,
+    "income": 19,
+    "tax": 196
+  },
+  "focal_events": {
+    "action": 476,
+    "block": 135,
+    "eliminate": 30,
+    "exchange": 22,
+    "lose": 72
+  },
+  "focal_roles": {
+    "lose:ambassador": 5,
+    "lose:assassin": 17,
+    "lose:captain": 18,
+    "lose:contessa": 19,
+    "lose:duke": 13
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_22",
+    "field": "honest",
+    "players": 2
+  },
+  "raw_sha256": "79b11c9d5bd822c872d78f2364cfcd7a86ce538a7371394a80979e701deb7536",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 18
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_22",
+    "draws": 0,
+    "field": "honest",
+    "games": 64,
+    "mean_turns": 14.84375,
+    "players": 2,
+    "stage": "tuning",
+    "win_rate": 0.53125,
+    "wins": 34
+  }
+}

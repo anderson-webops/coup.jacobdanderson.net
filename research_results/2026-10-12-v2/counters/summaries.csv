@@ -1,0 +1,9 @@
+stage,players,field,candidate,games,wins,draws,win_rate,mean_turns,blocks
+counters,2,vs_card_cautious,bluff_heavy,2000,1627,0,0.8135,12.3135,1000
+counters,2,vs_card_cautious,card_cautious,2000,986,28,0.493,27.58,1000
+counters,2,vs_exchange,bluff_heavy,2000,1629,0,0.8145,12.3145,1000
+counters,2,vs_exchange,exchange,2000,1000,0,0.5,18.124,1000
+counters,4,vs_card_cautious,bluff_heavy,4000,1717,1,0.42925,37.612,1000
+counters,4,vs_card_cautious,card_cautious,4000,999,4,0.24975,42.427,1000
+counters,4,vs_exchange,bluff_heavy,4000,1964,0,0.491,37.35025,1000
+counters,4,vs_exchange,exchange,4000,1000,0,0.25,47.337,1000

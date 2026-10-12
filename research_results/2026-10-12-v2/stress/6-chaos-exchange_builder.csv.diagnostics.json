@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 853,
+    "coup": 2069,
+    "exchange": 1569,
+    "foreign_aid": 3837,
+    "income": 3646,
+    "steal": 3600,
+    "tax": 5704
+  },
+  "events": {
+    "action": 21278,
+    "block": 6446,
+    "challenge": 4102,
+    "disproved": 1923,
+    "eliminate": 3000,
+    "exchange": 1375,
+    "lose": 6244,
+    "proved": 2179
+  },
+  "focal_actions": {
+    "assassinate": 137,
+    "coup": 785,
+    "exchange": 255,
+    "foreign_aid": 424,
+    "income": 1274,
+    "steal": 343,
+    "tax": 2127
+  },
+  "focal_events": {
+    "action": 5345,
+    "block": 1398,
+    "challenge": 499,
+    "disproved": 231,
+    "eliminate": 400,
+    "exchange": 255,
+    "lose": 896,
+    "proved": 546
+  },
+  "focal_roles": {
+    "disproved:captain": 32,
+    "disproved:contessa": 64,
+    "disproved:duke": 135,
+    "lose:ambassador": 44,
+    "lose:assassin": 189,
+    "lose:captain": 238,
+    "lose:contessa": 255,
+    "lose:duke": 170,
+    "proved:ambassador": 126,
+    "proved:assassin": 29,
+    "proved:captain": 134,
+    "proved:contessa": 8,
+    "proved:duke": 249
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "exchange_builder",
+    "field": "chaos",
+    "players": 6
+  },
+  "raw_sha256": "0335924de9df7800b61e9f9f812e8001d1bb733d6a074b45cc312f711ba43285",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 33
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 35
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 34
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 30
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 37
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 31
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "exchange_builder",
+    "draws": 0,
+    "field": "chaos",
+    "games": 600,
+    "mean_turns": 35.46333333333333,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.3333333333333333,
+    "wins": 200
+  }
+}

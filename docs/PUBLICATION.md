@@ -7,7 +7,8 @@ The deployable website is the tracked `dist/` tree. It is served as static files
 Run the simulator tests and the publication checker before source delivery:
 
 ```sh
-python3 -B -m unittest -v test_coup_simulator test_site scripts.test_release_artifact
+python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_site scripts.test_release_artifact
+python3 -B analyze_strategy_research.py --verify-only
 python3 -I -B check_site.py --root .
 ```
 

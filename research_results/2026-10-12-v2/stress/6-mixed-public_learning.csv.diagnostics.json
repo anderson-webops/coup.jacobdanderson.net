@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 1239,
+    "coup": 3147,
+    "exchange": 919,
+    "foreign_aid": 2520,
+    "income": 5266,
+    "steal": 2360,
+    "tax": 8776
+  },
+  "events": {
+    "action": 24227,
+    "block": 4058,
+    "challenge": 2891,
+    "disproved": 1644,
+    "eliminate": 3000,
+    "exchange": 853,
+    "lose": 6262,
+    "proved": 1247
+  },
+  "focal_actions": {
+    "assassinate": 230,
+    "coup": 632,
+    "exchange": 82,
+    "foreign_aid": 204,
+    "income": 1162,
+    "steal": 235,
+    "tax": 1754
+  },
+  "focal_events": {
+    "action": 4299,
+    "block": 781,
+    "challenge": 329,
+    "disproved": 269,
+    "eliminate": 499,
+    "exchange": 82,
+    "lose": 1047,
+    "proved": 277
+  },
+  "focal_roles": {
+    "disproved:assassin": 20,
+    "disproved:captain": 21,
+    "disproved:contessa": 89,
+    "disproved:duke": 139,
+    "lose:ambassador": 190,
+    "lose:assassin": 235,
+    "lose:captain": 214,
+    "lose:contessa": 238,
+    "lose:duke": 170,
+    "proved:ambassador": 29,
+    "proved:assassin": 20,
+    "proved:captain": 65,
+    "proved:contessa": 25,
+    "proved:duke": 138
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "public_learning",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "ffc6b769a2ce89ccce9e3403420d7b5d1badf7b56dc41db5b93ae276fbcdc743",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 16
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 14
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 22
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 24
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 10
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "public_learning",
+    "draws": 0,
+    "field": "mixed",
+    "games": 600,
+    "mean_turns": 40.37833333333333,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.16833333333333333,
+    "wins": 101
+  }
+}

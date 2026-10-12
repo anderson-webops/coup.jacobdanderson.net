@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 116,
+    "coup": 79,
+    "exchange": 83,
+    "foreign_aid": 622,
+    "income": 128,
+    "steal": 489,
+    "tax": 600
+  },
+  "events": {
+    "action": 2117,
+    "block": 696,
+    "challenge": 1884,
+    "disproved": 172,
+    "eliminate": 960,
+    "exchange": 83,
+    "lose": 2001,
+    "proved": 1712
+  },
+  "focal_actions": {
+    "assassinate": 64,
+    "coup": 5,
+    "exchange": 47,
+    "foreign_aid": 45,
+    "income": 111,
+    "steal": 80,
+    "tax": 194
+  },
+  "focal_events": {
+    "action": 546,
+    "block": 279,
+    "challenge": 1,
+    "disproved": 172,
+    "eliminate": 93,
+    "exchange": 47,
+    "lose": 219,
+    "proved": 492
+  },
+  "focal_roles": {
+    "disproved:assassin": 16,
+    "disproved:captain": 20,
+    "disproved:contessa": 5,
+    "disproved:duke": 131,
+    "lose:ambassador": 41,
+    "lose:assassin": 42,
+    "lose:captain": 55,
+    "lose:contessa": 69,
+    "lose:duke": 12,
+    "proved:ambassador": 79,
+    "proved:assassin": 48,
+    "proved:captain": 114,
+    "proved:contessa": 2,
+    "proved:duke": 249
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_07",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "6ed4a88ceb04143074852c29c6163876b9c7921d327e652c1ccc501ab1ade030",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 14
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 20
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 18
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 15
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_07",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 192,
+    "mean_turns": 11.026041666666666,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.515625,
+    "wins": 99
+  }
+}

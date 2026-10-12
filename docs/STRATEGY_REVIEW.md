@@ -1,7 +1,8 @@
-# Coup strategy review for the next study
+# Coup strategic reasoning and implementation review
 
-This is a research design and interpretation guide, not a new result set. The
-validated 10 October 2026 study remains in [FINDINGS.md](../FINDINGS.md). Its
+This review records the strategic questions considered before the expanded
+study and the implemented heuristic limits. Outcome interpretation is kept in
+[STRATEGY_FINDINGS.md](STRATEGY_FINDINGS.md). The validated 10 October 2026 study remains in [FINDINGS.md](../FINDINGS.md). Its
 four-player leaders changed with the opponent field: Bluff heavy against honest
 baseline opponents, Challenge heavy against bluff-heavy opponents, and Exchange
 against challenge-heavy and mixed opponents. Those results compare the named

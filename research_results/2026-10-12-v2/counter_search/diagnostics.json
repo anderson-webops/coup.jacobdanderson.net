@@ -1,0 +1,1657 @@
+{
+  "actions": {
+    "assassinate": 10420,
+    "coup": 42177,
+    "exchange": 6067,
+    "foreign_aid": 54243,
+    "income": 65088,
+    "steal": 49998,
+    "tax": 86175
+  },
+  "draws": 9,
+  "events": {
+    "action": 314168,
+    "block": 68566,
+    "challenge": 2851,
+    "disproved": 768,
+    "eliminate": 21495,
+    "exchange": 6067,
+    "lose": 47038,
+    "proved": 2083
+  },
+  "games": 9216,
+  "seats": {
+    "2-vs_card_cautious-assassin.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      }
+    },
+    "2-vs_card_cautious-baseline.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 22
+      }
+    },
+    "2-vs_card_cautious-block_aggressive.csv.gz": {
+      "0": {
+        "draws": 2,
+        "games": 32,
+        "wins": 16
+      },
+      "1": {
+        "draws": 1,
+        "games": 32,
+        "wins": 25
+      }
+    },
+    "2-vs_card_cautious-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 32
+      }
+    },
+    "2-vs_card_cautious-captain.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      }
+    },
+    "2-vs_card_cautious-card_balanced.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      }
+    },
+    "2-vs_card_cautious-card_bold.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      }
+    },
+    "2-vs_card_cautious-card_cautious.csv.gz": {
+      "0": {
+        "draws": 1,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 1,
+        "games": 32,
+        "wins": 18
+      }
+    },
+    "2-vs_card_cautious-challenge_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      }
+    },
+    "2-vs_card_cautious-challenge_low.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 22
+      }
+    },
+    "2-vs_card_cautious-defensive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      }
+    },
+    "2-vs_card_cautious-eliminator.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      }
+    },
+    "2-vs_card_cautious-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 22
+      }
+    },
+    "2-vs_card_cautious-exchange_builder.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      }
+    },
+    "2-vs_card_cautious-foreign_aid.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      }
+    },
+    "2-vs_card_cautious-income.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      }
+    },
+    "2-vs_card_cautious-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 21
+      }
+    },
+    "2-vs_card_cautious-search_00.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      }
+    },
+    "2-vs_card_cautious-search_04.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      }
+    },
+    "2-vs_card_cautious-search_08.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 25
+      }
+    },
+    "2-vs_card_cautious-search_09.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      }
+    },
+    "2-vs_card_cautious-search_12.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      }
+    },
+    "2-vs_card_cautious-search_21.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      }
+    },
+    "2-vs_card_cautious-taxer.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 32
+      }
+    },
+    "2-vs_exchange-assassin.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "2-vs_exchange-baseline.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      }
+    },
+    "2-vs_exchange-block_aggressive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 22
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 23
+      }
+    },
+    "2-vs_exchange-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 32
+      }
+    },
+    "2-vs_exchange-captain.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      }
+    },
+    "2-vs_exchange-card_balanced.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "2-vs_exchange-card_bold.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      }
+    },
+    "2-vs_exchange-card_cautious.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      }
+    },
+    "2-vs_exchange-challenge_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      }
+    },
+    "2-vs_exchange-challenge_low.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      }
+    },
+    "2-vs_exchange-defensive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      }
+    },
+    "2-vs_exchange-eliminator.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      }
+    },
+    "2-vs_exchange-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      }
+    },
+    "2-vs_exchange-exchange_builder.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "2-vs_exchange-foreign_aid.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "2-vs_exchange-income.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "2-vs_exchange-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "2-vs_exchange-search_00.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      }
+    },
+    "2-vs_exchange-search_04.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      }
+    },
+    "2-vs_exchange-search_08.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 20
+      }
+    },
+    "2-vs_exchange-search_09.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      }
+    },
+    "2-vs_exchange-search_12.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "2-vs_exchange-search_21.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      }
+    },
+    "2-vs_exchange-taxer.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 27
+      }
+    },
+    "4-vs_card_cautious-assassin.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_card_cautious-baseline.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_card_cautious-block_aggressive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      },
+      "3": {
+        "draws": 1,
+        "games": 32,
+        "wins": 10
+      }
+    },
+    "4-vs_card_cautious-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 27
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      }
+    },
+    "4-vs_card_cautious-captain.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      }
+    },
+    "4-vs_card_cautious-card_balanced.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      }
+    },
+    "4-vs_card_cautious-card_bold.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "1": {
+        "draws": 1,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      }
+    },
+    "4-vs_card_cautious-card_cautious.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      }
+    },
+    "4-vs_card_cautious-challenge_heavy.csv.gz": {
+      "0": {
+        "draws": 1,
+        "games": 32,
+        "wins": 0
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      }
+    },
+    "4-vs_card_cautious-challenge_low.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      }
+    },
+    "4-vs_card_cautious-defensive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      }
+    },
+    "4-vs_card_cautious-eliminator.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_card_cautious-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "4-vs_card_cautious-exchange_builder.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      }
+    },
+    "4-vs_card_cautious-foreign_aid.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_card_cautious-income.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      }
+    },
+    "4-vs_card_cautious-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_card_cautious-search_00.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "4-vs_card_cautious-search_04.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "4-vs_card_cautious-search_08.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 16
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "4-vs_card_cautious-search_09.csv.gz": {
+      "0": {
+        "draws": 1,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_card_cautious-search_12.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "4-vs_card_cautious-search_21.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      }
+    },
+    "4-vs_card_cautious-taxer.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 21
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_exchange-assassin.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "4-vs_exchange-baseline.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      }
+    },
+    "4-vs_exchange-block_aggressive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 13
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 12
+      }
+    },
+    "4-vs_exchange-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 26
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 18
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 14
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      }
+    },
+    "4-vs_exchange-captain.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      }
+    },
+    "4-vs_exchange-card_balanced.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-card_bold.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_exchange-card_cautious.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-challenge_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      }
+    },
+    "4-vs_exchange-challenge_low.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-defensive.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      }
+    },
+    "4-vs_exchange-eliminator.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      }
+    },
+    "4-vs_exchange-exchange_builder.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_exchange-foreign_aid.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 5
+      }
+    },
+    "4-vs_exchange-income.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-public_learning.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 9
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-search_00.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 11
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-search_04.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 4
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 2
+      }
+    },
+    "4-vs_exchange-search_08.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 19
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 10
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 6
+      }
+    },
+    "4-vs_exchange-search_09.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 0
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_exchange-search_12.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_exchange-search_21.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 8
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 3
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 1
+      }
+    },
+    "4-vs_exchange-taxer.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 32,
+        "wins": 15
+      },
+      "1": {
+        "draws": 0,
+        "games": 32,
+        "wins": 17
+      },
+      "2": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      },
+      "3": {
+        "draws": 0,
+        "games": 32,
+        "wins": 7
+      }
+    }
+  }
+}

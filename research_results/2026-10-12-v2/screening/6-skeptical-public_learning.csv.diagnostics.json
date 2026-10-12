@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 338,
+    "coup": 446,
+    "exchange": 177,
+    "foreign_aid": 1885,
+    "income": 846,
+    "steal": 1722,
+    "tax": 1885
+  },
+  "events": {
+    "action": 7299,
+    "block": 2234,
+    "challenge": 5679,
+    "disproved": 283,
+    "eliminate": 3000,
+    "exchange": 177,
+    "lose": 6234,
+    "proved": 5396
+  },
+  "focal_actions": {
+    "assassinate": 214,
+    "coup": 112,
+    "exchange": 56,
+    "foreign_aid": 261,
+    "income": 795,
+    "steal": 282,
+    "tax": 446
+  },
+  "focal_events": {
+    "action": 2166,
+    "block": 818,
+    "challenge": 8,
+    "disproved": 283,
+    "eliminate": 227,
+    "exchange": 56,
+    "lose": 567,
+    "proved": 1533
+  },
+  "focal_roles": {
+    "disproved:assassin": 37,
+    "disproved:captain": 46,
+    "disproved:contessa": 31,
+    "disproved:duke": 169,
+    "lose:ambassador": 124,
+    "lose:assassin": 122,
+    "lose:captain": 118,
+    "lose:contessa": 185,
+    "lose:duke": 18,
+    "proved:ambassador": 199,
+    "proved:assassin": 177,
+    "proved:captain": 449,
+    "proved:contessa": 4,
+    "proved:duke": 704
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "public_learning",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "95d184a85503462d174709a7aed301126f7f4dd099f833d3630bb7f229648671",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 60
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 55
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 58
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 63
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 65
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 72
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "public_learning",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 600,
+    "mean_turns": 12.165,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.6216666666666667,
+    "wins": 373
+  }
+}

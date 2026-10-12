@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 1386,
+    "coup": 3414,
+    "exchange": 1030,
+    "foreign_aid": 3093,
+    "income": 6595,
+    "steal": 2726,
+    "tax": 8788
+  },
+  "events": {
+    "action": 27032,
+    "block": 4646,
+    "challenge": 2594,
+    "disproved": 1434,
+    "eliminate": 3000,
+    "exchange": 968,
+    "lose": 6243,
+    "proved": 1160
+  },
+  "focal_actions": {
+    "assassinate": 311,
+    "coup": 744,
+    "exchange": 131,
+    "foreign_aid": 686,
+    "income": 2319,
+    "steal": 488,
+    "tax": 1393
+  },
+  "focal_events": {
+    "action": 6072,
+    "block": 795,
+    "challenge": 193,
+    "disproved": 94,
+    "eliminate": 442,
+    "exchange": 131,
+    "lose": 962,
+    "proved": 293
+  },
+  "focal_roles": {
+    "disproved:contessa": 94,
+    "lose:ambassador": 148,
+    "lose:assassin": 222,
+    "lose:captain": 198,
+    "lose:contessa": 232,
+    "lose:duke": 162,
+    "proved:ambassador": 24,
+    "proved:assassin": 30,
+    "proved:captain": 71,
+    "proved:contessa": 30,
+    "proved:duke": 138
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "eea1aa800abe341e3b268c962f6ab79432f4738079d49c65ad6f71af02179bd4",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 22
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 28
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 34
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 23
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_cautious",
+    "draws": 0,
+    "field": "mixed",
+    "games": 600,
+    "mean_turns": 45.053333333333335,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.2633333333333333,
+    "wins": 158
+  }
+}

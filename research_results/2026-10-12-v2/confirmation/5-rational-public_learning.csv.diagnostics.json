@@ -1,0 +1,103 @@
+{
+  "actions": {
+    "assassinate": 7841,
+    "coup": 31727,
+    "exchange": 4294,
+    "foreign_aid": 13479,
+    "income": 59003,
+    "steal": 9052,
+    "tax": 74258
+  },
+  "events": {
+    "action": 199654,
+    "block": 17287,
+    "challenge": 10202,
+    "disproved": 7631,
+    "eliminate": 20000,
+    "exchange": 4294,
+    "lose": 42020,
+    "proved": 2571
+  },
+  "focal_actions": {
+    "assassinate": 1120,
+    "coup": 6692,
+    "exchange": 719,
+    "foreign_aid": 1637,
+    "income": 8606,
+    "steal": 1171,
+    "tax": 17211
+  },
+  "focal_events": {
+    "action": 37156,
+    "block": 4091,
+    "challenge": 1565,
+    "disproved": 1920,
+    "eliminate": 4056,
+    "exchange": 719,
+    "lose": 8507,
+    "proved": 515
+  },
+  "focal_roles": {
+    "disproved:assassin": 50,
+    "disproved:captain": 121,
+    "disproved:contessa": 973,
+    "disproved:duke": 776,
+    "lose:ambassador": 1294,
+    "lose:assassin": 1782,
+    "lose:captain": 1941,
+    "lose:contessa": 1912,
+    "lose:duke": 1578,
+    "proved:ambassador": 8,
+    "proved:assassin": 94,
+    "proved:captain": 112,
+    "proved:contessa": 158,
+    "proved:duke": 143
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "public_learning",
+    "field": "rational",
+    "players": 5
+  },
+  "raw_sha256": "41e716f253a8e5a27c23c79cfbe0d953bdec3657ce59b5a3e9a7cdd166d73883",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 257
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 248
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 189
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 131
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 119
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "public_learning",
+    "draws": 0,
+    "field": "rational",
+    "games": 5000,
+    "mean_turns": 39.9308,
+    "players": 5,
+    "stage": "confirmation",
+    "win_rate": 0.1888,
+    "wins": 944
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 961,
+    "coup": 4552,
+    "exchange": 438,
+    "foreign_aid": 2109,
+    "income": 6174,
+    "steal": 2152,
+    "tax": 12015
+  },
+  "events": {
+    "action": 28401,
+    "block": 3860,
+    "challenge": 1635,
+    "disproved": 1396,
+    "eliminate": 3000,
+    "exchange": 438,
+    "lose": 6224,
+    "proved": 239
+  },
+  "focal_actions": {
+    "assassinate": 161,
+    "coup": 660,
+    "exchange": 79,
+    "foreign_aid": 1417,
+    "income": 851,
+    "steal": 1387,
+    "tax": 1240
+  },
+  "focal_events": {
+    "action": 5795,
+    "block": 512,
+    "challenge": 195,
+    "disproved": 180,
+    "eliminate": 461,
+    "exchange": 79,
+    "lose": 973,
+    "proved": 79
+  },
+  "focal_roles": {
+    "disproved:captain": 45,
+    "disproved:contessa": 92,
+    "disproved:duke": 43,
+    "lose:ambassador": 164,
+    "lose:assassin": 228,
+    "lose:captain": 161,
+    "lose:contessa": 223,
+    "lose:duke": 197,
+    "proved:ambassador": 2,
+    "proved:assassin": 16,
+    "proved:captain": 52,
+    "proved:contessa": 2,
+    "proved:duke": 7
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "block_aggressive",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "90e266eb460e6bc0f4397fc6adca3300aa4ff2db9f89826865618b5b1cc72118",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 35
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 28
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 20
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 14
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 20
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 22
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "block_aggressive",
+    "draws": 0,
+    "field": "learning",
+    "games": 600,
+    "mean_turns": 47.335,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.23166666666666666,
+    "wins": 139
+  }
+}

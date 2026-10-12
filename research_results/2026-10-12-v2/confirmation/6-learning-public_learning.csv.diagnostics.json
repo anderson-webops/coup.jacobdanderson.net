@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 8802,
+    "coup": 44766,
+    "exchange": 5190,
+    "foreign_aid": 9648,
+    "income": 61656,
+    "steal": 9558,
+    "tax": 119154
+  },
+  "events": {
+    "action": 258774,
+    "block": 17664,
+    "challenge": 16998,
+    "disproved": 14298,
+    "eliminate": 30000,
+    "exchange": 5190,
+    "lose": 61986,
+    "proved": 2700
+  },
+  "focal_actions": {
+    "assassinate": 1467,
+    "coup": 7461,
+    "exchange": 865,
+    "foreign_aid": 1608,
+    "income": 10276,
+    "steal": 1593,
+    "tax": 19859
+  },
+  "focal_events": {
+    "action": 43129,
+    "block": 2944,
+    "challenge": 2833,
+    "disproved": 2383,
+    "eliminate": 5000,
+    "exchange": 865,
+    "lose": 10331,
+    "proved": 450
+  },
+  "focal_roles": {
+    "disproved:assassin": 73,
+    "disproved:captain": 144,
+    "disproved:contessa": 758,
+    "disproved:duke": 1408,
+    "lose:ambassador": 1601,
+    "lose:assassin": 2137,
+    "lose:captain": 2325,
+    "lose:contessa": 2372,
+    "lose:duke": 1896,
+    "proved:ambassador": 6,
+    "proved:assassin": 110,
+    "proved:captain": 152,
+    "proved:contessa": 119,
+    "proved:duke": 63
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "public_learning",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "cd6381e1f0856fdb331a677e8325f84ac3020566ba70379e767ec19e60118568",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 236
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 221
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 173
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 154
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 121
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 95
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "public_learning",
+    "draws": 0,
+    "field": "learning",
+    "games": 6000,
+    "mean_turns": 43.129,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.16666666666666666,
+    "wins": 1000
+  }
+}

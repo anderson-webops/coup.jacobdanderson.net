@@ -1,0 +1,86 @@
+{
+  "actions": {
+    "assassinate": 47,
+    "coup": 713,
+    "exchange": 20,
+    "foreign_aid": 136,
+    "income": 357,
+    "steal": 31,
+    "tax": 1945
+  },
+  "events": {
+    "action": 3249,
+    "block": 214,
+    "challenge": 120,
+    "disproved": 103,
+    "eliminate": 384,
+    "exchange": 20,
+    "lose": 839,
+    "proved": 17
+  },
+  "focal_actions": {
+    "assassinate": 47,
+    "coup": 110,
+    "exchange": 20,
+    "foreign_aid": 136,
+    "income": 357,
+    "steal": 31,
+    "tax": 241
+  },
+  "focal_events": {
+    "action": 942,
+    "challenge": 107,
+    "eliminate": 92,
+    "exchange": 20,
+    "lose": 196
+  },
+  "focal_roles": {
+    "lose:ambassador": 32,
+    "lose:assassin": 37,
+    "lose:captain": 44,
+    "lose:contessa": 37,
+    "lose:duke": 46
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_12",
+    "field": "bluffing",
+    "players": 4
+  },
+  "raw_sha256": "5dda3f8c568b39bdca77485506a60a0ccda5fb53482d6f54829fdf51a598f98a",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 13
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 7
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 8
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 8
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_12",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 128,
+    "mean_turns": 25.3828125,
+    "players": 4,
+    "stage": "tuning",
+    "win_rate": 0.28125,
+    "wins": 36
+  }
+}

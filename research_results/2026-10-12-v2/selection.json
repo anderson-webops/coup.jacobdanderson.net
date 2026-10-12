@@ -1,0 +1,262 @@
+{
+  "confirmation_pairs": [
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 2,
+      "second": "card_bold"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "taxer"
+    },
+    {
+      "field": "mixed",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "challenge_heavy"
+    },
+    {
+      "field": "random",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "taxer"
+    },
+    {
+      "field": "rational",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "exchange"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 2,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 3,
+      "second": "search_08"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "learning",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "mixed",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "exchange"
+    },
+    {
+      "field": "random",
+      "first": "search_08",
+      "players": 3,
+      "second": "bluff_heavy"
+    },
+    {
+      "field": "rational",
+      "first": "bluff_heavy",
+      "players": 3,
+      "second": "taxer"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 3,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "search_08",
+      "players": 4,
+      "second": "challenge_heavy"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "mixed",
+      "first": "exchange",
+      "players": 4,
+      "second": "search_21"
+    },
+    {
+      "field": "random",
+      "first": "exchange",
+      "players": 4,
+      "second": "search_08"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 4,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "challenge_heavy",
+      "players": 5,
+      "second": "card_bold"
+    },
+    {
+      "field": "honest",
+      "first": "bluff_heavy",
+      "players": 5,
+      "second": "block_aggressive"
+    },
+    {
+      "field": "learning",
+      "first": "search_08",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "mixed",
+      "first": "search_21",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "random",
+      "first": "assassin",
+      "players": 5,
+      "second": "exchange"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 5,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 5,
+      "second": "baseline"
+    },
+    {
+      "field": "bluffing",
+      "first": "search_21",
+      "players": 6,
+      "second": "search_12"
+    },
+    {
+      "field": "honest",
+      "first": "search_00",
+      "players": 6,
+      "second": "card_cautious"
+    },
+    {
+      "field": "learning",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "mixed",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "random",
+      "first": "foreign_aid",
+      "players": 6,
+      "second": "exchange"
+    },
+    {
+      "field": "rational",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    },
+    {
+      "field": "skeptical",
+      "first": "exchange",
+      "players": 6,
+      "second": "baseline"
+    }
+  ],
+  "counter_targets": [
+    "exchange",
+    "card_cautious"
+  ],
+  "finalists": [
+    "assassin",
+    "baseline",
+    "block_aggressive",
+    "bluff_heavy",
+    "card_balanced",
+    "card_bold",
+    "card_cautious",
+    "challenge_heavy",
+    "exchange",
+    "foreign_aid",
+    "public_learning",
+    "search_00",
+    "search_08",
+    "search_12",
+    "search_21",
+    "taxer"
+  ],
+  "screening_global_rank": [
+    "exchange",
+    "baseline",
+    "search_21",
+    "search_12",
+    "card_cautious",
+    "search_08",
+    "search_00",
+    "block_aggressive",
+    "search_09",
+    "search_04",
+    "challenge_low",
+    "bluff_heavy",
+    "exchange_builder",
+    "defensive",
+    "card_balanced",
+    "public_learning",
+    "taxer",
+    "eliminator",
+    "foreign_aid",
+    "income",
+    "captain",
+    "card_bold",
+    "assassin",
+    "challenge_heavy"
+  ]
+}

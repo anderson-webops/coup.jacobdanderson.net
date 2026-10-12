@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 1045,
+    "coup": 635,
+    "exchange": 1860,
+    "foreign_aid": 2000,
+    "income": 2856,
+    "steal": 2024,
+    "tax": 2332
+  },
+  "events": {
+    "action": 12752,
+    "block": 3539,
+    "challenge": 1194,
+    "disproved": 1019,
+    "eliminate": 960,
+    "exchange": 1824,
+    "lose": 2036,
+    "proved": 175
+  },
+  "focal_actions": {
+    "assassinate": 131,
+    "coup": 310,
+    "exchange": 32,
+    "foreign_aid": 174,
+    "income": 971,
+    "steal": 165,
+    "tax": 579
+  },
+  "focal_events": {
+    "action": 2362,
+    "block": 667,
+    "challenge": 309,
+    "disproved": 68,
+    "eliminate": 95,
+    "exchange": 32,
+    "lose": 251,
+    "proved": 26
+  },
+  "focal_roles": {
+    "disproved:captain": 6,
+    "disproved:contessa": 43,
+    "disproved:duke": 19,
+    "lose:ambassador": 47,
+    "lose:assassin": 71,
+    "lose:captain": 54,
+    "lose:contessa": 41,
+    "lose:duke": 38,
+    "proved:assassin": 8,
+    "proved:captain": 10,
+    "proved:contessa": 5,
+    "proved:duke": 3
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_12",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "bdc45e6a47b1b2ec82f023e5fd186365228ff0d808bd655bdbe284581612149b",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 14
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 19
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 13
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_12",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 66.41666666666667,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.5052083333333334,
+    "wins": 97
+  }
+}

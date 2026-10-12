@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 1138,
+    "coup": 581,
+    "exchange": 1983,
+    "foreign_aid": 1969,
+    "income": 2587,
+    "steal": 2095,
+    "tax": 2642
+  },
+  "events": {
+    "action": 12995,
+    "block": 3783,
+    "challenge": 1240,
+    "disproved": 1076,
+    "eliminate": 960,
+    "exchange": 1967,
+    "lose": 2018,
+    "proved": 164
+  },
+  "focal_actions": {
+    "assassinate": 169,
+    "coup": 231,
+    "exchange": 74,
+    "foreign_aid": 90,
+    "income": 701,
+    "steal": 117,
+    "tax": 739
+  },
+  "focal_events": {
+    "action": 2121,
+    "block": 906,
+    "challenge": 207,
+    "disproved": 139,
+    "eliminate": 141,
+    "exchange": 74,
+    "lose": 301,
+    "proved": 33
+  },
+  "focal_roles": {
+    "disproved:assassin": 12,
+    "disproved:captain": 23,
+    "disproved:contessa": 39,
+    "disproved:duke": 65,
+    "lose:ambassador": 17,
+    "lose:assassin": 85,
+    "lose:captain": 85,
+    "lose:contessa": 58,
+    "lose:duke": 56,
+    "proved:ambassador": 1,
+    "proved:assassin": 5,
+    "proved:captain": 8,
+    "proved:contessa": 11,
+    "proved:duke": 8
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_07",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "a1ea39637ade936eaf1051fad54d990df385264143725735aced2006513f10b2",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 6
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 9
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 8
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 11
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 5
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_07",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 67.68229166666667,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.265625,
+    "wins": 51
+  }
+}

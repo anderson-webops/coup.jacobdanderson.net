@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 967,
+    "coup": 657,
+    "exchange": 1722,
+    "foreign_aid": 1886,
+    "income": 2532,
+    "steal": 1983,
+    "tax": 2482
+  },
+  "events": {
+    "action": 12229,
+    "block": 3448,
+    "challenge": 1177,
+    "disproved": 1028,
+    "eliminate": 960,
+    "exchange": 1669,
+    "lose": 2023,
+    "proved": 149
+  },
+  "focal_actions": {
+    "assassinate": 65,
+    "coup": 355,
+    "exchange": 31,
+    "foreign_aid": 124,
+    "income": 727,
+    "steal": 151,
+    "tax": 778
+  },
+  "focal_events": {
+    "action": 2231,
+    "block": 842,
+    "challenge": 243,
+    "disproved": 146,
+    "eliminate": 136,
+    "exchange": 31,
+    "lose": 294,
+    "proved": 23
+  },
+  "focal_roles": {
+    "disproved:captain": 21,
+    "disproved:contessa": 32,
+    "disproved:duke": 93,
+    "lose:ambassador": 63,
+    "lose:assassin": 76,
+    "lose:captain": 65,
+    "lose:contessa": 48,
+    "lose:duke": 42,
+    "proved:assassin": 5,
+    "proved:captain": 7,
+    "proved:contessa": 6,
+    "proved:duke": 5
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_16",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "db277c082050ed5c327b5b664bb20c4a414989768d19cca8b4c7081fea0966ff",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 10
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 10
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 9
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 7
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 10
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 10
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_16",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 63.692708333333336,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.2916666666666667,
+    "wins": 56
+  }
+}

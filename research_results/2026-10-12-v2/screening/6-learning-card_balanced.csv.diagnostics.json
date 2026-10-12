@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 1051,
+    "coup": 4414,
+    "exchange": 491,
+    "foreign_aid": 1164,
+    "income": 6637,
+    "steal": 927,
+    "tax": 11563
+  },
+  "events": {
+    "action": 26247,
+    "block": 1955,
+    "challenge": 1747,
+    "disproved": 1476,
+    "eliminate": 3000,
+    "exchange": 491,
+    "lose": 6206,
+    "proved": 271
+  },
+  "focal_actions": {
+    "assassinate": 221,
+    "coup": 701,
+    "exchange": 105,
+    "foreign_aid": 315,
+    "income": 1465,
+    "steal": 220,
+    "tax": 1628
+  },
+  "focal_events": {
+    "action": 4655,
+    "block": 300,
+    "challenge": 359,
+    "disproved": 188,
+    "eliminate": 485,
+    "exchange": 105,
+    "lose": 1016,
+    "proved": 38
+  },
+  "focal_roles": {
+    "disproved:assassin": 6,
+    "disproved:captain": 8,
+    "disproved:contessa": 99,
+    "disproved:duke": 75,
+    "lose:ambassador": 141,
+    "lose:assassin": 214,
+    "lose:captain": 228,
+    "lose:contessa": 236,
+    "lose:duke": 197,
+    "proved:ambassador": 1,
+    "proved:assassin": 16,
+    "proved:captain": 9,
+    "proved:contessa": 6,
+    "proved:duke": 6
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "405b5d39954b97a2576bc3fd9b91c7f903e2f1ee04b5671c584e490ac7281b0c",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 33
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 13
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 13
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "draws": 0,
+    "field": "learning",
+    "games": 600,
+    "mean_turns": 43.745,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.19166666666666668,
+    "wins": 115
+  }
+}

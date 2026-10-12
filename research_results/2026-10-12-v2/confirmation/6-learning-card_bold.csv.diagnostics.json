@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 8510,
+    "coup": 43511,
+    "exchange": 5236,
+    "foreign_aid": 8959,
+    "income": 53852,
+    "steal": 8164,
+    "tax": 119222
+  },
+  "events": {
+    "action": 247454,
+    "block": 15330,
+    "challenge": 18477,
+    "disproved": 14052,
+    "eliminate": 30000,
+    "exchange": 5236,
+    "lose": 62194,
+    "proved": 4425
+  },
+  "focal_actions": {
+    "assassinate": 1144,
+    "coup": 6811,
+    "exchange": 844,
+    "foreign_aid": 228,
+    "income": 3676,
+    "steal": 539,
+    "tax": 21496
+  },
+  "focal_events": {
+    "action": 34738,
+    "block": 1703,
+    "challenge": 5466,
+    "disproved": 1791,
+    "eliminate": 5383,
+    "exchange": 844,
+    "lose": 10983,
+    "proved": 278
+  },
+  "focal_roles": {
+    "disproved:assassin": 98,
+    "disproved:captain": 163,
+    "disproved:contessa": 282,
+    "disproved:duke": 1248,
+    "lose:ambassador": 1608,
+    "lose:assassin": 2199,
+    "lose:captain": 2523,
+    "lose:contessa": 2390,
+    "lose:duke": 2263,
+    "proved:ambassador": 3,
+    "proved:assassin": 72,
+    "proved:captain": 49,
+    "proved:contessa": 108,
+    "proved:duke": 46
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "card_bold",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "ef4580cc2b8438c93b4bedb3daf810483798e133e2ce21f71f5eb61b33f3d836",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 162
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 133
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 99
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 97
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 66
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 60
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "card_bold",
+    "draws": 0,
+    "field": "learning",
+    "games": 6000,
+    "mean_turns": 41.242333333333335,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.10283333333333333,
+    "wins": 617
+  }
+}

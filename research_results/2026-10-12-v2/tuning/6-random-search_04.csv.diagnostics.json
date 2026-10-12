@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 1119,
+    "coup": 638,
+    "exchange": 1776,
+    "foreign_aid": 1895,
+    "income": 2562,
+    "steal": 1991,
+    "tax": 2479
+  },
+  "events": {
+    "action": 12460,
+    "block": 3533,
+    "challenge": 1177,
+    "disproved": 1035,
+    "eliminate": 960,
+    "exchange": 1729,
+    "lose": 2014,
+    "proved": 142
+  },
+  "focal_actions": {
+    "assassinate": 206,
+    "coup": 300,
+    "exchange": 29,
+    "foreign_aid": 131,
+    "income": 743,
+    "steal": 157,
+    "tax": 744
+  },
+  "focal_events": {
+    "action": 2310,
+    "block": 670,
+    "challenge": 206,
+    "disproved": 112,
+    "eliminate": 116,
+    "exchange": 29,
+    "lose": 258,
+    "proved": 27
+  },
+  "focal_roles": {
+    "disproved:assassin": 14,
+    "disproved:captain": 7,
+    "disproved:contessa": 39,
+    "disproved:duke": 52,
+    "lose:ambassador": 47,
+    "lose:assassin": 68,
+    "lose:captain": 56,
+    "lose:contessa": 43,
+    "lose:duke": 44,
+    "proved:assassin": 9,
+    "proved:captain": 8,
+    "proved:contessa": 4,
+    "proved:duke": 6
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_04",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "f48e1abbd3e780b310b3a3572731bb7206c881ea410f90918324a53e0ea07129",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 8
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 11
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 13
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_04",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 64.89583333333333,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.3958333333333333,
+    "wins": 76
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "audit_source_sha256": "dedc9f21d57f38dabfb1f881fae7d8340353c7490fa2f39d1e2d2fe7b85760b4",
+  "global_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383",
+  "sample_rule": "first, midpoint, last, first reversed cycle; every physical seat",
+  "schema_version": 1,
+  "source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "stages": [
+    {
+      "jobs": 504,
+      "raw_games": 64512,
+      "replay_identity_outcomes_sha256": "f84c2b40880bfac09a9736af9199a0b8edf416a954a047754f89ae5a2a4c5cee",
+      "replayed_games": 6336,
+      "stage": "tuning",
+      "stage_manifest_sha256": "23d3245b88a783335a637b862ac7cf9db28e390a7bb4868e24f22d815f19ef42",
+      "stage_plan_sha256": "5a912a6830b7fdc489656354330eb62dccd44470c81fa528b6c454fbc1e1a833"
+    },
+    {
+      "jobs": 840,
+      "raw_games": 336000,
+      "replay_identity_outcomes_sha256": "5bc089ae31c98184c81fe8f9c57d6f630efe474706ddfca104532291e044978b",
+      "replayed_games": 10560,
+      "stage": "screening",
+      "stage_manifest_sha256": "4d521c44c756a28849b3a4b2e5bd1d42f918ccc1900668b7c73c0ebce7a9000d",
+      "stage_plan_sha256": "a8d747c398e6026f631d882dcabecc6341483464c60082de8a74aa92ffe6c83a"
+    },
+    {
+      "jobs": 560,
+      "raw_games": 2240000,
+      "replay_identity_outcomes_sha256": "f1def8fc90f01134bc76395bf62bdd993a0e4c65b03757aa6e1f43559e062c2b",
+      "replayed_games": 7040,
+      "stage": "confirmation",
+      "stage_manifest_sha256": "a04534cbcb778d4b1701fc460314a1dd264d8d21c2a8d6d330b9b4661dd70272",
+      "stage_plan_sha256": "f34368cb2d3b28f29bb6dfc4c5eb8c406c67f96649e24076acdb504a5ef233e7"
+    },
+    {
+      "jobs": 96,
+      "raw_games": 9216,
+      "replay_identity_outcomes_sha256": "56f44cc44a1033adaaccd0ffe972f14dd9e06214a49941182af9989f9e7d1355",
+      "replayed_games": 864,
+      "stage": "counter_search",
+      "stage_manifest_sha256": "12e3e4b0a64b3ed1c78404c105de3755b4c9bffe82ad46338e885501aa609cf5",
+      "stage_plan_sha256": "b81e9bf2a40bde2e6d6a5eb9b5f6119f02a4538bdc01ca121eb3261856231756"
+    },
+    {
+      "jobs": 8,
+      "raw_games": 24000,
+      "replay_identity_outcomes_sha256": "89cfef0dfae090b982238f4a59ef4fec7f23de989621fdf18c270f6c8c63034a",
+      "replayed_games": 72,
+      "stage": "counters",
+      "stage_manifest_sha256": "e283e6ed3fab8cd1b62e14f8e2e266c12b14d78e2bd88526fa6ea83d60e66ac2",
+      "stage_plan_sha256": "9e34b64a82a8bc21af15503ca1b1a4979e183d02a14829a21ff129af6a3e5616"
+    },
+    {
+      "jobs": 70,
+      "raw_games": 105000,
+      "replay_identity_outcomes_sha256": "b333c3a26a04795abea6351e46d7105669f38078b4ad22f635ca00ccadf373c0",
+      "replayed_games": 660,
+      "stage": "ablations",
+      "stage_manifest_sha256": "10c32cd13b8b3aa3ffad6655322812a0881ea9009496ade89d6dd6d94284ec2f",
+      "stage_plan_sha256": "58f7f02046c8772435bfef4c86027e4f0d684c9f2a97a26e9bf59dba48e1143a"
+    },
+    {
+      "jobs": 60,
+      "raw_games": 36000,
+      "replay_identity_outcomes_sha256": "308b17cf1abd5dbecbd7390ff872e62f4d5cb9ab6597c36e0a5996494cfc17f7",
+      "replayed_games": 1380,
+      "stage": "stress",
+      "stage_manifest_sha256": "c9f12e64d94446648dd5c061d1afcb1a30ff7a9e8840f61cddb0153814d8c281",
+      "stage_plan_sha256": "900526f61e1667cce0b15cbda531f6533b186667a2483fadc9091b770e701c8e"
+    }
+  ],
+  "status": "passed",
+  "total_jobs": 2138,
+  "total_raw_games": 2814728,
+  "total_replayed_games": 26912
+}

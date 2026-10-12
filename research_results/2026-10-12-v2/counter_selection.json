@@ -1,0 +1,28 @@
+{
+  "pairs": [
+    {
+      "field": "vs_exchange",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "exchange"
+    },
+    {
+      "field": "vs_card_cautious",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "card_cautious"
+    },
+    {
+      "field": "vs_exchange",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "exchange"
+    },
+    {
+      "field": "vs_card_cautious",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "card_cautious"
+    }
+  ]
+}

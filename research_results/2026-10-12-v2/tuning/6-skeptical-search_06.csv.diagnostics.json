@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 115,
+    "coup": 99,
+    "exchange": 91,
+    "foreign_aid": 662,
+    "income": 184,
+    "steal": 513,
+    "tax": 567
+  },
+  "events": {
+    "action": 2231,
+    "block": 732,
+    "challenge": 1858,
+    "disproved": 112,
+    "eliminate": 960,
+    "exchange": 91,
+    "lose": 1996,
+    "proved": 1746
+  },
+  "focal_actions": {
+    "assassinate": 66,
+    "coup": 8,
+    "exchange": 55,
+    "foreign_aid": 85,
+    "income": 170,
+    "steal": 97,
+    "tax": 143
+  },
+  "focal_events": {
+    "action": 624,
+    "block": 309,
+    "disproved": 112,
+    "eliminate": 70,
+    "exchange": 55,
+    "lose": 179,
+    "proved": 558
+  },
+  "focal_roles": {
+    "disproved:captain": 26,
+    "disproved:contessa": 8,
+    "disproved:duke": 78,
+    "lose:ambassador": 31,
+    "lose:assassin": 38,
+    "lose:captain": 46,
+    "lose:contessa": 56,
+    "lose:duke": 8,
+    "proved:ambassador": 91,
+    "proved:assassin": 66,
+    "proved:captain": 133,
+    "proved:contessa": 3,
+    "proved:duke": 265
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_06",
+    "field": "skeptical",
+    "players": 6
+  },
+  "raw_sha256": "ab9b7e122ec6fed7b2dda881199192f826f002f15cdd20201c00cc1039148ba1",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 21
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 22
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 23
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 21
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 19
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_06",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 192,
+    "mean_turns": 11.619791666666666,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.6354166666666666,
+    "wins": 122
+  }
+}

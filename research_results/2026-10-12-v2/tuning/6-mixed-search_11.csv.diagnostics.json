@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 353,
+    "coup": 992,
+    "exchange": 326,
+    "foreign_aid": 796,
+    "income": 1453,
+    "steal": 753,
+    "tax": 2964
+  },
+  "events": {
+    "action": 7637,
+    "block": 1163,
+    "challenge": 960,
+    "disproved": 526,
+    "eliminate": 960,
+    "exchange": 311,
+    "lose": 2002,
+    "proved": 434
+  },
+  "focal_actions": {
+    "assassinate": 20,
+    "coup": 111,
+    "exchange": 66,
+    "foreign_aid": 31,
+    "income": 203,
+    "steal": 56,
+    "tax": 550
+  },
+  "focal_events": {
+    "action": 1037,
+    "block": 169,
+    "challenge": 140,
+    "disproved": 60,
+    "eliminate": 174,
+    "exchange": 66,
+    "lose": 355,
+    "proved": 88
+  },
+  "focal_roles": {
+    "disproved:assassin": 1,
+    "disproved:contessa": 35,
+    "disproved:duke": 24,
+    "lose:ambassador": 27,
+    "lose:assassin": 73,
+    "lose:captain": 87,
+    "lose:contessa": 82,
+    "lose:duke": 86,
+    "proved:ambassador": 19,
+    "proved:assassin": 3,
+    "proved:captain": 18,
+    "proved:contessa": 8,
+    "proved:duke": 40
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_11",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "d272a6f5c8e37aca5ef1d42a3e07fe59fd6f47429d647ef822e2e6a7b13a646d",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 2
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 3
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 6
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 2
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 2
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 3
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_11",
+    "draws": 0,
+    "field": "mixed",
+    "games": 192,
+    "mean_turns": 39.776041666666664,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.09375,
+    "wins": 18
+  }
+}

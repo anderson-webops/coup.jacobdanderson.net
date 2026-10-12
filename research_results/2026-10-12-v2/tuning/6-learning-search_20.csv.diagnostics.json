@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 277,
+    "coup": 1487,
+    "exchange": 183,
+    "foreign_aid": 235,
+    "income": 1766,
+    "steal": 247,
+    "tax": 4087
+  },
+  "events": {
+    "action": 8282,
+    "block": 510,
+    "challenge": 480,
+    "disproved": 424,
+    "eliminate": 960,
+    "exchange": 183,
+    "lose": 1981,
+    "proved": 56
+  },
+  "focal_actions": {
+    "assassinate": 116,
+    "coup": 216,
+    "exchange": 53,
+    "foreign_aid": 13,
+    "income": 149,
+    "steal": 36,
+    "tax": 731
+  },
+  "focal_events": {
+    "action": 1314,
+    "block": 64,
+    "challenge": 58,
+    "disproved": 88,
+    "eliminate": 164,
+    "exchange": 53,
+    "lose": 337,
+    "proved": 15
+  },
+  "focal_roles": {
+    "disproved:assassin": 17,
+    "disproved:contessa": 21,
+    "disproved:duke": 50,
+    "lose:ambassador": 23,
+    "lose:assassin": 74,
+    "lose:captain": 86,
+    "lose:contessa": 78,
+    "lose:duke": 76,
+    "proved:assassin": 7,
+    "proved:captain": 4,
+    "proved:contessa": 1,
+    "proved:duke": 3
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_20",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "9f5726117c9b7768bd411e3af08115c794d6c2377b3538a1b58026875fa10645",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 6
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 9
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 5
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 4
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 2
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 2
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_20",
+    "draws": 0,
+    "field": "learning",
+    "games": 192,
+    "mean_turns": 43.135416666666664,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.14583333333333334,
+    "wins": 28
+  }
+}

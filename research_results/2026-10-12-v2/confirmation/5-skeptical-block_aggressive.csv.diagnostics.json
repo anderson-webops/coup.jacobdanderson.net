@@ -1,0 +1,101 @@
+{
+  "actions": {
+    "assassinate": 2024,
+    "coup": 2023,
+    "exchange": 1108,
+    "foreign_aid": 16854,
+    "income": 837,
+    "steal": 11107,
+    "tax": 10108
+  },
+  "events": {
+    "action": 44061,
+    "block": 19337,
+    "challenge": 40036,
+    "disproved": 6077,
+    "eliminate": 20000,
+    "exchange": 1108,
+    "lose": 42499,
+    "proved": 33959
+  },
+  "focal_actions": {
+    "assassinate": 465,
+    "coup": 282,
+    "exchange": 313,
+    "foreign_aid": 4440,
+    "income": 741,
+    "steal": 2527,
+    "tax": 2305
+  },
+  "focal_events": {
+    "action": 11073,
+    "block": 9564,
+    "disproved": 6077,
+    "eliminate": 3124,
+    "exchange": 313,
+    "lose": 7092,
+    "proved": 9097
+  },
+  "focal_roles": {
+    "disproved:captain": 1132,
+    "disproved:contessa": 271,
+    "disproved:duke": 4674,
+    "lose:ambassador": 1690,
+    "lose:assassin": 2069,
+    "lose:captain": 812,
+    "lose:contessa": 2337,
+    "lose:duke": 184,
+    "proved:ambassador": 1221,
+    "proved:assassin": 465,
+    "proved:captain": 3133,
+    "proved:contessa": 39,
+    "proved:duke": 4239
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "block_aggressive",
+    "field": "skeptical",
+    "players": 5
+  },
+  "raw_sha256": "d70b76382641d6305d0a7f62f1f3d0b818d37b17a3355145e47be0f78c704185",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 364
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 345
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 370
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 357
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 440
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "block_aggressive",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 5000,
+    "mean_turns": 8.8122,
+    "players": 5,
+    "stage": "confirmation",
+    "win_rate": 0.3752,
+    "wins": 1876
+  }
+}

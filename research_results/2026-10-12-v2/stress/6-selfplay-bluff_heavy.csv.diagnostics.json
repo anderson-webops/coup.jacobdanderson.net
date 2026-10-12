@@ -1,0 +1,84 @@
+{
+  "actions": {
+    "coup": 5322,
+    "tax": 16518
+  },
+  "events": {
+    "action": 21840,
+    "challenge": 1014,
+    "disproved": 1014,
+    "eliminate": 3000,
+    "lose": 6336
+  },
+  "focal_actions": {
+    "coup": 887,
+    "tax": 2753
+  },
+  "focal_events": {
+    "action": 3640,
+    "challenge": 169,
+    "disproved": 169,
+    "eliminate": 500,
+    "lose": 1056
+  },
+  "focal_roles": {
+    "disproved:duke": 169,
+    "lose:ambassador": 230,
+    "lose:assassin": 215,
+    "lose:captain": 213,
+    "lose:contessa": 221,
+    "lose:duke": 177
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "bluff_heavy",
+    "field": "selfplay",
+    "players": 6
+  },
+  "raw_sha256": "d36b2f1bbcc0fd1be4ec54be1778efee4835925dced79fd0e84c831abc979f3a",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 36
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 17
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 13
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 7
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 2
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "bluff_heavy",
+    "draws": 0,
+    "field": "selfplay",
+    "games": 600,
+    "mean_turns": 36.4,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.16666666666666666,
+    "wins": 100
+  }
+}

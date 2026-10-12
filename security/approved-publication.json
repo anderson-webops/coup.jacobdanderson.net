@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "review_scope": "Validated 2026-10-10 study and publication snapshot; rotate only after reviewing exact research sources, evidence counts, displayed claims, browser behavior, and complete publication inventory.",
+  "review_scope": "Reviewed original 2026-10-10 evidence and completed expanded 2026-10-12-v2 study, exact frozen sources, every raw outcome, saved paired findings, independent replay receipt, strategy explanations, desktop and mobile browser behavior, and complete 29-file publication inventory.",
   "research_source_commit": "880fa13",
   "research_source_sha256": {
     "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
     "run_experiments.py": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
     "test_coup_simulator.py": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9"
   },
-  "independent_verification": "25 rule tests, frozen manifests, raw outcome/summary comparisons, and stratified 48-game confirmation replay passed 2026-10-12.",
+  "independent_verification": "All 2,814,728 expanded raw rows audited; 26,912 strict replays match winners and turns; 35 browser matchups and 16 strategy profiles pass; original evidence hashes unchanged. The full automated suite and isolated release checks are mandatory delivery gates.",
   "publication_files": {
     "evidence/confirmation-games.csv": {
       "media_type": "text/csv",
@@ -44,6 +44,51 @@
       "sha256": "6b036f43674a7580c20048de21e20f69a07254e7e65583f9888a424b9247a686",
       "size": 2316
     },
+    "evidence/replay-audit-review.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "018a71117406e55baa1d37c5ada130894085789f59dc07961cd9065e3ea1d3cf",
+      "size": 3059
+    },
+    "evidence/research-bundle-manifest.json": {
+      "media_type": "application/json",
+      "sha256": "a33e1853718edcd2c48fa0c8d099611bd6abe5c8cbeeb39b1a3e38a11f45ae76",
+      "size": 812182
+    },
+    "evidence/research-confirmation.csv": {
+      "media_type": "text/csv",
+      "sha256": "609cfe54d749866b4842dc9e3fdd80ecb151d13c6cefc1e60421c4a509d1f7fd",
+      "size": 40767
+    },
+    "evidence/research-design.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "5fa13b80b9022e306886b8c89431c194d05c0f0860521ffcafbbbf5d06f9c191",
+      "size": 14201
+    },
+    "evidence/research-evidence.tar.gz": {
+      "media_type": "application/gzip",
+      "sha256": "71656552289719483751087e486cdecb48a3088a21bae9ca9f676b69bd81e842",
+      "size": 16988649
+    },
+    "evidence/research-findings.json": {
+      "media_type": "application/json",
+      "sha256": "1178be0a0729a0af6b8577c957e0cf800ffeba3a041e9e955833ef2e46f4df2f",
+      "size": 292119
+    },
+    "evidence/research-replay-audit.json": {
+      "media_type": "application/json",
+      "sha256": "e68ba9b5907eaa9a7b5e6f9458de84264111ae12bdf2ddc1513907f43205bcc1",
+      "size": 4376
+    },
+    "evidence/research_strategies.py": {
+      "media_type": "text/x-python",
+      "sha256": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+      "size": 15502
+    },
+    "evidence/rules-test-review.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "3b51f831ccfc013c2808e96710d6916499c2853778094c4b72f73380bb71e271",
+      "size": 2987
+    },
     "evidence/run_experiments.py": {
       "media_type": "text/x-python",
       "sha256": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
@@ -74,6 +119,16 @@
       "sha256": "7b3375715559abf7be0856b437afb899bef96b0f91616bf7a9a9049c518996cf",
       "size": 2026
     },
+    "evidence/strategy-findings.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "9bbba75f2fa5f411389aeb6ddb38e5c1f67907415d1a35d79868e493140997ba",
+      "size": 22316
+    },
+    "evidence/strategy-review.md": {
+      "media_type": "application/octet-stream",
+      "sha256": "58503a6c26bd666f6217afa01494627711b31b54104f8ca904d1bfc3e0f44f1a",
+      "size": 17028
+    },
     "evidence/test_coup_simulator.py": {
       "media_type": "text/x-python",
       "sha256": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9",
@@ -86,18 +141,31 @@
     },
     "index.html": {
       "media_type": "text/html",
-      "sha256": "4d8eed601b9095dbb0ffa157f633ad44b928c43844cc8c1316771ec374db7384",
-      "size": 61154
+      "sha256": "0a3515624d6ce4ce7d4eb82fe0ab9022775bf4415728711be326b4b7e15a3868",
+      "size": 293794
     },
     "publication.json": {
       "media_type": "application/json",
-      "sha256": "85892bbdbf78707b09f040b247e9eb105f96b0dbd6cc7ffa1ce2ca184af374e4",
-      "size": 169
+      "sha256": "12b8c8a2670c436249bbce49e3dd4b10a85ef180dceeeb54c34aad9808acc153",
+      "size": 291
     },
     "site.css": {
       "media_type": "text/css",
       "sha256": "43e3ab4c9e815bbd5a035a6a28cae1d84777c1d53782229b68fcc45a4dcfb18e",
       "size": 10123
     }
+  },
+  "expanded_research_preregistration_commit": "12ab9e1",
+  "expanded_research_source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
   }
 }

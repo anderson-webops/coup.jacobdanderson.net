@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 3673,
+    "coup": 3789,
+    "exchange": 262,
+    "foreign_aid": 9291,
+    "income": 8318,
+    "steal": 814,
+    "tax": 9547
+  },
+  "events": {
+    "action": 35694,
+    "block": 10205,
+    "challenge": 1902,
+    "disproved": 1602,
+    "eliminate": 2998,
+    "exchange": 262,
+    "lose": 6251,
+    "proved": 300
+  },
+  "focal_actions": {
+    "assassinate": 67,
+    "coup": 820,
+    "exchange": 109,
+    "foreign_aid": 480,
+    "income": 2211,
+    "steal": 299,
+    "tax": 1511
+  },
+  "focal_events": {
+    "action": 5497,
+    "block": 1452,
+    "challenge": 357,
+    "disproved": 132,
+    "eliminate": 471,
+    "exchange": 109,
+    "lose": 1018,
+    "proved": 103
+  },
+  "focal_roles": {
+    "disproved:contessa": 101,
+    "disproved:duke": 31,
+    "lose:ambassador": 158,
+    "lose:assassin": 230,
+    "lose:captain": 221,
+    "lose:contessa": 182,
+    "lose:duke": 227,
+    "proved:ambassador": 5,
+    "proved:assassin": 5,
+    "proved:captain": 23,
+    "proved:contessa": 69,
+    "proved:duke": 1
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "defensive",
+    "field": "assault",
+    "players": 6
+  },
+  "raw_sha256": "5877f3c48f9dd8ca8519fcf0ef4e6cdaaf81c7719cd30b146697cd137a46616f",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 36
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 17
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 25
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 19
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 15
+    },
+    "5": {
+      "draws": 2,
+      "games": 100,
+      "wins": 17
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "defensive",
+    "draws": 2,
+    "field": "assault",
+    "games": 600,
+    "mean_turns": 59.49,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.215,
+    "wins": 129
+  }
+}

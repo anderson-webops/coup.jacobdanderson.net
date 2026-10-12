@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 899,
+    "coup": 730,
+    "exchange": 1791,
+    "foreign_aid": 1781,
+    "income": 2039,
+    "steal": 1889,
+    "tax": 2882
+  },
+  "events": {
+    "action": 12011,
+    "block": 3283,
+    "challenge": 1144,
+    "disproved": 1019,
+    "eliminate": 960,
+    "exchange": 1755,
+    "lose": 2016,
+    "proved": 125
+  },
+  "focal_actions": {
+    "assassinate": 22,
+    "coup": 446,
+    "exchange": 100,
+    "foreign_aid": 39,
+    "income": 271,
+    "steal": 88,
+    "tax": 1197
+  },
+  "focal_events": {
+    "action": 2163,
+    "block": 827,
+    "challenge": 140,
+    "disproved": 176,
+    "eliminate": 133,
+    "exchange": 100,
+    "lose": 283,
+    "proved": 21
+  },
+  "focal_roles": {
+    "disproved:captain": 20,
+    "disproved:contessa": 26,
+    "disproved:duke": 130,
+    "lose:ambassador": 19,
+    "lose:assassin": 79,
+    "lose:captain": 76,
+    "lose:contessa": 67,
+    "lose:duke": 42,
+    "proved:assassin": 1,
+    "proved:captain": 6,
+    "proved:contessa": 11,
+    "proved:duke": 3
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_08",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "970b3015c801da7662be8be25f6473aca7db2bc227bdab027ef72f5940f47dae",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 10
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 11
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 7
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 12
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 7
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_08",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 62.557291666666664,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.3072916666666667,
+    "wins": 59
+  }
+}

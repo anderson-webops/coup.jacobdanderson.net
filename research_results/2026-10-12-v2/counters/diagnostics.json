@@ -1,0 +1,160 @@
+{
+  "actions": {
+    "assassinate": 27468,
+    "coup": 116647,
+    "exchange": 14281,
+    "foreign_aid": 123137,
+    "income": 150690,
+    "steal": 111066,
+    "tax": 256280
+  },
+  "draws": 33,
+  "events": {
+    "action": 799569,
+    "block": 172642,
+    "challenge": 1420,
+    "disproved": 1420,
+    "eliminate": 55963,
+    "exchange": 14281,
+    "lose": 121548
+  },
+  "games": 24000,
+  "seats": {
+    "2-vs_card_cautious-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 627
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 1000
+      }
+    },
+    "2-vs_card_cautious-card_cautious.csv.gz": {
+      "0": {
+        "draws": 14,
+        "games": 1000,
+        "wins": 448
+      },
+      "1": {
+        "draws": 14,
+        "games": 1000,
+        "wins": 538
+      }
+    },
+    "2-vs_exchange-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 629
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 1000
+      }
+    },
+    "2-vs_exchange-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 436
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 564
+      }
+    },
+    "4-vs_card_cautious-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 828
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 490
+      },
+      "2": {
+        "draws": 1,
+        "games": 1000,
+        "wins": 277
+      },
+      "3": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 122
+      }
+    },
+    "4-vs_card_cautious-card_cautious.csv.gz": {
+      "0": {
+        "draws": 1,
+        "games": 1000,
+        "wins": 380
+      },
+      "1": {
+        "draws": 1,
+        "games": 1000,
+        "wins": 284
+      },
+      "2": {
+        "draws": 1,
+        "games": 1000,
+        "wins": 194
+      },
+      "3": {
+        "draws": 1,
+        "games": 1000,
+        "wins": 141
+      }
+    },
+    "4-vs_exchange-bluff_heavy.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 752
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 545
+      },
+      "2": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 395
+      },
+      "3": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 272
+      }
+    },
+    "4-vs_exchange-exchange.csv.gz": {
+      "0": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 311
+      },
+      "1": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 257
+      },
+      "2": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 237
+      },
+      "3": {
+        "draws": 0,
+        "games": 1000,
+        "wins": 195
+      }
+    }
+  }
+}

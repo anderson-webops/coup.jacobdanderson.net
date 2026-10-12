@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 10497,
+    "coup": 46245,
+    "exchange": 5599,
+    "foreign_aid": 12588,
+    "income": 73862,
+    "steal": 11899,
+    "tax": 117703
+  },
+  "events": {
+    "action": 278393,
+    "block": 22383,
+    "challenge": 15634,
+    "disproved": 13310,
+    "eliminate": 30000,
+    "exchange": 5599,
+    "lose": 62167,
+    "proved": 2324
+  },
+  "focal_actions": {
+    "assassinate": 2953,
+    "coup": 6608,
+    "exchange": 1228,
+    "foreign_aid": 5492,
+    "income": 20959,
+    "steal": 3453,
+    "tax": 13232
+  },
+  "focal_events": {
+    "action": 53925,
+    "block": 2774,
+    "challenge": 2113,
+    "disproved": 878,
+    "eliminate": 4729,
+    "exchange": 1228,
+    "lose": 9894,
+    "proved": 571
+  },
+  "focal_roles": {
+    "disproved:contessa": 878,
+    "lose:ambassador": 1349,
+    "lose:assassin": 1958,
+    "lose:captain": 2241,
+    "lose:contessa": 2411,
+    "lose:duke": 1935,
+    "proved:ambassador": 9,
+    "proved:assassin": 219,
+    "proved:captain": 206,
+    "proved:contessa": 73,
+    "proved:duke": 64
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "card_cautious",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "2b929a6f37783204e28fa894863b57326d888ea7784d5034ff41e36d3e0eadba",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 287
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 245
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 238
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 199
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 148
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 154
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "card_cautious",
+    "draws": 0,
+    "field": "learning",
+    "games": 6000,
+    "mean_turns": 46.398833333333336,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.21183333333333335,
+    "wins": 1271
+  }
+}

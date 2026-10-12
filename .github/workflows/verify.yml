@@ -25,7 +25,12 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: "1"
           RUNNER_TEMP: ${{ runner.temp }}
-        run: python3 -B -m unittest -v test_coup_simulator test_site scripts.test_release_artifact
+        run: python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_site scripts.test_release_artifact
+
+      - name: Independently audit the expanded frozen research
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 -B analyze_strategy_research.py --verify-only
 
       - name: Validate exact static publication
         env:

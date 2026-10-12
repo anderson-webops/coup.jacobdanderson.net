@@ -1,0 +1,39 @@
+{
+  "files": {
+    "2-vs_card_cautious-bluff_heavy.csv.diagnostics.json": "234a199af260ab7cb533d3620488c505466a161ad181a2fa1a9a958afd802365",
+    "2-vs_card_cautious-bluff_heavy.csv.gz": "a0d9b3ecff90d20fa760b6f3fbc534677d96ab1ae20b30dd8125552211edfbd0",
+    "2-vs_card_cautious-card_cautious.csv.diagnostics.json": "44b82440a2f205fdfe69d1ae4c4a6d12960f2055ec98f2a49b34ce32722d09c2",
+    "2-vs_card_cautious-card_cautious.csv.gz": "4ebfd2e7309d2b55abccd1b0f7f0913a2bc07b690396d8dad8c8e4cf5176074a",
+    "2-vs_exchange-bluff_heavy.csv.diagnostics.json": "801e75fc3fb2e781294ec766fd19c257b8023f9678543dc67be0ea116476b914",
+    "2-vs_exchange-bluff_heavy.csv.gz": "773d38f8fb541e22e29e8a92402fc9cc340f20bf94e8d4e91459373cb1e0d6d7",
+    "2-vs_exchange-exchange.csv.diagnostics.json": "b52b13429cff0c343ce9d09a30d09c636faa2764760b6ad86bb2fbff8042f9e2",
+    "2-vs_exchange-exchange.csv.gz": "df5ec4b9e7f62977453ecb45bf93f635c074b42d54a1fa5bd50a64b24f0175e5",
+    "4-vs_card_cautious-bluff_heavy.csv.diagnostics.json": "bfbfa8612381920a6601237448fb2c6f4f40b1767cd6ff1d86d8f88717a558b8",
+    "4-vs_card_cautious-bluff_heavy.csv.gz": "ff83c37ffd77def673fce592ce0232c384c334288d8ddb36d4bad8497f2a0243",
+    "4-vs_card_cautious-card_cautious.csv.diagnostics.json": "4e1dc15cde18c320a78513e508b3ad43db9f0251e72e6c9256dcaf51a62dcbc8",
+    "4-vs_card_cautious-card_cautious.csv.gz": "defbeffa436d1f1827a1fabf8f239ea3918defa9fcb533731a3b9d32a53223df",
+    "4-vs_exchange-bluff_heavy.csv.diagnostics.json": "662129bb27134bf261db1f130a869347fbc1ca5e7eb3e1939f31872a7b2044b3",
+    "4-vs_exchange-bluff_heavy.csv.gz": "8110039d6329bf2905a727012edbcfdbe0a48989d2f8238fddf4080f1debe14c",
+    "4-vs_exchange-exchange.csv.diagnostics.json": "852b8803cdabd972716020ca47b186ccdf2f567aa00f3c8201504b203e2eadcd",
+    "4-vs_exchange-exchange.csv.gz": "0ea6867a027ea12b356b431bde56d60f6e0a9d9d910c21b4809365f2abbc111b",
+    "diagnostics.json": "7ffd59e6980b19f48b0a3e169877487bd24c993c7275ebfb5e83d3c9a350a56a",
+    "plan.json": "9e34b64a82a8bc21af15503ca1b1a4979e183d02a14829a21ff129af6a3e5616",
+    "summaries.csv": "ec747135286f6aa7c65d0bdd1f5900ea1905d2ff9379c6db9db0ac6277fc3978"
+  },
+  "global_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383",
+  "plan_sha256": "9e34b64a82a8bc21af15503ca1b1a4979e183d02a14829a21ff129af6a3e5616",
+  "scheduled_games": 24000,
+  "source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "stage": "counters"
+}

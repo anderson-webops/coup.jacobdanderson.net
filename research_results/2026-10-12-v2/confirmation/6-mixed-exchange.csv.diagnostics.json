@@ -1,0 +1,103 @@
+{
+  "actions": {
+    "assassinate": 12152,
+    "coup": 33251,
+    "exchange": 10603,
+    "foreign_aid": 38820,
+    "income": 51238,
+    "steal": 37378,
+    "tax": 88531
+  },
+  "events": {
+    "action": 271973,
+    "block": 57940,
+    "challenge": 25685,
+    "disproved": 14124,
+    "eliminate": 30000,
+    "exchange": 10107,
+    "lose": 62506,
+    "proved": 11561
+  },
+  "focal_actions": {
+    "assassinate": 1552,
+    "coup": 7361,
+    "exchange": 2137,
+    "foreign_aid": 14584,
+    "income": 8365,
+    "steal": 13833,
+    "tax": 15333
+  },
+  "focal_events": {
+    "action": 63165,
+    "block": 6742,
+    "challenge": 2421,
+    "eliminate": 3954,
+    "exchange": 2137,
+    "lose": 8819,
+    "proved": 3011
+  },
+  "focal_roles": {
+    "lose:ambassador": 546,
+    "lose:assassin": 2400,
+    "lose:captain": 1760,
+    "lose:contessa": 2131,
+    "lose:duke": 1982,
+    "proved:ambassador": 431,
+    "proved:assassin": 206,
+    "proved:captain": 961,
+    "proved:contessa": 92,
+    "proved:duke": 1321
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "3b0bb8034c6a2b102ef5cc8a2786d558b466a2b52924015e0d66b90a7cfd9ed5",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 322
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 336
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 333
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 347
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 349
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 359
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "draws": 0,
+    "field": "mixed",
+    "games": 6000,
+    "mean_turns": 45.328833333333336,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.341,
+    "wins": 2046
+  }
+}

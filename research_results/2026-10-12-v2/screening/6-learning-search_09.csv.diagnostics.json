@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 942,
+    "coup": 4382,
+    "exchange": 594,
+    "foreign_aid": 1299,
+    "income": 6899,
+    "steal": 971,
+    "tax": 11330
+  },
+  "events": {
+    "action": 26417,
+    "block": 1831,
+    "challenge": 1838,
+    "disproved": 1419,
+    "eliminate": 3000,
+    "exchange": 594,
+    "lose": 6245,
+    "proved": 419
+  },
+  "focal_actions": {
+    "assassinate": 85,
+    "coup": 660,
+    "exchange": 210,
+    "foreign_aid": 320,
+    "income": 1634,
+    "steal": 252,
+    "tax": 1385
+  },
+  "focal_events": {
+    "action": 4546,
+    "block": 234,
+    "challenge": 615,
+    "disproved": 58,
+    "eliminate": 495,
+    "exchange": 210,
+    "lose": 1040,
+    "proved": 38
+  },
+  "focal_roles": {
+    "disproved:contessa": 58,
+    "lose:ambassador": 73,
+    "lose:assassin": 219,
+    "lose:captain": 246,
+    "lose:contessa": 252,
+    "lose:duke": 250,
+    "proved:ambassador": 1,
+    "proved:assassin": 4,
+    "proved:captain": 8,
+    "proved:contessa": 20,
+    "proved:duke": 5
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "search_09",
+    "field": "learning",
+    "players": 6
+  },
+  "raw_sha256": "914eda77aca0baf871e340e6249f71ea3b844eb67a1c34bca77a9f77b6eba6a6",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 23
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 17
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 17
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 11
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 11
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "search_09",
+    "draws": 0,
+    "field": "learning",
+    "games": 600,
+    "mean_turns": 44.028333333333336,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.175,
+    "wins": 105
+  }
+}

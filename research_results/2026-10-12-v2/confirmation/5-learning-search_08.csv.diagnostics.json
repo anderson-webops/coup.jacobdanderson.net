@@ -1,0 +1,102 @@
+{
+  "actions": {
+    "assassinate": 4877,
+    "coup": 33597,
+    "exchange": 4272,
+    "foreign_aid": 7714,
+    "income": 37071,
+    "steal": 6318,
+    "tax": 88449
+  },
+  "events": {
+    "action": 182298,
+    "block": 12017,
+    "challenge": 8409,
+    "disproved": 6816,
+    "eliminate": 20000,
+    "exchange": 4272,
+    "lose": 42067,
+    "proved": 1593
+  },
+  "focal_actions": {
+    "assassinate": 261,
+    "coup": 7945,
+    "exchange": 1648,
+    "foreign_aid": 1072,
+    "income": 3938,
+    "steal": 820,
+    "tax": 21362
+  },
+  "focal_events": {
+    "action": 37046,
+    "block": 3060,
+    "challenge": 759,
+    "disproved": 1557,
+    "eliminate": 3550,
+    "exchange": 1648,
+    "lose": 7732,
+    "proved": 330
+  },
+  "focal_roles": {
+    "disproved:captain": 234,
+    "disproved:contessa": 483,
+    "disproved:duke": 840,
+    "lose:ambassador": 610,
+    "lose:assassin": 1536,
+    "lose:captain": 1959,
+    "lose:contessa": 1970,
+    "lose:duke": 1657,
+    "proved:ambassador": 1,
+    "proved:assassin": 17,
+    "proved:captain": 73,
+    "proved:contessa": 151,
+    "proved:duke": 88
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "search_08",
+    "field": "learning",
+    "players": 5
+  },
+  "raw_sha256": "501ef801072378466cd0919c61bf35d09f10f394b89b8f4036e87f19ad1afa65",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 370
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 332
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 263
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 242
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 243
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "search_08",
+    "draws": 0,
+    "field": "learning",
+    "games": 5000,
+    "mean_turns": 36.4596,
+    "players": 5,
+    "stage": "confirmation",
+    "win_rate": 0.29,
+    "wins": 1450
+  }
+}

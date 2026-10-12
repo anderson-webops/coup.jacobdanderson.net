@@ -1,0 +1,106 @@
+{
+  "actions": {
+    "assassinate": 1064,
+    "coup": 649,
+    "exchange": 1882,
+    "foreign_aid": 2047,
+    "income": 2714,
+    "steal": 2081,
+    "tax": 2405
+  },
+  "events": {
+    "action": 12842,
+    "block": 3580,
+    "challenge": 1170,
+    "disproved": 1003,
+    "eliminate": 960,
+    "exchange": 1860,
+    "lose": 2030,
+    "proved": 167
+  },
+  "focal_actions": {
+    "assassinate": 142,
+    "coup": 319,
+    "exchange": 68,
+    "foreign_aid": 196,
+    "income": 858,
+    "steal": 229,
+    "tax": 621
+  },
+  "focal_events": {
+    "action": 2433,
+    "block": 667,
+    "challenge": 288,
+    "disproved": 68,
+    "eliminate": 92,
+    "exchange": 68,
+    "lose": 237,
+    "proved": 24
+  },
+  "focal_roles": {
+    "disproved:captain": 5,
+    "disproved:contessa": 46,
+    "disproved:duke": 17,
+    "lose:ambassador": 15,
+    "lose:assassin": 76,
+    "lose:captain": 60,
+    "lose:contessa": 46,
+    "lose:duke": 40,
+    "proved:assassin": 7,
+    "proved:captain": 10,
+    "proved:contessa": 3,
+    "proved:duke": 4
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "search_21",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "babc2cd394baf6e2c89a1fa0de94a2ea4c868679496562dab9119758f10cd3a3",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 32,
+      "wins": 16
+    },
+    "1": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "2": {
+      "draws": 0,
+      "games": 32,
+      "wins": 20
+    },
+    "3": {
+      "draws": 0,
+      "games": 32,
+      "wins": 15
+    },
+    "4": {
+      "draws": 0,
+      "games": 32,
+      "wins": 17
+    },
+    "5": {
+      "draws": 0,
+      "games": 32,
+      "wins": 15
+    }
+  },
+  "stage": "tuning",
+  "summary": {
+    "blocks": 32,
+    "candidate": "search_21",
+    "draws": 0,
+    "field": "random",
+    "games": 192,
+    "mean_turns": 66.88541666666667,
+    "players": 6,
+    "stage": "tuning",
+    "win_rate": 0.5208333333333334,
+    "wins": 100
+  }
+}

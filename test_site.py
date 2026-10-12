@@ -1,12 +1,16 @@
 """Publication gates exercise evidence integrity, inventory, and source drift."""
 import shutil
+import hashlib
+import io
+import json
 import os
 import subprocess
 import sys
 import tempfile
+import tarfile
 import unittest
 from pathlib import Path
-from check_site import check
+from check_site import check, verify_research_bundle
 
 ROOT = Path(__file__).resolve().parent
 
@@ -56,6 +60,21 @@ class PublicationTests(unittest.TestCase):
         result = subprocess.run([sys.executable, '-O', '-B', str(ROOT / 'check_site.py'), '--root', str(self.root)], capture_output=True, text=True)
         self.assertNotEqual(result.returncode, 0)
         self.assertIn('non-optimized Python', result.stderr)
+
+    def test_research_download_rejects_linked_and_unsafe_members(self):
+        evidence = self.root / 'dist/evidence'
+        for name, linked in [('../escape', False), ('/absolute', False), ('linked', True)]:
+            manifest = {name: {'size': 0, 'sha256': hashlib.sha256(b'').hexdigest()}}
+            (evidence / 'research-bundle-manifest.json').write_text(json.dumps(manifest))
+            with tarfile.open(evidence / 'research-evidence.tar.gz', 'w:gz') as archive:
+                member = tarfile.TarInfo(name)
+                if linked:
+                    member.type = tarfile.SYMTYPE; member.linkname = '../outside'
+                    archive.addfile(member)
+                else:
+                    archive.addfile(member, io.BytesIO(b''))
+            with self.assertRaisesRegex(ValueError, 'Unsafe or unplanned'):
+                verify_research_bundle(self.root, evidence, {}, {}, {})
 
 
 if __name__ == '__main__':

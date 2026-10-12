@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 1325,
+    "coup": 3150,
+    "exchange": 925,
+    "foreign_aid": 2608,
+    "income": 5800,
+    "steal": 2453,
+    "tax": 8621
+  },
+  "events": {
+    "action": 24882,
+    "block": 4174,
+    "challenge": 2838,
+    "disproved": 1627,
+    "eliminate": 3000,
+    "exchange": 874,
+    "lose": 6241,
+    "proved": 1211
+  },
+  "focal_actions": {
+    "assassinate": 260,
+    "coup": 642,
+    "exchange": 99,
+    "foreign_aid": 254,
+    "income": 1611,
+    "steal": 304,
+    "tax": 1601
+  },
+  "focal_events": {
+    "action": 4771,
+    "block": 727,
+    "challenge": 335,
+    "disproved": 237,
+    "eliminate": 484,
+    "exchange": 99,
+    "lose": 1013,
+    "proved": 245
+  },
+  "focal_roles": {
+    "disproved:assassin": 13,
+    "disproved:captain": 16,
+    "disproved:contessa": 99,
+    "disproved:duke": 109,
+    "lose:ambassador": 161,
+    "lose:assassin": 215,
+    "lose:captain": 227,
+    "lose:contessa": 249,
+    "lose:duke": 161,
+    "proved:ambassador": 21,
+    "proved:assassin": 27,
+    "proved:captain": 49,
+    "proved:contessa": 23,
+    "proved:duke": 125
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "field": "mixed",
+    "players": 6
+  },
+  "raw_sha256": "d0b2ae7e3a397d371c5be07ab4fa13bc7fabc89b45fcb46eceee1509211df7ed",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 20
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 14
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 20
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 22
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 19
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 21
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "draws": 0,
+    "field": "mixed",
+    "games": 600,
+    "mean_turns": 41.47,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.19333333333333333,
+    "wins": 116
+  }
+}

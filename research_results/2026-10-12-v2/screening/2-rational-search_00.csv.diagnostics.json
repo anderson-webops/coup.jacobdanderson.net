@@ -1,0 +1,84 @@
+{
+  "actions": {
+    "assassinate": 32,
+    "coup": 475,
+    "exchange": 55,
+    "foreign_aid": 1086,
+    "income": 186,
+    "steal": 5,
+    "tax": 821
+  },
+  "events": {
+    "action": 2660,
+    "block": 479,
+    "challenge": 29,
+    "disproved": 10,
+    "eliminate": 200,
+    "exchange": 55,
+    "lose": 504,
+    "proved": 19
+  },
+  "focal_actions": {
+    "assassinate": 10,
+    "coup": 222,
+    "exchange": 25,
+    "foreign_aid": 597,
+    "income": 113,
+    "steal": 4,
+    "tax": 354
+  },
+  "focal_events": {
+    "action": 1325,
+    "block": 214,
+    "challenge": 2,
+    "disproved": 9,
+    "eliminate": 104,
+    "exchange": 25,
+    "lose": 263,
+    "proved": 18
+  },
+  "focal_roles": {
+    "disproved:contessa": 9,
+    "lose:ambassador": 46,
+    "lose:assassin": 65,
+    "lose:captain": 70,
+    "lose:contessa": 67,
+    "lose:duke": 15,
+    "proved:ambassador": 1,
+    "proved:assassin": 8,
+    "proved:contessa": 5,
+    "proved:duke": 4
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "search_00",
+    "field": "rational",
+    "players": 2
+  },
+  "raw_sha256": "936d298a1b806e255be31ac8c0a7b628a151bfb21c3e532b4927b6a17c1c2e31",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 36
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 60
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "search_00",
+    "draws": 0,
+    "field": "rational",
+    "games": 200,
+    "mean_turns": 13.3,
+    "players": 2,
+    "stage": "screening",
+    "win_rate": 0.48,
+    "wins": 96
+  }
+}

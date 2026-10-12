@@ -1,0 +1,108 @@
+{
+  "actions": {
+    "assassinate": 943,
+    "coup": 1943,
+    "exchange": 1396,
+    "foreign_aid": 3806,
+    "income": 4014,
+    "steal": 3756,
+    "tax": 5287
+  },
+  "events": {
+    "action": 21145,
+    "block": 6575,
+    "challenge": 4219,
+    "disproved": 2039,
+    "eliminate": 3000,
+    "exchange": 1139,
+    "lose": 6250,
+    "proved": 2180
+  },
+  "focal_actions": {
+    "assassinate": 227,
+    "coup": 649,
+    "exchange": 117,
+    "foreign_aid": 458,
+    "income": 1621,
+    "steal": 382,
+    "tax": 1740
+  },
+  "focal_events": {
+    "action": 5194,
+    "block": 1252,
+    "challenge": 531,
+    "disproved": 264,
+    "eliminate": 416,
+    "exchange": 117,
+    "lose": 922,
+    "proved": 494
+  },
+  "focal_roles": {
+    "disproved:assassin": 18,
+    "disproved:captain": 33,
+    "disproved:contessa": 56,
+    "disproved:duke": 157,
+    "lose:ambassador": 140,
+    "lose:assassin": 212,
+    "lose:captain": 199,
+    "lose:contessa": 245,
+    "lose:duke": 126,
+    "proved:ambassador": 49,
+    "proved:assassin": 40,
+    "proved:captain": 150,
+    "proved:contessa": 11,
+    "proved:duke": 244
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "field": "chaos",
+    "players": 6
+  },
+  "raw_sha256": "46bb546a87ae854b84fcbc92f4cbefc06da028c5d1668d4b4d40b500857608e6",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 36
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 31
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 27
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 32
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 32
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 26
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_balanced",
+    "draws": 0,
+    "field": "chaos",
+    "games": 600,
+    "mean_turns": 35.24166666666667,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.30666666666666664,
+    "wins": 184
+  }
+}

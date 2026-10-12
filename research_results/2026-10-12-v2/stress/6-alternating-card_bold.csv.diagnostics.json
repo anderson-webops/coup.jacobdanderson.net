@@ -1,0 +1,107 @@
+{
+  "actions": {
+    "assassinate": 934,
+    "coup": 4281,
+    "exchange": 632,
+    "foreign_aid": 1382,
+    "income": 5787,
+    "steal": 827,
+    "tax": 11409
+  },
+  "events": {
+    "action": 25252,
+    "block": 1665,
+    "challenge": 1936,
+    "disproved": 1250,
+    "eliminate": 3000,
+    "exchange": 632,
+    "lose": 6241,
+    "proved": 686
+  },
+  "focal_actions": {
+    "assassinate": 104,
+    "coup": 680,
+    "exchange": 89,
+    "foreign_aid": 27,
+    "income": 366,
+    "steal": 43,
+    "tax": 2154
+  },
+  "focal_events": {
+    "action": 3463,
+    "block": 207,
+    "challenge": 476,
+    "disproved": 233,
+    "eliminate": 555,
+    "exchange": 89,
+    "lose": 1128,
+    "proved": 50
+  },
+  "focal_roles": {
+    "disproved:assassin": 23,
+    "disproved:captain": 17,
+    "disproved:contessa": 39,
+    "disproved:duke": 154,
+    "lose:ambassador": 157,
+    "lose:assassin": 236,
+    "lose:captain": 257,
+    "lose:contessa": 248,
+    "lose:duke": 230,
+    "proved:assassin": 14,
+    "proved:captain": 4,
+    "proved:contessa": 6,
+    "proved:duke": 26
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "card_bold",
+    "field": "alternating",
+    "players": 6
+  },
+  "raw_sha256": "8fe23712a683d5241b8e6cc123f7a11ddbb91e7a00d33a46989ecda6ffac36de",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 12
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 11
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 9
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 4
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 6
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 3
+    }
+  },
+  "stage": "stress",
+  "summary": {
+    "blocks": 100,
+    "candidate": "card_bold",
+    "draws": 0,
+    "field": "alternating",
+    "games": 600,
+    "mean_turns": 42.086666666666666,
+    "players": 6,
+    "stage": "stress",
+    "win_rate": 0.075,
+    "wins": 45
+  }
+}

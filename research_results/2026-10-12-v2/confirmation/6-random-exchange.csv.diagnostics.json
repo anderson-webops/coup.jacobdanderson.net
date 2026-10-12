@@ -1,0 +1,103 @@
+{
+  "actions": {
+    "assassinate": 32770,
+    "coup": 19949,
+    "exchange": 60650,
+    "foreign_aid": 77764,
+    "income": 72079,
+    "steal": 77501,
+    "tax": 76743
+  },
+  "events": {
+    "action": 417456,
+    "block": 130733,
+    "challenge": 33480,
+    "disproved": 28943,
+    "eliminate": 30000,
+    "exchange": 60113,
+    "lose": 62324,
+    "proved": 4537
+  },
+  "focal_actions": {
+    "assassinate": 2262,
+    "coup": 9086,
+    "exchange": 2156,
+    "foreign_aid": 19704,
+    "income": 12427,
+    "steal": 18921,
+    "tax": 17831
+  },
+  "focal_events": {
+    "action": 82387,
+    "block": 14290,
+    "challenge": 7320,
+    "eliminate": 2398,
+    "exchange": 2156,
+    "lose": 5839,
+    "proved": 1033
+  },
+  "focal_roles": {
+    "lose:ambassador": 579,
+    "lose:assassin": 1738,
+    "lose:captain": 1173,
+    "lose:contessa": 885,
+    "lose:duke": 1464,
+    "proved:ambassador": 5,
+    "proved:assassin": 206,
+    "proved:captain": 434,
+    "proved:contessa": 72,
+    "proved:duke": 316
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "20001cdb41025610cbdb28b9aaf2f334526233f5439d070ccfd628501362f48a",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 601
+    },
+    "1": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 591
+    },
+    "2": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 616
+    },
+    "3": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 597
+    },
+    "4": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 615
+    },
+    "5": {
+      "draws": 0,
+      "games": 1000,
+      "wins": 582
+    }
+  },
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "exchange",
+    "draws": 0,
+    "field": "random",
+    "games": 6000,
+    "mean_turns": 69.576,
+    "players": 6,
+    "stage": "confirmation",
+    "win_rate": 0.6003333333333334,
+    "wins": 3602
+  }
+}

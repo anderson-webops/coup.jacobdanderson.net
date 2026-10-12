@@ -1,0 +1,97 @@
+{
+  "actions": {
+    "assassinate": 1693,
+    "coup": 10674,
+    "exchange": 1087,
+    "foreign_aid": 3853,
+    "income": 12346,
+    "steal": 1686,
+    "tax": 26190
+  },
+  "events": {
+    "action": 57529,
+    "block": 4693,
+    "challenge": 2355,
+    "disproved": 1502,
+    "eliminate": 6000,
+    "exchange": 1087,
+    "lose": 13037,
+    "proved": 853
+  },
+  "focal_actions": {
+    "assassinate": 489,
+    "coup": 2798,
+    "exchange": 283,
+    "foreign_aid": 1133,
+    "income": 3231,
+    "steal": 489,
+    "tax": 6812
+  },
+  "focal_events": {
+    "action": 15235,
+    "block": 1214,
+    "disproved": 517,
+    "eliminate": 1466,
+    "exchange": 283,
+    "lose": 3250,
+    "proved": 317
+  },
+  "focal_roles": {
+    "disproved:assassin": 14,
+    "disproved:captain": 40,
+    "disproved:contessa": 228,
+    "disproved:duke": 235,
+    "lose:ambassador": 515,
+    "lose:assassin": 707,
+    "lose:captain": 726,
+    "lose:contessa": 778,
+    "lose:duke": 524,
+    "proved:ambassador": 9,
+    "proved:assassin": 56,
+    "proved:captain": 75,
+    "proved:contessa": 26,
+    "proved:duke": 151
+  },
+  "job": {
+    "blocks": 500,
+    "candidate": "ablate_no_claim_cards",
+    "field": "learning",
+    "players": 4
+  },
+  "raw_sha256": "2080ffebde80ddd8dd270519d468053958391ce1bfd3cb09a4dfacd172f1f934",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 500,
+      "wins": 185
+    },
+    "1": {
+      "draws": 0,
+      "games": 500,
+      "wins": 139
+    },
+    "2": {
+      "draws": 0,
+      "games": 500,
+      "wins": 116
+    },
+    "3": {
+      "draws": 0,
+      "games": 500,
+      "wins": 94
+    }
+  },
+  "stage": "ablations",
+  "summary": {
+    "blocks": 500,
+    "candidate": "ablate_no_claim_cards",
+    "draws": 0,
+    "field": "learning",
+    "games": 2000,
+    "mean_turns": 28.7645,
+    "players": 4,
+    "stage": "ablations",
+    "win_rate": 0.267,
+    "wins": 534
+  }
+}

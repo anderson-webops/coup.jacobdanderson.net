@@ -1,0 +1,105 @@
+{
+  "actions": {
+    "assassinate": 2920,
+    "coup": 1928,
+    "exchange": 5663,
+    "foreign_aid": 5920,
+    "income": 8039,
+    "steal": 5596,
+    "tax": 7058
+  },
+  "events": {
+    "action": 37124,
+    "block": 9608,
+    "challenge": 3849,
+    "disproved": 3057,
+    "eliminate": 3000,
+    "exchange": 5560,
+    "lose": 6340,
+    "proved": 792
+  },
+  "focal_actions": {
+    "assassinate": 133,
+    "coup": 951,
+    "exchange": 261,
+    "foreign_aid": 506,
+    "income": 2505,
+    "steal": 415,
+    "tax": 1882
+  },
+  "focal_events": {
+    "action": 6653,
+    "block": 1534,
+    "challenge": 1415,
+    "disproved": 77,
+    "eliminate": 386,
+    "exchange": 261,
+    "lose": 892,
+    "proved": 89
+  },
+  "focal_roles": {
+    "disproved:contessa": 77,
+    "lose:ambassador": 72,
+    "lose:assassin": 223,
+    "lose:captain": 229,
+    "lose:contessa": 200,
+    "lose:duke": 168,
+    "proved:ambassador": 2,
+    "proved:assassin": 8,
+    "proved:captain": 21,
+    "proved:contessa": 34,
+    "proved:duke": 24
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "search_09",
+    "field": "random",
+    "players": 6
+  },
+  "raw_sha256": "4da8ab10d55e3ea42a494cb35e83779653445c2078e026fee3df9e351acff6ff",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 34
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 38
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 37
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 36
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 30
+    },
+    "5": {
+      "draws": 0,
+      "games": 100,
+      "wins": 39
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "search_09",
+    "draws": 0,
+    "field": "random",
+    "games": 600,
+    "mean_turns": 61.873333333333335,
+    "players": 6,
+    "stage": "screening",
+    "win_rate": 0.3566666666666667,
+    "wins": 214
+  }
+}

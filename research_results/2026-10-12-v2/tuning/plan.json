@@ -1,0 +1,3053 @@
+{
+  "extra": {},
+  "fields": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "rational",
+    "learning",
+    "random",
+    "mixed"
+  ],
+  "global_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383",
+  "jobs": [
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "honest",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "bluffing",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "skeptical",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "rational",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "learning",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "random",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "mixed",
+      "players": 2
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "honest",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "bluffing",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "skeptical",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "rational",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "learning",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "random",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "mixed",
+      "players": 4
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "honest",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "bluffing",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "skeptical",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "rational",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "learning",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "random",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_00",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_01",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_02",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_03",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_04",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_05",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_06",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_07",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_08",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_09",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_10",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_11",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_12",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_13",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_14",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_15",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_16",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_17",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_18",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_19",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_20",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_21",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_22",
+      "field": "mixed",
+      "players": 6
+    },
+    {
+      "blocks": 32,
+      "candidate": "search_23",
+      "field": "mixed",
+      "players": 6
+    }
+  ],
+  "pairs": [],
+  "source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "stage": "tuning"
+}

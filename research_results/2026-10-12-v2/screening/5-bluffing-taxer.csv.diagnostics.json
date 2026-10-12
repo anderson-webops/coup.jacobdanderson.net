@@ -1,0 +1,79 @@
+{
+  "actions": {
+    "coup": 4065,
+    "tax": 12010
+  },
+  "events": {
+    "action": 16075,
+    "challenge": 260,
+    "disproved": 260,
+    "eliminate": 2000,
+    "lose": 4325
+  },
+  "focal_actions": {
+    "coup": 813,
+    "tax": 2402
+  },
+  "focal_events": {
+    "action": 3215,
+    "challenge": 52,
+    "disproved": 52,
+    "eliminate": 400,
+    "lose": 865
+  },
+  "focal_roles": {
+    "disproved:duke": 52,
+    "lose:ambassador": 176,
+    "lose:assassin": 173,
+    "lose:captain": 179,
+    "lose:contessa": 180,
+    "lose:duke": 157
+  },
+  "job": {
+    "blocks": 100,
+    "candidate": "taxer",
+    "field": "bluffing",
+    "players": 5
+  },
+  "raw_sha256": "1dd5ca5eda31044a5b579a15e3f718f6d6e5054327923f686c2cb3429b420bd9",
+  "seats": {
+    "0": {
+      "draws": 0,
+      "games": 100,
+      "wins": 58
+    },
+    "1": {
+      "draws": 0,
+      "games": 100,
+      "wins": 4
+    },
+    "2": {
+      "draws": 0,
+      "games": 100,
+      "wins": 21
+    },
+    "3": {
+      "draws": 0,
+      "games": 100,
+      "wins": 13
+    },
+    "4": {
+      "draws": 0,
+      "games": 100,
+      "wins": 4
+    }
+  },
+  "stage": "screening",
+  "summary": {
+    "blocks": 100,
+    "candidate": "taxer",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 500,
+    "mean_turns": 32.15,
+    "players": 5,
+    "stage": "screening",
+    "win_rate": 0.2,
+    "wins": 100
+  }
+}

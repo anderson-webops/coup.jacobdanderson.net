@@ -1,0 +1,102 @@
+{
+  "extra": {
+    "targets": [
+      "exchange",
+      "card_cautious"
+    ]
+  },
+  "fields": [
+    "vs_exchange",
+    "vs_card_cautious"
+  ],
+  "global_plan_sha256": "a8f5312f3cbce265b504a264a85ec4fe9a26a17c23005ca9889167218e46d383",
+  "jobs": [
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "vs_exchange",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "vs_exchange",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "vs_card_cautious",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "vs_card_cautious",
+      "players": 2
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "vs_exchange",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "exchange",
+      "field": "vs_exchange",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff_heavy",
+      "field": "vs_card_cautious",
+      "players": 4
+    },
+    {
+      "blocks": 1000,
+      "candidate": "card_cautious",
+      "field": "vs_card_cautious",
+      "players": 4
+    }
+  ],
+  "pairs": [
+    {
+      "field": "vs_exchange",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "exchange"
+    },
+    {
+      "field": "vs_card_cautious",
+      "first": "bluff_heavy",
+      "players": 2,
+      "second": "card_cautious"
+    },
+    {
+      "field": "vs_exchange",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "exchange"
+    },
+    {
+      "field": "vs_card_cautious",
+      "first": "bluff_heavy",
+      "players": 4,
+      "second": "card_cautious"
+    }
+  ],
+  "source_sha256": {
+    "analyze_strategy_research.py": "4b6bd9048e258f1779a5ee5941cd53f0594360792f72d4c559a4ac08ac5f45b5",
+    "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
+    "research_statistics.py": "918dada343347c4719a84edce45289534d50e33cf6968b6c6e51283923bb17b3",
+    "research_strategies.py": "92517790b134b6667503f56a833025e216722e176a735ce6000eff24e1372554",
+    "run_strategy_research.py": "7f3ef4659ab7ef910fffc1868e3e68193c6b2be1531f66116a76b9a06e0d3755",
+    "test_analyze_strategy_research.py": "f9c178338f8b18ed6f3523b899a82068dce1fda892b7f480714828fba266d7f6",
+    "test_extensive_rules.py": "0b0dcf09d652d0f67610dfbf1cbf7ec84105d09a604ae3818508c1076d9fb82a",
+    "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
+    "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
+    "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "stage": "counters"
+}
