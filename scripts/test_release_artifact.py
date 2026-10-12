@@ -87,7 +87,7 @@ class ReleaseArtifactTests(unittest.TestCase):
 
     def test_exact_release_roundtrip_and_public_only_archive(self) -> None:
         checked = verify_release(self.source, self.release,
-                                 expected_commit=COMMIT, expected_version="1.0.0")
+                                 expected_commit=COMMIT, expected_version=(self.source / "VERSION").read_text().strip())
         self.assertEqual(checked["deployment"]["application_id"], "coup.jacobdanderson.net")
         self.assertEqual(checked["deployment"]["readiness"]["address_families"], ["ipv4", "ipv6"])
         self.assertEqual(checked["source_commit"], COMMIT)
@@ -170,11 +170,18 @@ class ReleaseArtifactTests(unittest.TestCase):
                           source_commit=COMMIT, source_clean=False)
 
     def test_release_output_must_be_ignored_when_inside_checkout(self) -> None:
-        validate_output_directory(ROOT, ROOT / ".ai-work" / "runs" / "release-assets")
+        # Model both fresh-checkout and locally configured ignore states in
+        # an isolated repository instead of depending on the developer's Git.
+        subprocess.run(["git", "init", "-q", str(self.source)], check=True)
+        output = self.source / ".ai-work" / "runs" / "release-assets"
+        with self.assertRaisesRegex(ReleaseError, "not Git-ignored"):
+            validate_output_directory(self.source, output)
+        (self.source / ".git" / "info" / "exclude").write_text("/.ai-work/\n")
+        validate_output_directory(self.source, output)
         with self.assertRaisesRegex(ReleaseError, "ignored .ai-work"):
-            validate_output_directory(ROOT, ROOT / "dist" / "release-assets")
+            validate_output_directory(self.source, self.source / "dist" / "release-assets")
         with self.assertRaisesRegex(ReleaseError, "ignored .ai-work"):
-            validate_output_directory(ROOT, ROOT / "release-assets")
+            validate_output_directory(self.source, self.source / "release-assets")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 Requested site: `https://coup.jacobdanderson.net/`.
 Repository: `https://github.com/anderson-webops/coup.jacobdanderson.net`.
-Candidate release: `v1.0.0`; use its exact annotated tag, source commit, archive, `release-manifest.json`, and `SHA256SUMS`.
+Candidate release: `v1.0.1`; use its exact annotated tag, source commit, archive, `release-manifest.json`, and `SHA256SUMS`. The earlier `v1.0.0` tag is retained as an unaccepted candidate after CI found a test dependency on a local Git ignore setting.
 
 ## Current observed state, 12 October 2026
 
@@ -10,7 +10,8 @@ Candidate release: `v1.0.0`; use its exact annotated tag, source commit, archive
 - Public DNS queries return NXDOMAIN for both A and AAAA.
 - The reference `liarsdice.jacobdanderson.net` serves the verified static site through Nginx.
 - Its Route53 records are A `45.17.197.196` and AAAA `2600:1700:1960:2adf::41`, each TTL 300. These records are preserved.
-- The new source repository and release are independent of production host onboarding. A working Coup virtual host has not been established.
+- The reference edge rejects the Coup TLS hostname over both IPv4 and IPv6 when probed with the hostname and exact edge addresses. A working Coup virtual host has not been established.
+- The new source repository and release are independent of production host onboarding.
 
 ## Proposed exact DNS creation
 
