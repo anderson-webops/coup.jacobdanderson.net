@@ -50,6 +50,9 @@ class ResearchProtocolTests(unittest.TestCase):
             runner.freeze(path, {'source': 'original', 'blocks': 20})
             with self.assertRaises(ValueError): runner.freeze(path, {'source': 'changed', 'blocks': 20})
             self.assertEqual(json.loads(path.read_text())['source'], 'original')
+            arrays = Path(tmp) / 'arrays.json'
+            runner.freeze(arrays, {'lineup': ('a','b')})
+            runner.freeze(arrays, {'lineup': ['a','b']})
 
     def test_raw_identity_complete_blocks_replay_and_deterministic_gzip(self):
         job = {'players': 2, 'field': 'honest', 'candidate': 'baseline', 'blocks': 3}

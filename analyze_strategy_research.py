@@ -20,7 +20,7 @@ from research_statistics import StudyDataError, audit_panel, paired_compare
 
 
 PROJECT = Path(__file__).resolve().parent
-DEFAULT_STUDY = PROJECT / "research_results" / "2026-10-12"
+DEFAULT_STUDY = PROJECT / "research_results" / "2026-10-12-v2"
 STAGES = ("tuning", "screening", "confirmation", "counter_search",
           "counters", "ablations", "stress")
 RAW_COLUMNS = ("stage", "players", "field", "candidate", "block", "rotation",

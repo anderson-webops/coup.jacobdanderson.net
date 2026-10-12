@@ -15,7 +15,7 @@ from pathlib import Path
 from research_strategies import ResearchGame, configurations
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / 'research_results' / '2026-10-12'
+OUTPUT = ROOT / 'research_results' / '2026-10-12-v2'
 CONTROLS = ('baseline', 'income', 'foreign_aid', 'taxer', 'captain', 'assassin',
             'exchange', 'bluff_heavy', 'challenge_low', 'challenge_heavy', 'block_aggressive')
 ADVANCED = ('card_cautious', 'card_balanced', 'card_bold', 'public_learning',
@@ -52,6 +52,7 @@ def save_json(path, value):
 
 def freeze(path, value):
     """A completed or interrupted panel can resume only its exact frozen plan."""
+    value = json.loads(json.dumps(value))  # JSON arrays normalize tuple/list representation.
     if path.exists():
         if json.loads(path.read_text()) != value:
             raise ValueError(f'Frozen plan mismatch: {path}; use a new study directory')
