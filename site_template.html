@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#142b28">
-  <meta name="description" content="Coup strategy research across 2–6 players, seven opponent fields, independent confirmation, counters, and component tests.">
+  <meta name="description" content="Coup strategy recommendations, win-rate comparisons and counters across 2–6 players and seven opponent types.">
   <meta http-equiv="Content-Security-Policy" content="__CONTENT_SECURITY_POLICY__">
   <meta name="referrer" content="no-referrer">
   <link rel="canonical" href="https://coup.jacobdanderson.net/">
@@ -16,42 +16,28 @@
   <a class="skip-link" href="#main">Skip to results</a>
   <header class="topbar">
     <a class="brand" href="#top" aria-label="Coup Strategy Lab home"><span class="brand-mark">C</span><span>Coup Strategy Lab</span></a>
-    <nav aria-label="Main navigation"><a href="#research">Findings</a><a href="#research-explore">Compare</a><a href="#rules">Rules</a><a href="#method">Method</a></nav>
+    <nav aria-label="Main navigation"><a href="#research">Recommendations</a><a href="#research-explore">Compare</a><a href="#research-counters">Counters</a></nav>
   </header>
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Base game · reproducible simulation</p>
-        <h1>Every claim is a wager.</h1>
-        <p class="hero-lede">Income, bluffing, selective challenges, and survival all depend on the table. Compare tested strategies across 2–6 players and seven kinds of opponents.</p>
-        <div class="hero-actions"><a class="button primary" href="#research-explore">Explore the results <span aria-hidden="true">↗</span></a><a class="button secondary" href="#research-method">How this was tested</a></div>
-        <p class="hero-note">Rankings describe these programmed policies in their named matchups. They are not a solved strategy for human play.</p>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="card card-back"><span class="card-kicker">Influence</span><strong>?</strong><span class="card-foot">A hidden court</span></div>
-        <div class="card card-front"><span class="card-kicker">The Duke</span><strong>+3</strong><span class="card-foot">Tax or bluff</span></div>
-        <div class="coin coin-one">C</div><div class="coin coin-two">C</div>
-      </div>
-      <div class="hero-stats">
-        <div><strong>__RESEARCH_GAMES__</strong><span>new study games</span></div>
-        <div><strong>__RESEARCH_CONFIRM_GAMES__</strong><span>new confirmation games</span></div>
-        <div><strong>2–6</strong><span>players studied</span></div>
-        <div><strong>7</strong><span>opponent fields</span></div>
-      </div>
+    <section class="intro" id="top">
+      <p class="eyebrow">Coup · base game</p>
+      <h1>Which strategy fits your table?</h1>
+      <p>Compare win rates, find counters and see when bluffing or cautious play pays off.</p>
+      <p class="fineprint">2–6 players · 7 opponent types · __RESEARCH_CONFIRM_GAMES__ confirmation games</p>
     </section>
 
-    <section class="section findings" id="research">
-      <div class="section-heading"><div><p class="eyebrow">Expanded study · 12 October 2026</p><h2>Think about the opponent first</h2></div><p>The new study tunes a finite set of policies, selects contenders, then tests them on untouched seeds. Targeted counters and component removals receive separate panels.</p></div>
-      <div class="rule-grid">
-        <article><h3>Bluffs have a price</h3><p>Tax bluffs pay well when nobody challenges. Selective challengers change that calculation. Own cards and revealed cards can make a claim impossible.</p></article>
-        <article><h3>Survival changes choices</h3><p>Challenge risk, assassination, defensive cards, and threat targeting depend on remaining influence. A last-influence victim can also attempt a Contessa bluff block.</p></article>
-        <article><h3>Leaders can be countered</h3><p>A policy that beats one named target may perform poorly in other fields. The counter panel tests that narrower question separately.</p></article>
-        <article><h3>Small leads stay unresolved</h3><p>Rankings show observed rates. A stronger conclusion needs the preselected comparison and its uncertainty bounds. The strict simultaneous bounds often leave close matchups open.</p></article>
+    <section class="section recommendations" id="research">
+      <div class="section-heading"><h2>Strategy recommendations</h2><p>Observed leaders among the tested strategies. Choose for the opponent type; close rankings can remain uncertain.</p></div>
+      <div class="finding-grid">
+        <article class="recommendation"><h3>At smaller tables</h3><p id="small-table-advice"></p></article>
+        <article class="recommendation"><h3>At larger tables</h3><p id="large-table-advice"></p></article>
+        <article class="recommendation"><h3>Against frequent bluffers</h3><p>Challenge heavy led at two and three players. Its advantage over the preselected rival was supported by conservative bounds in both matchups.</p></article>
+        <article class="recommendation"><h3>Watch the weak matchup</h3><p>Bluff heavy struggles against opponents who challenge every claim. Exchange struggles against frequent bluffers. Use the weakest-field column before choosing.</p></article>
       </div>
     </section>
 
     <section class="section explore" id="research-explore">
-      <div class="section-heading"><div><p class="eyebrow">Independent confirmation · 2–6 players</p><h2>Compare strategies at your table</h2></div><p>All confirmation contenders face the same seat-balanced seed blocks. The seven fields are explicit scenarios, not a measured mix of human players.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Independent confirmation · 2–6 players</p><h2>Compare strategies at your table</h2></div><p>Compare 16 strategies against the selected opponent type. Rankings show observed win rates; the paired comparison below shows how certain its difference is.</p></div>
       <div class="explorer-panel">
         <div class="controls"><div class="selectors"><label>Players <select id="research-players"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label><label>Opponent field <select id="research-field"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="rational">Card balanced</option><option value="learning">Public learning</option><option value="random">Legal random</option><option value="mixed" selected>Mixed</option></select></label></div></div>
         <p id="research-description" class="field-description"></p>
@@ -59,8 +45,8 @@
         <div class="table-wrap"><table><caption id="research-caption">Expanded confirmation</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">Draws</th><th scope="col">Mean turns</th></tr></thead><tbody id="research-body"></tbody></table></div>
         <p id="research-comparison" class="fineprint"></p>
         <p id="research-bounds" class="fineprint"></p>
-        <p class="fineprint">Each row has 1,000 independent blocks, each containing all seat rotations. Draws remain in the denominator. Two-player games use the asymmetric starting-coin rule.</p>
-        <details><summary>What does a strategy do?</summary><label>Read a strategy <select id="strategy-profile"></select></label><p id="strategy-description"></p><p class="fineprint">These descriptions summarize the frozen programmed rules. Considering a bluff does not mean the bot always makes it. Exact settings and the utility assumptions are in the research bundle.</p></details>
+        <p class="fineprint">Each row uses 1,000 independent blocks with every seat rotation. Draws at the 1,000-action cap count as games. The first player starts with one coin in two-player games. Opponents are programmed strategies; rates do not predict human play.</p>
+        <details class="strategy-help"><summary>What does a strategy do?</summary><label>Read a strategy <select id="strategy-profile"></select></label><p id="strategy-description"></p><p class="fineprint">These are programmed decision rules. Bluff and preference settings describe the bot, rather than human behavior.</p></details>
       </div>
     </section>
 
@@ -68,108 +54,50 @@
       <div class="section-heading"><div><p class="eyebrow">Across the seven programmed fields</p><h2>When you do not know the opponent</h2></div><p>The equal-field average gives each tested opponent field the same weight. It is a descriptive comparison, not a measured frequency of human play or proof that one strategy beats every other finalist.</p></div>
       <p class="swipe-hint">Player count follows the selector above. Scroll sideways to see all columns.</p>
       <div class="table-wrap"><table><caption>Observed equal-field averages and weakest tested fields</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Average win rate</th><th scope="col">Lowest field rate</th><th scope="col">Lowest field</th></tr></thead><tbody id="research-robust-body"></tbody></table></div>
-      <p class="fineprint">These averages rank the confirmed union by observed rates. The paired intervals above cover only the preselected two-policy comparison in each field. Changing field weights can change these rankings; the findings download includes another weighting scenario.</p>
+      <p class="fineprint">These averages rank the confirmed union by observed rates. The paired intervals above cover only the preselected two-policy comparison in each field. Changing field weights can change these rankings; the averages do not establish a universal winner.</p>
     </section>
 
     <section class="section" id="research-counters">
-      <div class="section-heading"><div><p class="eyebrow">Fresh confirmation seeds</p><h2>Can a counter beat a named target?</h2></div><p>Two target policies were selected before primary confirmation. Each counter was selected on its own search panel, then retested. Rates below are conditional on copies of that target.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Fresh confirmation seeds</p><h2>Can a counter beat a named target?</h2></div><p>Bluff heavy beat copies of Exchange and Card cautious at two and four players. The control uses the target strategy against copies of itself; each counter was tested on fresh games.</p></div>
       <div class="table-wrap"><table><caption>Selected counters and target self-play controls</caption><thead><tr><th scope="col">Players</th><th scope="col">Target</th><th scope="col">Counter</th><th scope="col">Counter wins</th><th scope="col">Target control</th><th scope="col">Simultaneous 95% paired bounds</th><th scope="col">Finding</th></tr></thead><tbody id="counter-body"></tbody></table></div>
-      <p class="fineprint">Bounds are conservative and adjusted across four preselected comparisons. A supported counter has a paired interval entirely above zero against its target self-play control. Other comparisons remain unresolved or favor the control.</p>
+      <p class="fineprint">Bounds are conservative and adjusted across four preselected comparisons. A supported counter has a paired interval entirely above zero against its target self-play control. The result applies to that target population.</p>
     </section>
 
     <section class="section" id="research-ablations">
-      <div class="section-heading"><div><p class="eyebrow">One policy feature changed at a time</p><h2>Which choices matter?</h2></div><p>The public-learning policy is compared with four variants at two and four players. Some variants alter more than one closely related decision. These local effects can help in one setting and hurt in another.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">One policy feature changed at a time</p><h2>Which choices matter?</h2></div><p>Compare Public learning with four variants at two and four players. Positive values favor the full strategy. Some variants change more than one related choice, so the effects apply to these specific changes.</p></div>
       <div id="ablation-cards" class="finding-grid"></div>
-      <p class="fineprint">Cards show an equally weighted descriptive mean across 14 scenarios. The number of supported scenario effects uses conservative bounds adjusted across all 56 predeclared comparisons. The exact changes and individual results are in the strategy review and findings download.</p>
+      <p class="fineprint">Cards show an equally weighted descriptive mean across 14 scenarios. The number of supported scenario effects uses conservative bounds adjusted across all 56 predeclared comparisons. These effects describe this strategy, rather than the general value of learning or targeting.</p>
     </section>
 
-    <section class="section method" id="research-method">
-      <div class="section-heading"><div><p class="eyebrow">Testing and reproducibility</p><h2>A larger study with separate stages</h2></div><p>Every action in the new study is checked for card conservation, valid influence, nonnegative coins, and elimination state. Independent tests also check information boundaries and reproducibility.</p></div>
-      <div class="method-layout"><div class="method-points">
-        <div><strong>Search without reusing confirmation</strong><p>24 parameter configurations are tuned first. Screening compares six selected tuners, seven richer named strategies, and eleven original controls. The union of the top two in each matchup plus three controls advances without an arbitrary cap.</p></div>
-        <div><strong>Two uncertainty methods</strong><p>Preselected paired differences use approximate simultaneous normal bounds and conservative Hoeffding bounds across 35 primary comparisons. A positive normal bound alone is labeled approximate evidence; a strict bound crossing zero leaves the comparison unresolved.</p></div>
-        <div><strong>Public information only</strong><p>New strategies estimate card availability from their own hand and revealed cards. Claim credibility and action values are heuristic assumptions. Learning uses public events and resets every game. Strategy decisions use a separate random stream from the deck.</p></div>
-        <div><strong>Independent verification</strong><p>All 2,814,728 saved outcomes were independently audited. A second checker reconstructed 26,912 games from the plans and matched every winner and turn count. The automated suite has 122 tests covering rules, policy information boundaries, statistical audits, publication, and release integrity.</p></div>
-        <div><strong>Limits that remain</strong><p>This is finite policy research, not an optimality proof or a human-play forecast. The simulator uses clockwise response priority, an unlimited Treasury, and automatic proof of held cards. It omits negotiations and expansions.</p></div>
-      </div><aside class="evidence-box"><h3>Inspect the expanded evidence</h3><a href="./evidence/strategy-findings.md" download>Strategy findings and practical guide</a><a href="./evidence/research-findings.json" download>Findings and interval data</a><a href="./evidence/research-confirmation.csv" download>Confirmation results CSV</a><a href="./evidence/research-replay-audit.json" download>Independent replay receipt</a><a href="./evidence/research-evidence.tar.gz" download>Complete frozen research bundle</a><a href="./evidence/research-design.md" download>Study design</a><a href="./evidence/strategy-review.md" download>Strategy reasoning and audit</a><a href="./evidence/rules-test-review.md" download>Rules testing review</a><a href="./evidence/replay-audit-review.md" download>Replay audit method</a><a href="./evidence/research_strategies.py" download>Richer strategy definitions</a></aside></div>
-    </section>
+    <div class="section earlier-results">
+      <details id="earlier-results"><summary>Earlier strategy comparisons</summary>
+        <section class="section findings" id="findings">
+          <div class="section-heading"><div><p class="eyebrow">Initial study · 10 October 2026</p><h2>The original four-player findings</h2></div><p>Four-player confirmation compares simpler strategies. These results use a different decision model from the main table; compare rates within each study.</p></div>
+          <div id="finding-cards" class="finding-grid"></div>
+          <p class="fineprint">An observed leader has the highest measured rate among confirmed finalists. The top-two pairs were selected in screening. Their paired intervals are adjusted across the four field comparisons.</p>
+        </section>
 
-    <section class="section policies" id="research-policies">
-      <div class="section-heading"><div><p class="eyebrow">Expanded study policy guide</p><h2>What the newer bots try</h2></div><p>The names below describe decision rules, not personalities or proven winners. Their exact parameters are in the downloadable research bundle.</p></div>
-      <div class="policy-grid">
-        <article><h3>Card cautious</h3><p>Uses visible card counts and selective challenges, makes only held-card action claims, and avoids ordinary bluff blocks. It can still make a last-chance Contessa claim when assassination would end the game.</p></article>
-        <article><h3>Card balanced</h3><p>Uses card availability and threat scoring with occasional action and block bluffs.</p></article>
-        <article><h3>Card bold</h3><p>Tries bluffs and block bluffs more often and accepts more challenge risk.</p></article>
-        <article><h3>Public learning</h3><p>Updates a rough opponent reliability estimate from public proofs and failed claims, and reacts to the table's challenge rate.</p></article>
-        <article><h3>Eliminator</h3><p>Gives assassination a higher action score when it can be afforded.</p></article>
-        <article><h3>Defensive</h3><p>Values keeping Contessa more highly when opponents can afford assassination, while bluffing less.</p></article>
-        <article><h3>Exchange builder</h3><p>Tries Ambassador exchanges more often when it lacks Duke, then keeps cards using the current table state.</p></article>
-        <article><h3>Legal random</h3><p>Samples a legal action on each turn, including a Coup from seven coins; its other decisions still follow fixed rules.</p></article>
-      </div>
-    </section>
+        <section class="section explore" id="explore">
+          <div class="section-heading"><div><p class="eyebrow">Earlier comparisons</p><h2>Compare the original policies</h2></div><p>The initial confirmation covers four players. Its wider screening covers 2–6 players and all eleven original policies.</p></div>
+          <div class="explorer-panel">
+            <div class="controls">
+              <div class="mode-switch" role="group" aria-label="Study panel"><button id="mode-confirm" class="active" type="button" aria-pressed="true">Confirmed · 4 players</button><button id="mode-screen" type="button" aria-pressed="false">Screening · 2–6 players</button></div>
+              <div class="selectors"><label>Players <select id="players-select"></select></label><label>Opponent field <select id="field-select"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="mixed">Mixed</option></select></label></div>
+            </div>
+            <p id="field-description" class="field-description"></p>
+            <p class="swipe-hint">Scroll the table sideways to see rates, intervals, and draws.</p>
+            <div class="table-wrap"><table><caption id="table-caption">Policy win rates</caption><thead><tr><th scope="col">Rank</th><th scope="col">Policy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">95% interval</th><th scope="col">Draws</th></tr></thead><tbody id="results-body"></tbody></table></div>
+            <p id="panel-note" class="fineprint"></p>
+            <details class="strategy-help"><summary>What does an earlier strategy do?</summary><label>Read a strategy <select id="initial-strategy-profile"></select></label><p id="initial-strategy-description"></p></details>
+            <p class="fineprint">Individual win-rate intervals use the Wilson method. Finding cards use paired bounds adjusted over four comparisons. Draws remain in the denominator.</p>
+          </div>
+        </section>
 
-    <section class="section findings" id="findings">
-      <div class="section-heading"><div><p class="eyebrow">Initial study · 10 October 2026</p><h2>The original four-player findings</h2></div><p>The original __SCREEN_GAMES__ screening games and __CONFIRM_GAMES__ confirmation games remain unchanged. These simpler policies use a different decision-randomness protocol; compare rates within each study.</p></div>
-      <div id="finding-cards" class="finding-grid"></div>
-      <p class="fineprint">An observed leader has the highest measured rate among confirmed finalists. The top-two pairs were selected in screening. Their paired intervals are adjusted across the four field comparisons.</p>
-    </section>
-
-    <section class="section explore" id="explore">
-      <div class="section-heading"><div><p class="eyebrow">Initial study archive</p><h2>Compare the original policies</h2></div><p>The initial confirmation covers four players. Its wider screening covers 2–6 players and all eleven original policies.</p></div>
-      <div class="explorer-panel">
-        <div class="controls">
-          <div class="mode-switch" role="group" aria-label="Study panel"><button id="mode-confirm" class="active" type="button" aria-pressed="true">Confirmed · 4 players</button><button id="mode-screen" type="button" aria-pressed="false">Screening · 2–6 players</button></div>
-          <div class="selectors"><label>Players <select id="players-select"></select></label><label>Opponent field <select id="field-select"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="mixed">Mixed</option></select></label></div>
-        </div>
-        <p id="field-description" class="field-description"></p>
-        <p class="swipe-hint">Scroll the table sideways to see rates, intervals, and draws.</p>
-        <div class="table-wrap"><table><caption id="table-caption">Policy win rates</caption><thead><tr><th scope="col">Rank</th><th scope="col">Policy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">95% interval</th><th scope="col">Draws</th></tr></thead><tbody id="results-body"></tbody></table></div>
-        <p id="panel-note" class="fineprint"></p>
-      </div>
-    </section>
-
-    <section class="section rules" id="rules">
-      <div class="section-heading"><div><p class="eyebrow">The rulebook model</p><h2>Claims, challenges, and costs</h2></div><p>Every game uses the standard five-role, fifteen-card court deck. Two influence cards are dealt to each player.</p></div>
-      <div class="rule-grid">
-        <article><span class="rule-number">01</span><h3>One action per turn</h3><p>Income gives 1 coin, Foreign Aid gives 2, Tax claims Duke for 3, and a Coup costs 7. A player starting a turn with at least 10 coins must Coup.</p></article>
-        <article><span class="rule-number">02</span><h3>Claim a role or bluff</h3><p>Assassin pays 3 to attack, Captain steals up to 2, and Ambassador exchanges with the court. A truthful claim survives a challenge and still resolves after the challenger loses influence.</p></article>
-        <article><span class="rule-number">03</span><h3>Blocks can be challenged</h3><p>Duke blocks Foreign Aid, Contessa blocks assassination, and Captain or Ambassador blocks stealing. A proven block holds; a disproved block fails.</p></article>
-        <article><span class="rule-number">04</span><h3>The Assassin's fee</h3><p>A successful Contessa block leaves the 3-coin fee spent. A successful challenge to the Assassin claim cancels the action and refunds the fee if the actor remains in play.</p></article>
-      </div>
-      <p class="source-line">Rules checked against the <a href="https://www.qugs.org/rules/r131357.pdf">base Coup rulebook PDF</a> and <a href="https://rules.dized.com/game/xzsTtI3VTV-2wvos3otxIg/coup">Dized Coup rules</a>.</p>
-    </section>
-
-    <section class="section policies" id="policies">
-      <div class="section-heading"><div><p class="eyebrow">Initial study policy guide</p><h2>What the original bots do</h2></div><p>These eleven heuristics Coup as soon as they have seven coins; the rulebook requires a Coup only at ten. After two failed actions, they take guaranteed Income once. The expanded policies above use different choices.</p></div>
-      <div class="policy-grid">
-        <article><h3>Baseline</h3><p>Claims only held roles. Prioritizes Duke tax, then Captain steals, occasional Ambassador exchanges, and Foreign Aid. Challenges impossible claims.</p></article>
-        <article><h3>Income</h3><p>Takes guaranteed Income until a Coup is affordable.</p></article>
-        <article><h3>Foreign Aid</h3><p>Seeks 2 coins per turn, subject to Duke blocks.</p></article>
-        <article><h3>Taxer</h3><p>Claims Duke tax on every non-Coup turn, including as a bluff.</p></article>
-        <article><h3>Captain</h3><p>Claims a steal whenever another player has coins, whether or not it holds Captain.</p></article>
-        <article><h3>Assassin</h3><p>Claims assassination at 3 or more coins and uses Foreign Aid to fund it.</p></article>
-        <article><h3>Exchange</h3><p>Sometimes exchanges when holding Ambassador without Duke; otherwise follows the truthful baseline.</p></article>
-        <article><h3>Bluff heavy</h3><p>Claims Tax without checking its hand and claims blocks whenever possible.</p></article>
-        <article><h3>Challenge low</h3><p>Uses baseline actions; sometimes challenges Assassin, Captain, or Contessa claims.</p></article>
-        <article><h3>Challenge heavy</h3><p>Uses baseline actions and challenges every role claim.</p></article>
-        <article><h3>Block aggressive</h3><p>Uses baseline actions but claims any available block, even without the card.</p></article>
-      </div>
-    </section>
-
-    <section class="section method" id="method">
-      <div class="section-heading"><div><p class="eyebrow">Evidence and limits</p><h2>How to read these numbers</h2></div><p>The simulator rotates a distinct focal player through every seat. Each candidate in the same matchup uses the same initial seed panel; mixed opponents cycle across positions.</p></div>
-      <div class="method-layout">
-        <div class="method-points">
-          <div><strong>Win rate</strong><p>Wins divided by all scheduled games, including games that reached the 1,000-action cap. Draws have their own column.</p></div>
-          <div><strong>Uncertainty</strong><p>Table intervals are 95% Wilson intervals for a policy's win rate. Finding cards use paired differences for the four preselected top-two pairs, with a simultaneous 95% correction.</p></div>
-          <div><strong>Scope</strong><p>Policies use only private cards and public information. The model omits negotiation, optional variants, and the choice to decline proof of a held role. Response priority is clockwise when several players could act.</p></div>
-          <div><strong>Two players</strong><p>The first seat starts with one coin under the base two-player rule. View those exploratory results separately from standard multiplayer games.</p></div>
-        </div>
-        <aside class="evidence-box"><h3>Reproduce or inspect</h3><p>The source, per-game outcomes, seat rows, study manifest, and rule citations are kept together. Prior invalid CSVs are clearly archived outside the active results.</p><a href="./evidence/confirmation-results.csv" download>Confirmed results CSV</a><a href="./evidence/confirmation-games.csv" download>Confirmed games CSV</a><a href="./evidence/screening-results.csv" download>Screening results CSV</a><a href="./evidence/screening-games.csv" download>Screening games CSV</a><a href="./evidence/confirmation-manifest.json" download>Confirmation manifest</a><a href="./evidence/screening-manifest.json" download>Screening manifest</a><a href="./evidence/coup_simulator.py" download>Simulator source</a><a href="./evidence/run_experiments.py" download>Study runner</a><a href="./evidence/source-ledger.md" download>Source ledger</a></aside>
-      </div>
-    </section>
+      </details>
+      <p class="fineprint">Base-game simulations use private cards and public information, clockwise response priority and automatic proof of held roles. Negotiation and expansions are outside these results.</p>
+    </div>
   </main>
-  <footer><span>Coup Strategy Lab</span><span>Expanded snapshot · 12 October 2026</span><a href="https://github.com/anderson-webops/coup.jacobdanderson.net">Source on GitHub</a><a href="#top">Back to top ↑</a></footer>
+  <footer><span>Coup Strategy Lab · Results updated 12 October 2026</span><a href="#top">Back to top ↑</a></footer>
   <script id="study-data" type="application/json">__STUDY_DATA__</script>
   <script>
   (() => {
@@ -220,6 +148,7 @@
         if (index===0) tr.className='leader-row';
         tbody.append(tr);
       });
+      const selected=originalProfile.value;originalProfile.replaceChildren();rows.forEach(row=>{const option=document.createElement('option');option.value=row.policy;option.textContent=labels[row.policy];originalProfile.append(option);});if(rows.some(row=>row.policy===selected))originalProfile.value=selected;renderOriginalProfile();
       document.getElementById('panel-note').textContent=mode==='confirmation'
         ? 'Finalists were selected using the screening panel, then measured here on separate seeds. Ranked by observed win rate; close estimates may remain unresolved.'
         : 'Screening rates identify candidates for further testing. The two-player setup is asymmetric, so compare only rows within this exact player count and field.';
@@ -227,7 +156,7 @@
     modeConfirm.addEventListener('click',()=>setMode('confirmation'));
     modeScreen.addEventListener('click',()=>setMode('screening'));
     playersSelect.addEventListener('change',render); fieldSelect.addEventListener('change',render);
-    setMode('confirmation');
+
 
     // The expanded study is separate from the byte-preserved initial panels.
     const research=data.research;
@@ -236,7 +165,12 @@
     const name=id=>rNames[id]||(id.startsWith('search_')?'Tuned '+id.slice(7):id.replaceAll('_',' '));
     const rFields={honest:'All opponents use the truthful baseline.',bluffing:'All opponents use the bluff-heavy policy: usually claiming Tax, attempting blocks, and funding Coups.',skeptical:'All opponents challenge every role claim.',rational:'All opponents use card-balanced selective decisions.',learning:'All opponents update behavior estimates from public events within this game.',random:'All opponents sample legal actions under the frozen random policy.',mixed:'Opponents cycle seven types: baseline, bluff-heavy, challenge-heavy, card-balanced, public-learning, legal-random, and eliminator. Composition changes by block and player count.'};
     const profile=document.getElementById('strategy-profile');
-    const recipes={baseline:'Claims held roles, favoring Tax, Steal, occasional Exchange, and Foreign Aid. Challenges impossible claims.',assassin:'Claims assassination whenever affordable and uses Foreign Aid to fund it. The claim can be a bluff.',block_aggressive:'Uses truthful baseline actions and attempts every available block, including bluffs.',bluff_heavy:'Claims Tax on non-Coup turns and attempts every available block, including bluffs.',challenge_heavy:'Uses truthful baseline actions and challenges every role claim.',exchange:'Sometimes exchanges when holding Ambassador without Duke, then follows the truthful baseline.',foreign_aid:'Uses Foreign Aid to fund Coups, subject to Duke blocks.',taxer:'Claims Duke Tax on every non-Coup turn, whether or not it holds Duke.'};
+    const recipes={income:'Takes guaranteed Income until a Coup is affordable.',captain:'Claims Steal whenever an opponent has coins, even without Captain.',challenge_low:'Uses truthful baseline actions, challenges impossible claims, and challenges Assassin, Captain or Contessa claims with a 15% chance.',baseline:'Claims held roles, favoring Tax, Steal, occasional Exchange, and Foreign Aid. Challenges impossible claims.',assassin:'Claims assassination whenever affordable and uses Foreign Aid to fund it. The claim can be a bluff.',block_aggressive:'Uses truthful baseline actions and attempts every available block, including bluffs.',bluff_heavy:'Claims Tax on non-Coup turns and attempts every available block, including bluffs.',challenge_heavy:'Uses truthful baseline actions and challenges every role claim.',exchange:'Sometimes exchanges when holding Ambassador without Duke, then follows the truthful baseline.',foreign_aid:'Uses Foreign Aid to fund Coups, subject to Duke blocks.',taxer:'Claims Duke Tax on every non-Coup turn, whether or not it holds Duke.'};
+    const originalProfile=document.getElementById('initial-strategy-profile');
+    function renderOriginalProfile() {
+      document.getElementById('initial-strategy-description').textContent=labels[originalProfile.value]+': '+recipes[originalProfile.value]+' Coups at seven coins; takes guaranteed Income after two failed actions.';
+    }
+    originalProfile.addEventListener('change',renderOriginalProfile);
     function renderProfile() {
       const id=profile.value,cfg=data.research_configs[id];
       let description=recipes[id];
@@ -245,6 +179,10 @@
       document.getElementById('strategy-description').textContent=name(id)+': '+description;
     }
     profile.addEventListener('change',renderProfile);
+    setMode('confirmation');
+    const broadRate=(n,id)=>pct(research.equal_field_robustness.find(row=>Number(row.players)===n&&row.candidate===id).equal_field_mean);
+    document.getElementById('small-table-advice').textContent=`Bluff heavy had the highest equal-field average at two players (${broadRate(2,'bluff_heavy')}) and three (${broadRate(3,'bluff_heavy')}). These averages weight all seven opponent types equally.`;
+    document.getElementById('large-table-advice').textContent=`Exchange led the equal-field averages at four (${broadRate(4,'exchange')}), five (${broadRate(5,'exchange')}) and six players (${broadRate(6,'exchange')}). Its advantage depends on the opponent mix.`;
     const rFieldNames={honest:'Honest',bluffing:'Bluffing',skeptical:'Skeptical',rational:'Card balanced',learning:'Public learning',random:'Legal random',mixed:'Mixed'};
     function appendCells(tbody,values) {
       const tr=document.createElement('tr');
@@ -261,7 +199,7 @@
       const pair=research.confirmation_pairs.find(p=>Number(p.players)===n&&p.field===field);
       const status=pair.conservative_family_lower>0?'Conservative bounds support the preselected first policy.':pair.conservative_family_upper<0?'Conservative bounds support the preselected second policy.':pair.normal_family_lower>0?'Approximate bounds support the first policy; conservative bounds leave it unresolved.':pair.normal_family_upper<0?'Approximate bounds support the second policy; conservative bounds leave it unresolved.':'The preselected difference remains unresolved.';
       document.getElementById('research-comparison').textContent=`Preselected comparison: ${name(pair.first)} versus ${name(pair.second)}. Paired difference ${signed(pair.difference)}. ${status}`;
-      document.getElementById('research-bounds').textContent=`Simultaneous 95% paired bounds: approximate ${signed(pair.normal_family_lower)} to ${signed(pair.normal_family_upper)}; conservative ${signed(pair.conservative_family_lower)} to ${signed(pair.conservative_family_upper)}. Rankings above can differ from this frozen screening pair.`;
+      document.getElementById('research-bounds').textContent=`Simultaneous 95% paired bounds: approximate ${signed(pair.normal_family_lower)} to ${signed(pair.normal_family_upper)}; conservative ${signed(pair.conservative_family_lower)} to ${signed(pair.conservative_family_upper)}. Bounds cover 35 preselected comparisons. They do not test every ranked difference.`;
       const broad=research.equal_field_robustness.filter(row=>Number(row.players)===n)
         .sort((a,b)=>Number(b.equal_field_mean)-Number(a.equal_field_mean)||a.candidate.localeCompare(b.candidate));
       const robustBody=document.getElementById('research-robust-body');robustBody.replaceChildren();

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "review_scope": "Reviewed original 2026-10-10 evidence and completed expanded 2026-10-12-v2 study, exact frozen sources, every raw outcome, saved paired findings, independent replay receipt, strategy explanations, desktop and mobile browser behavior, and complete 29-file publication inventory.",
+  "review_scope": "Reviewed v1.1.1 statistics and strategy presentation: removed decorative hero, rules tutorial, testing/reproducibility narrative, download rails and repeated policy guides; consolidated descriptions and collapsed earlier comparisons. Independently reviewed recommendations and uncertainty, all 35 matchups/560 rows, 16 main and 11 earlier strategy profiles, 24 earlier panels, desktop and phone behavior. Only index.html, site.css and publication.json changed; all frozen research, embedded study data and 25 evidence-file hashes and the favicon are unchanged.",
   "research_source_commit": "880fa13",
   "research_source_sha256": {
     "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
@@ -141,18 +141,18 @@
     },
     "index.html": {
       "media_type": "text/html",
-      "sha256": "0a3515624d6ce4ce7d4eb82fe0ab9022775bf4415728711be326b4b7e15a3868",
-      "size": 293794
+      "sha256": "3ba28eddaed74403ab73c1995927a87e5bfdf32a8399889f3647ae74f6985eeb",
+      "size": 284189
     },
     "publication.json": {
       "media_type": "application/json",
-      "sha256": "12b8c8a2670c436249bbce49e3dd4b10a85ef180dceeeb54c34aad9808acc153",
+      "sha256": "54e92e7d391fee5c4fc38426f21b66545046190a757db4735ff880b57eb0ed35",
       "size": 291
     },
     "site.css": {
       "media_type": "text/css",
-      "sha256": "43e3ab4c9e815bbd5a035a6a28cae1d84777c1d53782229b68fcc45a4dcfb18e",
-      "size": 10123
+      "sha256": "f0a5589a983de0bda9a1e0038ec0a54c2c1821903dcb48ce1d9ac981c88b4225",
+      "size": 5870
     }
   },
   "expanded_research_preregistration_commit": "12ab9e1",

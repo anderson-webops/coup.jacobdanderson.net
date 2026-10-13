@@ -2,7 +2,7 @@
 
 A reproducible simulator and results page for the standard Coup bluffing game. The frozen rules engine models the five roles, all base actions, challenges, counteractions, influence loss, exchanges, and the two-player starting-coin rule. The expanded study adds card-aware decisions, conditional bluffs, public-history learning, threat targeting, adaptive card retention, and finite parameter tuning. Results identify which **tested policy** performed well in a named simulated matchup; they do not solve human Coup.
 
-Open [the local findings page](dist/index.html) after running the commands below. Expanded conclusions are in [docs/STRATEGY_FINDINGS.md](docs/STRATEGY_FINDINGS.md), with precise paired results in [the expanded findings](research_results/2026-10-12-v2/FINDINGS.md). The initial study remains in [FINDINGS.md](FINDINGS.md). The rule sources are listed in [SOURCE_LEDGER.md](SOURCE_LEDGER.md).
+Open [the local findings page](dist/index.html) after running the commands below. The page focuses on statistics and strategy, with earlier comparisons and strategy definitions collapsed. Research and verification details are maintained in this repository. Expanded conclusions are in [docs/STRATEGY_FINDINGS.md](docs/STRATEGY_FINDINGS.md), with precise paired results in [the expanded findings](research_results/2026-10-12-v2/FINDINGS.md). The initial study remains in [FINDINGS.md](FINDINGS.md). The rule sources are listed in [SOURCE_LEDGER.md](SOURCE_LEDGER.md).
 
 ## Expanded strategy research
 
@@ -80,7 +80,7 @@ The model omits negotiations, nonbinding deals, expansion roles, team rules, and
 | [scripts/audit_research_replay.py](scripts/audit_research_replay.py) | Independent lineup reconstruction and strict saved-game replays |
 | [build_site.py](build_site.py) | Builds the static local recap and evidence bundle |
 | [check_site.py](check_site.py) | Checks page data and downloaded files against the frozen study |
-| [dist/index.html](dist/index.html) | Interactive result table, rules, method, and downloads |
+| [dist/index.html](dist/index.html) | Strategy recommendations, interactive win-rate comparisons, counters and component analysis |
 
 ## GitHub and publication
 
