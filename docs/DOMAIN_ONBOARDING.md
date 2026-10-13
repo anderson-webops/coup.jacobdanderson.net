@@ -1,48 +1,40 @@
-# Custom-domain activation handoff
+# Coup public activation handoff
 
-Requested site: `https://coup.jacobdanderson.net/`.
-Repository: `https://github.com/anderson-webops/coup.jacobdanderson.net`.
-Published expanded release: [`v1.1.0`](https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.1.0), with annotated tag object `c86591d43ccc822bbbd816333993244f93479983` at source `ef14949540a4c2c251cc95c513509ddb5c530ab5`. Use its exact archive, `release-manifest.json`, and `SHA256SUMS`. The prior `v1.0.1` release is retained unchanged. The earlier `v1.0.0` tag is retained as an unaccepted candidate after CI found a test dependency on a local Git ignore setting.
+## Current request and delivery checkpoint
 
-## Current observed state, 12 October 2026
+Last actual request: “remove all of the extraneous informaiton that doesn't deal directly with statistics and strategy recommendations/analysis.” The focused page and its immutable source release are complete. Chat answer-delivery status is unknown in this file; the receipt establishes source/release delivery, not whether the final chat response has been sent.
 
-- Route53 public zone `jacobdanderson.net`, ID `Z08458053I46F5AMNP63`, now contains the approved Coup A and AAAA records shown below.
-- Both records were explicitly approved by the user and created at 22:07:20 UTC on 12 October 2026. Change ID: `C10022743CO3ZAMWZ2HWM`. Route53 reports INSYNC and the authoritative nameserver returns both exact addresses.
-- The reference `liarsdice.jacobdanderson.net` serves the verified static site through Nginx.
-- Its Route53 records are A `45.17.197.196` and AAAA `2600:1700:1960:2adf::41`, each TTL 300. These records are preserved.
-- At 23:06 UTC, public Coup HTTPS returned 200 over both exact IPv4 and IPv6 edge addresses. Both homepage bodies match the v1.0.1 digest `4d8eed601b9095dbb0ffa157f633ad44b928c43844cc8c1316771ec374db7384`, and the reviewed CSP and response headers are present. This verifies the original homepage, not the expanded candidate.
-- At 2026-10-12T23:44:24.352983+00:00, direct IPv4 and IPv6 HTTPS returned 200 from the exact approved addresses, but `/publication.json` still identifies version `1.0.1` and has SHA-256 `85892bbdbf78707b09f040b247e9eb105f96b0dbd6cc7ffa1ce2ca184af374e4`. The expanded version is not publicly accepted. See [validation/v1.1.0-public-state.json](validation/v1.1.0-public-state.json).
-- The new source repository and release are independent of production host onboarding.
+Domain: `https://coup.jacobdanderson.net/`. Repository: `https://github.com/anderson-webops/coup.jacobdanderson.net`.
 
-## Completed exact DNS creation
+Latest release: [v1.1.1](https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.1.1), annotated tag object `2140fcc918102fb13c22ab7923542df6e839dcdb`, source `3e5ace43c9734c61d5df43a592ab9bdb8311b358`. All 133 tests and exact-source [GitHub CI 38337042262](https://github.com/anderson-webops/coup.jacobdanderson.net/actions/runs/38337042262) passed. Local, Linux CI and GitHub assets have matching hashes. See [source/release proof](validation/v1.1.1-source.json) and [presentation review](PRESENTATION_REVIEW.md).
 
-The approved records match the Liar's Dice edge:
+## Public observation and next action
+
+At 2026-10-13T02:36:13.326278+00:00, direct HTTPS publication identities were ipv4=1.1.0, ipv6=1.1.0. The v1.1.1 public acceptance gates have not passed. See [the public-state receipt](validation/v1.1.1-public-state.json).
+
+Protected server automation must activate the exact v1.1.1 release, then verify all 29 file hashes, required response headers and real 404 over both HTTPS address families.
+
+## Retained domain configuration
+
+The explicitly approved Route53 CREATE change `C10022743CO3ZAMWZ2HWM` created only these two records on 12 October 2026; its completed INSYNC receipt is retained in the earlier publication evidence. No DNS or production configuration was changed during the presentation task. Preserve both records, working routing and TLS.
 
 | Name | Type | TTL | Value |
 | --- | --- | ---: | --- |
 | coup.jacobdanderson.net. | A | 300 | 45.17.197.196 |
 | coup.jacobdanderson.net. | AAAA | 300 | 2600:1700:1960:2adf::41 |
 
-The user approved these exact records in this publication task before the mutation. The prior state was rechecked and preserved as absence; the mutation used atomic CREATE operations rather than overwriting records. Rollback removes only these newly created records after separately authorized rollback. The existing Liar's Dice and other domain records are preserved.
-
-## Expanded research release
-
-Version 1.1.0 contains the separately frozen expanded study, an independent replay receipt, strategy explanations, counter and component panels, and a complete downloadable evidence bundle. The release manifest and checksums are the exact asset and response-policy authority. Do not reuse earlier inline-script hashes with this release.
-
-All 133 tests and the complete raw audit pass on the tagged source. [GitHub CI 38322612775](https://github.com/anderson-webops/coup.jacobdanderson.net/actions/runs/38322612775) passed every required gate. The Linux CI assets match the independently verified local package, and all three GitHub asset sizes and digests match.
+## Exact immutable release assets
 
 | Asset | SHA-256 |
 | --- | --- |
-| `coup-site-v1.1.0-ef14949540a4.tar.gz` | `ee5b2cc59fd4d0bddec6172c53d915bf535f20b83f5661b3a9e991fbc212e0fc` |
-| `release-manifest.json` | `160bb57d69ae5476ae41dcaeb959fb5a5631842ef930eaea576a8e82a3916506` |
-| `SHA256SUMS` | `2c9a06b34c710efb8748b5dbb3ff373fb9df44ba93c6ab3ee11a586b2e404325` |
+| `coup-site-v1.1.1-3e5ace43c973.tar.gz` | `5848c612c8055fba5a1fbb2aa98eb5fdc6900831d714409fcf8f085651396907` |
+| `release-manifest.json` | `16e9db55174446b7210485dbd30254b0d01d942002b32d4e5fe3575cbde0792e` |
+| `SHA256SUMS` | `4fdad1c7a5e3bbbaf10dfbadde2dbc888cf1e4bdb447326f59a81f939ac4ee39` |
 
-The expected expanded homepage SHA-256 is `0a3515624d6ce4ce7d4eb82fe0ab9022775bf4415728711be326b4b7e15a3868`. Source/release proof is retained in [validation/v1.1.0-source.json](validation/v1.1.0-source.json). Public acceptance is separate; no server-side activation status was available to this source task.
+Homepage SHA-256: `3ba28eddaed74403ab73c1995927a87e5bfdf32a8399889f3647ae74f6985eeb`. Version 1.1.1 changes presentation only; all frozen research and evidence bytes are unchanged. Earlier application tags and releases remain immutable.
 
-## Protected host work
+## Protected hosting requirements
 
-The protected operator or server automation must stage the expanded immutable release, affirm the capabilities declared in `deployment-contract.json`, stage the exact immutable archive, preserve working domain routing and TLS, and apply the release's `site_policy` headers. The script policy for Coup includes exact inline-script hashes; Liar's Dice's `script-src 'none'` policy cannot be copied unchanged because Coup's filters require the reviewed script.
+Only the archive’s `dist/` contents belong in the public root. The manifest’s `site_policy` supplies exact inline-script hashes and all required headers. Keep release controls outside the public root. Confirm the declared capabilities in `deployment-contract.json`, preserve immutable rollback releases and verify exact asset bytes, response headers and missing-path 404 over both HTTPS address families.
 
-Only `dist/` is public. No application process, database, credentials, or writable state is needed. Keep release control files outside the public root. Confirm exact homepage and asset hashes and the missing-path 404 over both HTTPS address families before accepting activation. Honor the first-activation absent-state rollback and retain immutable releases afterward.
-
-Source agents must not connect to or administer the host. A GitHub release, passing CI, or new DNS record alone does not prove that the requested site is serving the accepted bytes.
+Source agents must not connect to or administer production. Protected server automation owns staging and activation. A source push or GitHub release alone does not prove public activation.
