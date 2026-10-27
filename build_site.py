@@ -15,8 +15,9 @@ from pathlib import Path
 from analyze_results import verify_manifest
 from verify_strategy_research import verify_research
 from check_site import verify_research_findings
+from expansion_publication import build_expansion_publication
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
 EVIDENCE = DIST / "evidence"
 RESEARCH = ROOT / "research_results" / "2026-10-12-v2"
@@ -93,7 +94,7 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(file))
 
 
-def main() -> None:
+def main() -> dict:
     verify_manifest(ROOT)
     verify_manifest(ROOT / "confirmation")
     findings = json.loads((ROOT / "findings.json").read_text())
@@ -136,6 +137,9 @@ def main() -> None:
         "research": research,
         "research_configs": plan['configurations'],
     }
+    EVIDENCE.mkdir(parents=True, exist_ok=True)
+    expansion = build_expansion_publication(ROOT, EVIDENCE)
+    data.update({key: expansion[key] for key in ('expansion', 'expansion_configs')})
     template = (ROOT / "site_template.html").read_text()
     embedded = json.dumps(data, separators=(",", ":")).replace("<", "\\u003c")
     html = (template
@@ -191,6 +195,7 @@ def main() -> None:
         "confirmation_games": findings["confirmation_games"],
         'expanded_study_games': research['total_games'],
         'expanded_confirmation_games': research['stages']['confirmation']['games'],
+        **expansion['publication'],
     }, indent=2) + "\n")
     (ROOT / "security").mkdir(exist_ok=True)
     (ROOT / "security" / "site-policy.json").write_text(json.dumps({
@@ -207,7 +212,9 @@ def main() -> None:
             raise ValueError(f"broken evidence link: {href}")
     if html.count('class="finding-card"') != 0:
         raise ValueError("finding cards should be populated from the frozen data")
-    print(f"Built {DIST / 'index.html'} with {len(screening)} screening rows and {len(confirmation)} confirmation rows")
+    print(f"Built {DIST / 'index.html'} with preserved base evidence and "
+          f"{expansion['expansion']['total_games']:,} expansion games")
+    return {'expansion_study': expansion['anchor'], **expansion['publication']}
 
 
 if __name__ == "__main__":

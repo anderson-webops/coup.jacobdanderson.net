@@ -2,7 +2,7 @@
 
 Shared Sites policy (`../AGENTS.md` when available) applies. In a standalone checkout:
 
-- Deliver coherent validated changes to main, with an annotated immutable tag and GitHub release for deployable states.
+- Commit coherent validated increments frequently and push completed work to `main`. Group deployable changes into meaningful milestones with a new immutable annotated tag and verified GitHub release, then follow protected deployment through read-only public acceptance checks or report the exact remaining blocker.
 - Never SSH, SCP, SFTP, tunnel to, configure access to, or administer production. Protected server automation owns activation. Source push and release do not prove custom-domain publication.
 - Preserve all existing A and AAAA records. DNS or external infrastructure mutations require explicit authorization for exact records and effects.
 - Preserve the frozen study input/output bytes. The active 10 October study is bound by manifests; archived drafts are not research evidence. New studies need separate frozen plans, panels, independent source review, and updated claims.

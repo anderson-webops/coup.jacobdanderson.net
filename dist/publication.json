@@ -1,10 +1,14 @@
 {
   "application_id": "coup.jacobdanderson.net",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "research_snapshot": "2026-10-12",
   "initial_research_snapshot": "2026-10-10",
   "screening_games": 88000,
   "confirmation_games": 168000,
   "expanded_study_games": 2814728,
-  "expanded_confirmation_games": 2240000
+  "expanded_confirmation_games": 2240000,
+  "expansion_snapshot": "2026-10-18",
+  "expansion_study_games": 1908576,
+  "expansion_confirmation_games": 1620000,
+  "expansion_replayed_games": 25380
 }

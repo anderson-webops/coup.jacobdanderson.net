@@ -1,0 +1,42 @@
+{
+  "diagnostics": {
+    "action_assassinate": 319,
+    "action_coup": 111,
+    "action_foreign_aid": 729,
+    "action_steal": 153,
+    "action_tax": 527,
+    "block": 1033,
+    "challenge": 12,
+    "claim": 2032,
+    "elimination": 63,
+    "focal_assassinate": 305,
+    "focal_coup": 54,
+    "focal_foreign_aid": 81,
+    "focal_steal": 74,
+    "focal_tax": 408,
+    "influence_loss": 158,
+    "proof": 12
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "treasury",
+    "field": "honest",
+    "players": 2,
+    "profile": "reformation"
+  },
+  "raw_sha256": "bd3a8c6eddf999086ea35e1b296ff5d7343371aaf638953f6a625068856f3f18",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "treasury",
+    "draws": 1,
+    "field": "honest",
+    "games": 64,
+    "mean_turns": 28.734375,
+    "players": 2,
+    "profile": "reformation",
+    "stage": "screening",
+    "win_rate": 0.578125,
+    "wins": 37
+  }
+}

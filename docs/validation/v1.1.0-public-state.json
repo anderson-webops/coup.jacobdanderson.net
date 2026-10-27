@@ -54,7 +54,6 @@
       }
     ]
   },
-  "next_required_action": "Protected server automation must activate the exact v1.1.0 immutable release, then verify all 29 files, required headers and real 404 over both direct HTTPS address families.",
   "observed_publication": {
     "application_id": "coup.jacobdanderson.net",
     "confirmation_games": 168000,

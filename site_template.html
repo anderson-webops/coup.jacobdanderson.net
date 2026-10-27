@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#142b28">
-  <meta name="description" content="Coup strategy recommendations, win-rate comparisons and counters across 2–6 players and seven opponent types.">
+  <meta name="description" content="Coup and Reformation strategy comparisons, win rates and targeted counters for tables of up to ten players.">
   <meta http-equiv="Content-Security-Policy" content="__CONTENT_SECURITY_POLICY__">
   <meta name="referrer" content="no-referrer">
   <link rel="canonical" href="https://coup.jacobdanderson.net/">
@@ -16,88 +16,125 @@
   <a class="skip-link" href="#main">Skip to results</a>
   <header class="topbar">
     <a class="brand" href="#top" aria-label="Coup Strategy Lab home"><span class="brand-mark">C</span><span>Coup Strategy Lab</span></a>
-    <nav aria-label="Main navigation"><a href="#research">Recommendations</a><a href="#research-explore">Compare</a><a href="#research-counters">Counters</a></nav>
+    <nav aria-label="Main navigation"><a id="nav-recommendations" href="#research">Recommendations</a><a id="nav-compare" href="#research-explore">Compare</a><a id="nav-counters" href="#research-counters">Counters</a></nav>
   </header>
   <main id="main">
     <section class="intro" id="top">
-      <p class="eyebrow">Coup · base game</p>
-      <h1>Which strategy fits your table?</h1>
-      <p>Compare win rates, find counters and see when bluffing or cautious play pays off.</p>
-      <p class="fineprint">2–6 players · 7 opponent types · __RESEARCH_CONFIRM_GAMES__ confirmation games</p>
+      <h1>Coup strategy</h1>
+      <label class="rules-control">Rules <select id="rules-profile"><option value="base">Base game</option><option value="reformation">Reformation · Ambassador</option><option value="inquisitor">Inquisitor only</option><option value="combined">Reformation · Inquisitor</option></select></label>
+      <p id="study-scope" class="fineprint">Base game · 2–6 players · 7 opponent types · __RESEARCH_CONFIRM_GAMES__ confirmation games</p>
     </section>
 
+    <div id="base-results">
     <section class="section recommendations" id="research">
-      <div class="section-heading"><h2>Strategy recommendations</h2><p>Observed leaders among the tested strategies. Choose for the opponent type; close rankings can remain uncertain.</p></div>
+      <div class="section-heading"><h2>Recommendations</h2></div>
       <div class="finding-grid">
         <article class="recommendation"><h3>At smaller tables</h3><p id="small-table-advice"></p></article>
         <article class="recommendation"><h3>At larger tables</h3><p id="large-table-advice"></p></article>
         <article class="recommendation"><h3>Against frequent bluffers</h3><p>Challenge heavy led at two and three players. Its advantage over the preselected rival was supported by conservative bounds in both matchups.</p></article>
-        <article class="recommendation"><h3>Watch the weak matchup</h3><p>Bluff heavy struggles against opponents who challenge every claim. Exchange struggles against frequent bluffers. Use the weakest-field column before choosing.</p></article>
+        <article class="recommendation"><h3>Watch the weak matchup</h3><p>Bluff heavy struggles against opponents who challenge every claim. Exchange struggles against frequent bluffers.</p></article>
       </div>
     </section>
 
     <section class="section explore" id="research-explore">
-      <div class="section-heading"><div><p class="eyebrow">Independent confirmation · 2–6 players</p><h2>Compare strategies at your table</h2></div><p>Compare 16 strategies against the selected opponent type. Rankings show observed win rates; the paired comparison below shows how certain its difference is.</p></div>
+      <div class="section-heading"><h2>Win rates by opponent</h2></div>
       <div class="explorer-panel">
         <div class="controls"><div class="selectors"><label>Players <select id="research-players"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label><label>Opponent field <select id="research-field"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="rational">Card balanced</option><option value="learning">Public learning</option><option value="random">Legal random</option><option value="mixed" selected>Mixed</option></select></label></div></div>
         <p id="research-description" class="field-description"></p>
-        <p class="swipe-hint">Scroll sideways to see all columns.</p>
-        <div class="table-wrap"><table><caption id="research-caption">Expanded confirmation</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">Draws</th><th scope="col">Mean turns</th></tr></thead><tbody id="research-body"></tbody></table></div>
+        <div class="table-wrap"><table><caption id="research-caption">Base-game confirmation</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">Draws</th><th scope="col">Mean turns</th></tr></thead><tbody id="research-body"></tbody></table></div>
         <p id="research-comparison" class="fineprint"></p>
         <p id="research-bounds" class="fineprint"></p>
         <p class="fineprint">Each row uses 1,000 independent blocks with every seat rotation. Draws at the 1,000-action cap count as games. The first player starts with one coin in two-player games. Opponents are programmed strategies; rates do not predict human play.</p>
-        <details class="strategy-help"><summary>What does a strategy do?</summary><label>Read a strategy <select id="strategy-profile"></select></label><p id="strategy-description"></p><p class="fineprint">These are programmed decision rules. Bluff and preference settings describe the bot, rather than human behavior.</p></details>
+        <details class="strategy-help"><summary>Strategy definitions</summary><label>Strategy <select id="strategy-profile"></select></label><p id="strategy-description"></p></details>
       </div>
     </section>
 
     <section class="section explore" id="research-broad">
-      <div class="section-heading"><div><p class="eyebrow">Across the seven programmed fields</p><h2>When you do not know the opponent</h2></div><p>The equal-field average gives each tested opponent field the same weight. It is a descriptive comparison, not a measured frequency of human play or proof that one strategy beats every other finalist.</p></div>
-      <p class="swipe-hint">Player count follows the selector above. Scroll sideways to see all columns.</p>
-      <div class="table-wrap"><table><caption>Observed equal-field averages and weakest tested fields</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Average win rate</th><th scope="col">Lowest field rate</th><th scope="col">Lowest field</th></tr></thead><tbody id="research-robust-body"></tbody></table></div>
-      <p class="fineprint">These averages rank the confirmed union by observed rates. The paired intervals above cover only the preselected two-policy comparison in each field. Changing field weights can change these rankings; the averages do not establish a universal winner.</p>
+      <div class="section-heading"><div><h2>When you do not know the opponent</h2></div><p>The equal-field average gives each tested opponent field the same weight.</p></div>
+      <div class="table-wrap"><table><caption id="research-robust-caption">Equal-field averages and weakest tested fields</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Average win rate</th><th scope="col">Lowest field rate</th><th scope="col">Lowest field</th></tr></thead><tbody id="research-robust-body"></tbody></table></div>
+      <p class="fineprint">Field weights can change these rankings. The paired bounds do not test these averages.</p>
     </section>
 
     <section class="section" id="research-counters">
-      <div class="section-heading"><div><p class="eyebrow">Fresh confirmation seeds</p><h2>Can a counter beat a named target?</h2></div><p>Bluff heavy beat copies of Exchange and Card cautious at two and four players. The control uses the target strategy against copies of itself; each counter was tested on fresh games.</p></div>
+      <div class="section-heading"><div><h2>Targeted counters</h2></div><p>The control uses the target strategy against copies of itself; each counter was tested on fresh games.</p></div>
       <div class="table-wrap"><table><caption>Selected counters and target self-play controls</caption><thead><tr><th scope="col">Players</th><th scope="col">Target</th><th scope="col">Counter</th><th scope="col">Counter wins</th><th scope="col">Target control</th><th scope="col">Simultaneous 95% paired bounds</th><th scope="col">Finding</th></tr></thead><tbody id="counter-body"></tbody></table></div>
       <p class="fineprint">Bounds are conservative and adjusted across four preselected comparisons. A supported counter has a paired interval entirely above zero against its target self-play control. The result applies to that target population.</p>
     </section>
 
     <section class="section" id="research-ablations">
-      <div class="section-heading"><div><p class="eyebrow">One policy feature changed at a time</p><h2>Which choices matter?</h2></div><p>Compare Public learning with four variants at two and four players. Positive values favor the full strategy. Some variants change more than one related choice, so the effects apply to these specific changes.</p></div>
+      <div class="section-heading"><div><h2>Which choices matter?</h2></div><p>Public learning is compared with four variants at two and four players. Positive values favor the full strategy. Some variants change more than one related choice, so the effects apply to these specific changes.</p></div>
       <div id="ablation-cards" class="finding-grid"></div>
-      <p class="fineprint">Cards show an equally weighted descriptive mean across 14 scenarios. The number of supported scenario effects uses conservative bounds adjusted across all 56 predeclared comparisons. These effects describe this strategy, rather than the general value of learning or targeting.</p>
+      <p class="fineprint">Mean effects give each of 14 scenarios equal weight. Supported effects use conservative bounds across 56 predeclared comparisons.</p>
     </section>
 
     <div class="section earlier-results">
       <details id="earlier-results"><summary>Earlier strategy comparisons</summary>
         <section class="section findings" id="findings">
-          <div class="section-heading"><div><p class="eyebrow">Initial study · 10 October 2026</p><h2>The original four-player findings</h2></div><p>Four-player confirmation compares simpler strategies. These results use a different decision model from the main table; compare rates within each study.</p></div>
+          <div class="section-heading"><div><p class="eyebrow">Initial study · 10 October 2026</p><h2>Four-player findings</h2></div><p>Four-player confirmation compares simpler strategies. These results use a different decision model from the main table; compare rates within each study.</p></div>
           <div id="finding-cards" class="finding-grid"></div>
-          <p class="fineprint">An observed leader has the highest measured rate among confirmed finalists. The top-two pairs were selected in screening. Their paired intervals are adjusted across the four field comparisons.</p>
+          <p class="fineprint">The top-two pairs were selected in screening. Their paired intervals are adjusted across the four field comparisons.</p>
         </section>
 
         <section class="section explore" id="explore">
-          <div class="section-heading"><div><p class="eyebrow">Earlier comparisons</p><h2>Compare the original policies</h2></div><p>The initial confirmation covers four players. Its wider screening covers 2–6 players and all eleven original policies.</p></div>
+          <div class="section-heading"><h2>Original strategies</h2></div>
           <div class="explorer-panel">
             <div class="controls">
               <div class="mode-switch" role="group" aria-label="Study panel"><button id="mode-confirm" class="active" type="button" aria-pressed="true">Confirmed · 4 players</button><button id="mode-screen" type="button" aria-pressed="false">Screening · 2–6 players</button></div>
               <div class="selectors"><label>Players <select id="players-select"></select></label><label>Opponent field <select id="field-select"><option value="honest">Honest</option><option value="bluffing">Bluffing</option><option value="skeptical">Skeptical</option><option value="mixed">Mixed</option></select></label></div>
             </div>
             <p id="field-description" class="field-description"></p>
-            <p class="swipe-hint">Scroll the table sideways to see rates, intervals, and draws.</p>
             <div class="table-wrap"><table><caption id="table-caption">Policy win rates</caption><thead><tr><th scope="col">Rank</th><th scope="col">Policy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">95% interval</th><th scope="col">Draws</th></tr></thead><tbody id="results-body"></tbody></table></div>
             <p id="panel-note" class="fineprint"></p>
-            <details class="strategy-help"><summary>What does an earlier strategy do?</summary><label>Read a strategy <select id="initial-strategy-profile"></select></label><p id="initial-strategy-description"></p></details>
-            <p class="fineprint">Individual win-rate intervals use the Wilson method. Finding cards use paired bounds adjusted over four comparisons. Draws remain in the denominator.</p>
+            <details class="strategy-help"><summary>Strategy definitions</summary><label>Strategy <select id="initial-strategy-profile"></select></label><p id="initial-strategy-description"></p></details>
+            <p class="fineprint">Individual win-rate intervals use the Wilson method. Draws remain in the denominator.</p>
           </div>
         </section>
 
       </details>
-      <p class="fineprint">Base-game simulations use private cards and public information, clockwise response priority and automatic proof of held roles. Negotiation and expansions are outside these results.</p>
+      <p class="fineprint">Base-game simulations use private cards and public information, clockwise response priority and automatic proof of held roles. Negotiation and expansions are outside the base-game results.</p>
+    </div>
+    </div>
+
+    <div id="expansion-results" hidden>
+      <section class="section recommendations" id="expansion-recommendations">
+        <div class="section-heading"><h2>Recommendations</h2></div>
+        <div class="selectors"><label>Players <select id="expansion-players"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></label><label>Opponent field <select id="expansion-field"><option value="honest">Truthful</option><option value="bluffing">Tax bluffers</option><option value="skeptical">Always challenge</option><option value="adaptive">Balanced</option><option value="mixed" selected>Mixed</option></select></label></div>
+        <div class="finding-grid expansion-advice">
+          <article class="recommendation"><h3>Across opponent fields</h3><p id="expansion-broad-advice"></p></article>
+          <article class="recommendation"><h3>Selected matchup</h3><p id="expansion-matchup-advice"></p></article>
+          <article class="recommendation"><h3>Weakest matchup</h3><p id="expansion-weak-advice"></p></article>
+        </div>
+        <p class="fineprint">The two strategies with the highest equal-field screening averages advanced to fresh confirmation games at each player count.</p>
+      </section>
+
+      <section class="section explore" id="expansion-compare">
+        <div class="section-heading"><h2>Win rates by opponent</h2></div>
+        <div class="explorer-panel">
+          <div class="selectors"><label>Evidence <select id="expansion-stage"><option value="confirmation">Confirmation · 2 finalists</option><option value="screening">Screening · 8 strategies</option></select></label></div>
+          <p id="expansion-field-description" class="field-description"></p>
+          <div class="table-wrap"><table><caption id="expansion-caption">Expansion confirmation</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Wins / games</th><th scope="col">Win rate</th><th scope="col">Draws</th><th scope="col">Mean turns</th></tr></thead><tbody id="expansion-body"></tbody></table></div>
+          <p id="expansion-pair" class="fineprint"></p>
+          <p id="expansion-bounds" class="fineprint"></p>
+          <p id="expansion-panel-note" class="fineprint"></p>
+          <details class="strategy-help"><summary>Strategy definitions</summary><label>Strategy <select id="expansion-strategy"></select></label><p id="expansion-strategy-description"></p></details>
+        </div>
+      </section>
+
+      <section class="section" id="expansion-broad">
+        <div class="section-heading"><h2>When you do not know the opponent</h2></div>
+        <div class="table-wrap"><table><caption id="expansion-broad-caption">Equal-field averages of the two finalists</caption><thead><tr><th scope="col">Rank</th><th scope="col">Strategy</th><th scope="col">Average win rate</th><th scope="col">Lowest field rate</th><th scope="col">Lowest field</th></tr></thead><tbody id="expansion-broad-body"></tbody></table></div>
+        <p class="fineprint">Each of the five opponent fields has equal weight. These averages are descriptive; the paired bounds apply separately within each field.</p>
+      </section>
+
+      <section class="section" id="expansion-counters">
+        <div class="section-heading"><h2>Targeted counters</h2></div>
+        <div class="table-wrap"><table><caption id="expansion-counter-caption">Counters and target self-play controls</caption><thead><tr><th scope="col">Players</th><th scope="col">Target</th><th scope="col">Counter</th><th scope="col">Counter wins</th><th scope="col">Target control</th><th scope="col">Simultaneous 95% paired bounds</th><th scope="col">Finding</th></tr></thead><tbody id="expansion-counter-body"></tbody></table></div>
+        <p class="fineprint">Targets led screening. Counters were selected in separate search games, then tested against copies of the target, with target self-play as the control. Conservative bounds cover all six expansion counter comparisons.</p>
+        <p id="expansion-model-note" class="fineprint"></p>
+      </section>
     </div>
   </main>
-  <footer><span>Coup Strategy Lab · Results updated 12 October 2026</span><a href="#top">Back to top ↑</a></footer>
+  <footer><span>Results updated 18 October 2026</span><a href="#top">Back to top ↑</a></footer>
   <script id="study-data" type="application/json">__STUDY_DATA__</script>
   <script>
   (() => {
@@ -150,8 +187,8 @@
       });
       const selected=originalProfile.value;originalProfile.replaceChildren();rows.forEach(row=>{const option=document.createElement('option');option.value=row.policy;option.textContent=labels[row.policy];originalProfile.append(option);});if(rows.some(row=>row.policy===selected))originalProfile.value=selected;renderOriginalProfile();
       document.getElementById('panel-note').textContent=mode==='confirmation'
-        ? 'Finalists were selected using the screening panel, then measured here on separate seeds. Ranked by observed win rate; close estimates may remain unresolved.'
-        : 'Screening rates identify candidates for further testing. The two-player setup is asymmetric, so compare only rows within this exact player count and field.';
+        ? 'Finalists were selected in screening and measured on separate confirmation seeds.'
+        : 'Screening is exploratory. The two-player setup is asymmetric; compare rates within each player count and field.';
     }
     modeConfirm.addEventListener('click',()=>setMode('confirmation'));
     modeScreen.addEventListener('click',()=>setMode('screening'));
@@ -163,26 +200,26 @@
     const rPlayers=document.getElementById('research-players'), rField=document.getElementById('research-field');
     const rNames={...labels,card_cautious:'Card cautious',card_balanced:'Card balanced',card_bold:'Card bold',public_learning:'Public learning',eliminator:'Eliminator',defensive:'Defensive',exchange_builder:'Exchange builder',public_random:'Legal random'};
     const name=id=>rNames[id]||(id.startsWith('search_')?'Tuned '+id.slice(7):id.replaceAll('_',' '));
-    const rFields={honest:'All opponents use the truthful baseline.',bluffing:'All opponents use the bluff-heavy policy: usually claiming Tax, attempting blocks, and funding Coups.',skeptical:'All opponents challenge every role claim.',rational:'All opponents use card-balanced selective decisions.',learning:'All opponents update behavior estimates from public events within this game.',random:'All opponents sample legal actions under the frozen random policy.',mixed:'Opponents cycle seven types: baseline, bluff-heavy, challenge-heavy, card-balanced, public-learning, legal-random, and eliminator. Composition changes by block and player count.'};
+    const rFields={honest:'All opponents use the truthful baseline.',bluffing:'All opponents use the bluff-heavy policy: usually claiming Tax, attempting blocks, and funding Coups.',skeptical:'All opponents challenge every role claim.',rational:'All opponents use card-balanced selective decisions.',learning:'All opponents update behavior estimates from public events within this game.',random:'All opponents sample legal actions under the legal-random policy.',mixed:'Opponents cycle seven types: baseline, bluff-heavy, challenge-heavy, card-balanced, public-learning, legal-random, and eliminator. Composition changes by block and player count.'};
     const profile=document.getElementById('strategy-profile');
     const recipes={income:'Takes guaranteed Income until a Coup is affordable.',captain:'Claims Steal whenever an opponent has coins, even without Captain.',challenge_low:'Uses truthful baseline actions, challenges impossible claims, and challenges Assassin, Captain or Contessa claims with a 15% chance.',baseline:'Claims held roles, favoring Tax, Steal, occasional Exchange, and Foreign Aid. Challenges impossible claims.',assassin:'Claims assassination whenever affordable and uses Foreign Aid to fund it. The claim can be a bluff.',block_aggressive:'Uses truthful baseline actions and attempts every available block, including bluffs.',bluff_heavy:'Claims Tax on non-Coup turns and attempts every available block, including bluffs.',challenge_heavy:'Uses truthful baseline actions and challenges every role claim.',exchange:'Sometimes exchanges when holding Ambassador without Duke, then follows the truthful baseline.',foreign_aid:'Uses Foreign Aid to fund Coups, subject to Duke blocks.',taxer:'Claims Duke Tax on every non-Coup turn, whether or not it holds Duke.'};
     const originalProfile=document.getElementById('initial-strategy-profile');
     function renderOriginalProfile() {
-      document.getElementById('initial-strategy-description').textContent=labels[originalProfile.value]+': '+recipes[originalProfile.value]+' Coups at seven coins; takes guaranteed Income after two failed actions.';
+      document.getElementById('initial-strategy-description').textContent=recipes[originalProfile.value]+' Coups at seven coins; takes guaranteed Income after two failed actions.';
     }
     originalProfile.addEventListener('change',renderOriginalProfile);
     function renderProfile() {
       const id=profile.value,cfg=data.research_configs[id];
       let description=recipes[id];
-      if(cfg) description=`${cfg.bluff===0?'Uses held roles for action claims.':'Sometimes considers a false role claim for an action.'} ${cfg.block_bluff===0?'Uses truthful blocks, plus a possible survival bluff against lethal assassination.':'May bluff blocks, including a survival bluff against lethal assassination.'} Estimates claim credibility from card availability. ${cfg.history?'Updates estimates from public events within the game.':'Uses fixed assumptions about claim behavior.'} Usually Coups at ${cfg.coup_at} coins and must Coup at 10. ${cfg.target==='richest'?'Attack targets favor rich opponents.':'Attack targets favor low influence and visible coin threats.'} Values cards using current coins and visible opponents. Model settings: challenge pressure ${cfg.challenge_scale}, assassination preference weight ${cfg.attack}, exchange consideration probability ${cfg.exchange} when holding Ambassador without Duke, and defensive card weight ${cfg.defense}. Larger settings increase the corresponding preference; they are heuristic values, not calibrated human probabilities.`;
+      if(cfg) description=`${cfg.bluff===0?'Uses held roles for action claims.':'Sometimes considers a false role claim for an action.'} ${cfg.block_bluff===0?'Uses truthful blocks, plus a possible survival bluff against lethal assassination.':'May bluff blocks, including a survival bluff against lethal assassination.'} Estimates claim credibility from card availability. ${cfg.history?'Updates estimates from public events within the game.':'Uses fixed assumptions about claim behavior.'} Usually Coups at ${cfg.coup_at} coins and must Coup at 10. ${cfg.target==='richest'?'Attack targets favor rich opponents.':'Attack targets favor low influence and visible coin threats.'} Values cards using current coins and visible opponents.`;
       else description+=' Coups at seven coins; uses guaranteed Income after two failed actions.';
-      document.getElementById('strategy-description').textContent=name(id)+': '+description;
+      document.getElementById('strategy-description').textContent=description;
     }
     profile.addEventListener('change',renderProfile);
     setMode('confirmation');
     const broadRate=(n,id)=>pct(research.equal_field_robustness.find(row=>Number(row.players)===n&&row.candidate===id).equal_field_mean);
-    document.getElementById('small-table-advice').textContent=`Bluff heavy had the highest equal-field average at two players (${broadRate(2,'bluff_heavy')}) and three (${broadRate(3,'bluff_heavy')}). These averages weight all seven opponent types equally.`;
-    document.getElementById('large-table-advice').textContent=`Exchange led the equal-field averages at four (${broadRate(4,'exchange')}), five (${broadRate(5,'exchange')}) and six players (${broadRate(6,'exchange')}). Its advantage depends on the opponent mix.`;
+    document.getElementById('small-table-advice').textContent=`Bluff heavy had the highest equal-field average at two players (${broadRate(2,'bluff_heavy')}) and three (${broadRate(3,'bluff_heavy')}).`;
+    document.getElementById('large-table-advice').textContent=`Exchange led the equal-field averages at four (${broadRate(4,'exchange')}), five (${broadRate(5,'exchange')}) and six players (${broadRate(6,'exchange')}).`;
     const rFieldNames={honest:'Honest',bluffing:'Bluffing',skeptical:'Skeptical',rational:'Card balanced',learning:'Public learning',random:'Legal random',mixed:'Mixed'};
     function appendCells(tbody,values) {
       const tr=document.createElement('tr');
@@ -195,13 +232,14 @@
       rows.forEach((row,i)=>appendCells(body,[i+1,name(row.candidate),`${countFormat.format(row.wins)} / ${countFormat.format(row.games)}`,pct(row.win_rate),countFormat.format(row.draws),Number(row.mean_turns).toFixed(1)]));
       const previousProfile=profile.value;profile.replaceChildren();rows.forEach(row=>{const option=document.createElement('option');option.value=row.candidate;option.textContent=name(row.candidate);profile.append(option);});if(rows.some(row=>row.candidate===previousProfile))profile.value=previousProfile;renderProfile();
       document.getElementById('research-description').textContent=rFields[field];
-      document.getElementById('research-caption').textContent=`${n}-player ${field} field · expanded held-out confirmation`;
+      document.getElementById('research-caption').textContent=`${n}-player ${field} field · base-game held-out confirmation`;
       const pair=research.confirmation_pairs.find(p=>Number(p.players)===n&&p.field===field);
       const status=pair.conservative_family_lower>0?'Conservative bounds support the preselected first policy.':pair.conservative_family_upper<0?'Conservative bounds support the preselected second policy.':pair.normal_family_lower>0?'Approximate bounds support the first policy; conservative bounds leave it unresolved.':pair.normal_family_upper<0?'Approximate bounds support the second policy; conservative bounds leave it unresolved.':'The preselected difference remains unresolved.';
       document.getElementById('research-comparison').textContent=`Preselected comparison: ${name(pair.first)} versus ${name(pair.second)}. Paired difference ${signed(pair.difference)}. ${status}`;
       document.getElementById('research-bounds').textContent=`Simultaneous 95% paired bounds: approximate ${signed(pair.normal_family_lower)} to ${signed(pair.normal_family_upper)}; conservative ${signed(pair.conservative_family_lower)} to ${signed(pair.conservative_family_upper)}. Bounds cover 35 preselected comparisons. They do not test every ranked difference.`;
       const broad=research.equal_field_robustness.filter(row=>Number(row.players)===n)
         .sort((a,b)=>Number(b.equal_field_mean)-Number(a.equal_field_mean)||a.candidate.localeCompare(b.candidate));
+      document.getElementById('research-robust-caption').textContent=`${n}-player equal-field averages and weakest tested fields`;
       const robustBody=document.getElementById('research-robust-body');robustBody.replaceChildren();
       broad.forEach((row,i)=>appendCells(robustBody,[i+1,name(row.candidate),pct(row.equal_field_mean),pct(row.worst_rate),rFieldNames[row.worst_field]]));
     }
@@ -219,9 +257,80 @@
       const article=document.createElement('article');article.className='finding-card';
       const title=document.createElement('h3');title.textContent=label;
       const rate=document.createElement('div');rate.className='finding-rate';rate.textContent=signed(mean);
-      const desc=document.createElement('p');desc.textContent=`Full policy minus this variant, averaged across ${pairs.length} scenarios. Conservatively supported gains: ${positive}; losses: ${negative}.`;
+      const desc=document.createElement('p');desc.textContent=`Conservatively supported gains: ${positive}; losses: ${negative}.`;
       article.append(title,rate,desc);document.getElementById('ablation-cards').append(article);
     }
+
+    const expansion=data.expansion;
+    const rules=document.getElementById('rules-profile');
+    const ePlayers=document.getElementById('expansion-players'),eField=document.getElementById('expansion-field');
+    const eStage=document.getElementById('expansion-stage'),eStrategy=document.getElementById('expansion-strategy');
+    const eNames={honest:'Truthful economy',bluff:'Tax bluffer',skeptic:'Always challenge',treasury:'Treasury seeker',shield:'Defensive conversion',converter:'Active conversion',information:'Information seeker',balanced:'Balanced'};
+    const eFieldNames={honest:'Truthful',bluffing:'Tax bluffers',skeptical:'Always challenge',adaptive:'Balanced',mixed:'Mixed'};
+    const eOpponentText={honest:'truthful opponents',bluffing:'tax bluffers',skeptical:'opponents who always challenge',adaptive:'balanced opponents',mixed:'the mixed field'};
+    const eFields={honest:'All opponents use Truthful economy: held-role actions and blocks, and challenges only when a claim is impossible.',bluffing:'All opponents use Tax bluffer: Tax on non-Coup turns and every legal block, including bluffs.',skeptical:'All opponents use Always challenge: every role claim is challenged.',adaptive:'All opponents use Balanced: selective challenges and a mix of available actions.',mixed:'Opponents cycle through all eight strategies across blocks. The mix changes with player count.'};
+    const eDescriptions={honest:'Claims held roles, challenges impossible claims and uses truthful blocks. Coups at seven coins.',bluff:'Claims Tax on non-Coup turns and attempts every legal block, including bluffs. Coups at seven coins.',skeptic:'Challenges every role claim, uses held-role actions and sometimes bluffs a block. Coups at seven coins.',treasury:'Gives reserve withdrawals extra weight, permits some action and block bluffs, and uses selective challenges. Coups at seven coins.',shield:'Prioritizes conversion when it protects against a visible coin threat, keeps defensive cards and bluffs rarely. Usually Coups at eight coins.',converter:'Gives conversion extra weight when it reduces immediate threats; also uses the reserve and selective challenges. Coups at seven coins.',information:'Values exchanges and examinations, uses still-valid private inspections when challenging and makes occasional bluffs. Usually Coups at eight coins.',balanced:'Balances available income, threat-aware conversion, card retention, examination and selective challenges. Coups at seven coins.'};
+    const eProfileNames={inquisitor:'Inquisitor only',reformation:'Reformation · Ambassador',combined:'Reformation · Inquisitor'};
+    function pairStatus(pair) {
+      if(pair.conservative_family_lower>0) return `Conservative bounds favor ${eNames[pair.first]}.`;
+      if(pair.conservative_family_upper<0) return `Conservative bounds favor ${eNames[pair.second]}.`;
+      if(pair.normal_family_lower>0) return `Approximate bounds favor ${eNames[pair.first]}; conservative bounds leave the difference unresolved.`;
+      if(pair.normal_family_upper<0) return `Approximate bounds favor ${eNames[pair.second]}; conservative bounds leave the difference unresolved.`;
+      return 'The difference remains unresolved under both bounds.';
+    }
+    function renderExpansionStrategy() {
+      const id=eStrategy.value,cfg=data.expansion_configs[id];
+      const scope=rules.value==='inquisitor'?' This profile has no conversion or reserve.':rules.value==='reformation'?' This profile has no examinations.':'';
+      const blocking=` When missing a blocking role, the ordinary bluff chance is ${pct(cfg.block_bluff)}. `+(id==='honest'?'It never makes a survival bluff.':'A lethal assassination triggers a survival bluff.');
+      document.getElementById('expansion-strategy-description').textContent=eDescriptions[id]+scope+blocking;
+    }
+    function renderExpansion() {
+      if(rules.value==='base') return;
+      const selected=rules.value,n=Number(ePlayers.value),field=eField.value,stage=eStage.value;
+      const broad=expansion.recommendations.filter(r=>r.profile===selected&&r.players===n).sort((a,b)=>b.wins-a.wins||a.candidate.localeCompare(b.candidate));
+      const pair=expansion.confirmation_pairs.find(r=>r.profile===selected&&r.players===n&&r.field===field);
+      const observed=pair.first_wins>=pair.second_wins?pair.first:pair.second;
+      document.getElementById('expansion-broad-advice').textContent=broad[0].wins===broad[1].wins?`${eNames[broad[0].candidate]} and ${eNames[broad[1].candidate]} tied at ${pct(broad[0].equal_field_mean)}, averaged equally across five fields.`:`${eNames[broad[0].candidate]} led the two finalists at ${pct(broad[0].equal_field_mean)}, versus ${pct(broad[1].equal_field_mean)} for ${eNames[broad[1].candidate]}, averaged equally across five fields.`;
+      document.getElementById('expansion-matchup-advice').textContent=(pair.first_wins===pair.second_wins?`The two finalists tied at ${pct(pair.first_rate)}. `:`${eNames[observed]} had the higher observed win rate (${pct(observed===pair.first?pair.first_rate:pair.second_rate)}). `)+pairStatus(pair);
+      const broadLeaders=broad[0].wins===broad[1].wins?broad:[broad[0]];
+      document.getElementById('expansion-weak-advice').textContent=broadLeaders.map(r=>`${eNames[r.candidate]}'s lowest field rate was ${pct(r.worst_rate)} against ${eOpponentText[r.worst_field]}.`).join(' ');
+      const rows=expansion[stage].filter(r=>r.profile===selected&&r.players===n&&r.field===field).sort((a,b)=>b.wins-a.wins||a.candidate.localeCompare(b.candidate));
+      const body=document.getElementById('expansion-body');body.replaceChildren();
+      rows.forEach((r,i)=>appendCells(body,[rows.findIndex(t=>t.wins===r.wins)+1,eNames[r.candidate],`${countFormat.format(r.wins)} / ${countFormat.format(r.games)}`,pct(r.win_rate),countFormat.format(r.draws),r.mean_turns.toFixed(1)]));
+      document.getElementById('expansion-caption').textContent=`${eProfileNames[selected]} · ${n} players · ${eFieldNames[field]} · ${stage==='confirmation'?'held-out confirmation':'exploratory screening'}`;
+      document.getElementById('expansion-field-description').textContent=eFields[field];
+      const paired=document.getElementById('expansion-pair'),bounds=document.getElementById('expansion-bounds');
+      paired.hidden=bounds.hidden=stage!=='confirmation';
+      paired.textContent=`${eNames[pair.first]} minus ${eNames[pair.second]}: ${signed(pair.difference)}.`;
+      bounds.textContent=`Simultaneous 95% paired bounds: approximate ${signed(pair.normal_family_lower)} to ${signed(pair.normal_family_upper)}; conservative ${signed(pair.conservative_family_lower)} to ${signed(pair.conservative_family_upper)}. The family covers 135 fixed comparisons. Practical support requires a lower bound above +2 points for the first strategy, or an upper bound below -2 points for the second.`;
+      const copies=n<=6?3:n<=8?4:5;
+      document.getElementById('expansion-panel-note').textContent=(stage==='confirmation'?`Each strategy has ${countFormat.format(pair.blocks)} independent blocks with every seat rotation. Draws at the 1,000-action cap remain in the denominator. These rates describe programmed opponents and do not predict human play.`:'Screening uses 32 complete seat-rotation blocks per strategy. These exploratory rates are not confirmation evidence. Capped games remain in the denominator.')+` The ${n}-player deck has ${copies} copies of each role.`;
+      const previous=eStrategy.value;eStrategy.replaceChildren();Object.keys(eNames).forEach(id=>{const option=document.createElement('option');option.value=id;option.textContent=eNames[id];eStrategy.append(option);});eStrategy.value=Object.hasOwn(eNames,previous)?previous:rows[0].candidate;renderExpansionStrategy();
+      const broadBody=document.getElementById('expansion-broad-body');broadBody.replaceChildren();
+      broad.forEach((r,i)=>appendCells(broadBody,[broad.findIndex(t=>t.wins===r.wins)+1,eNames[r.candidate],pct(r.equal_field_mean),pct(r.worst_rate),eFieldNames[r.worst_field]]));
+      document.getElementById('expansion-broad-caption').textContent=`${n}-player confirmation · equal-field averages of two finalists`;
+      const counters=expansion.counters.filter(r=>r.profile===selected);
+      const counterBody=document.getElementById('expansion-counter-body');counterBody.replaceChildren();
+      counters.forEach(p=>appendCells(counterBody,[p.players,eNames[p.second],eNames[p.first],`${pct(p.first_rate)} (${countFormat.format(p.first_wins)} / ${countFormat.format(p.games_per_candidate)})`,pct(p.second_rate),`${signed(p.conservative_family_lower)} to ${signed(p.conservative_family_upper)}`,p.conservative_family_lower>0?'Counter supported':p.conservative_family_upper<0?'Target control favored':'Unresolved']));
+      document.getElementById('expansion-counter-caption').textContent=`${eProfileNames[selected]} · counters and target self-play controls`;
+      document.getElementById('expansion-model-note').textContent='The expansion model uses clockwise responses, automatic proof of truthful claims and one block attempt per action. In two-player games the first player starts with one coin. Expansion and base-game rates use different policy populations and rule conventions; compare within each study. Negotiation and learning across games are outside the model.';
+    }
+    function renderRules() {
+      const isBase=rules.value==='base';
+      document.getElementById('base-results').hidden=!isBase;
+      document.getElementById('expansion-results').hidden=isBase;
+      document.getElementById('nav-recommendations').href=isBase?'#research':'#expansion-recommendations';
+      document.getElementById('nav-compare').href=isBase?'#research-explore':'#expansion-compare';
+      document.getElementById('nav-counters').href=isBase?'#research-counters':'#expansion-counters';
+      const confirmationGames=expansion.stages.find(s=>s.stage==='confirmation').games/3;
+      const mechanics=rules.value==='inquisitor'?'Inquisitor replaces Ambassador; no allegiances or reserve.':rules.value==='reformation'?'Allegiances and reserve; Ambassador retained.':'Allegiances, reserve and Inquisitor.';
+      document.getElementById('study-scope').textContent=isBase?'Base game · 2–6 players · 7 opponent types · __RESEARCH_CONFIRM_GAMES__ confirmation games':`${mechanics} 2–10 players · 5 opponent types · ${countFormat.format(confirmationGames)} confirmation games`;
+      renderExpansion();
+    }
+    rules.addEventListener('change',renderRules);ePlayers.addEventListener('change',renderExpansion);eField.addEventListener('change',renderExpansion);eStage.addEventListener('change',renderExpansion);eStrategy.addEventListener('change',renderExpansionStrategy);
+    const requestedRules=new URLSearchParams(location.search).get('rules');
+    if(Object.hasOwn(eProfileNames,requestedRules)) rules.value=requestedRules;
+    renderRules();
   })();
   </script>
 </body>

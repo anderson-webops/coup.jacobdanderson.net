@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "review_scope": "Reviewed v1.1.1 statistics and strategy presentation: removed decorative hero, rules tutorial, testing/reproducibility narrative, download rails and repeated policy guides; consolidated descriptions and collapsed earlier comparisons. Independently reviewed recommendations and uncertainty, all 35 matchups/560 rows, 16 main and 11 earlier strategy profiles, 24 earlier panels, desktop and phone behavior. Only index.html, site.css and publication.json changed; all frozen research, embedded study data and 25 evidence-file hashes and the favicon are unchanged.",
+  "review_scope": "Reviewed v1.2.0 expansion and editorial release. Reformation and Inquisitor rules, all eight separately frozen expansion execution sources, the locally hashed protocol, complete outcomes, conditional strategy claims, exact browser behavior and all 34 publication files were reviewed. Three expansion options cover 2\u201310 players; base studies remain separate, screening and two-finalist confirmation remain distinct, ties and approximate versus conservative bounds are preserved. The copy review retained strategy behavior, statistical meaning, model limits, navigation and accessibility, with the exact script policy and table contrast verified. Jacob authorized normal commit, push, tag and release delivery on 27 October 2026. The final version update changes only publication.json; all other public bytes and all frozen research evidence match the reviewed candidate.",
   "research_source_commit": "880fa13",
   "research_source_sha256": {
     "coup_simulator.py": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
     "run_experiments.py": "60dabced203d9077eacddd945e9b115b13a56bc2ef9f31f89eeaf8151edbbd51",
     "test_coup_simulator.py": "f0f82612df9e4313c4b791edf4155b8bc64b733d1df1cd4e588d1520642349b9"
   },
-  "independent_verification": "All 2,814,728 expanded raw rows audited; 26,912 strict replays match winners and turns; 35 browser matchups and 16 strategy profiles pass; original evidence hashes unchanged. The full automated suite and isolated release checks are mandatory delivery gates.",
+  "independent_verification": "All 1,908,576 expansion outcomes independently reconciled across 1,410 jobs; 25,380 strict sampled replays matched winners and turn counts. The actual browser passed 270 profile/player/field/evidence combinations, including 61 tied panels, every displayed counter and broad summary, 360/390/768/1440px layouts, keyboard disclosure navigation, labels and captions, with zero browser errors. All 25 prior evidence files and every prior embedded study-data member are unchanged. The 18 October expansion public tree was 61,470,319 bytes and remains below the existing 128MiB gate. Isolated publication and artifact contract gates remain required. The 27 October copy review preserved all 625,166 embedded JSON bytes and the other 33 public files exactly; the 34-file tree is now 61,469,009 bytes. Fresh browser review passed 270 expansion and 35 base panels, 360\u20131440px layouts, keyboard order, focus, disclosures, labels and captions with no browser errors. Earlier cached local screenshots were superseded by fresh review URLs.",
   "publication_files": {
     "evidence/confirmation-games.csv": {
       "media_type": "text/csv",
@@ -38,6 +38,31 @@
       "media_type": "text/x-python",
       "sha256": "44db096f99403bcde481738c6a0dd6a2a8bb88969120c50410087b10987e5a6c",
       "size": 11923
+    },
+    "evidence/expansion-bundle-manifest.json": {
+      "media_type": "application/json",
+      "sha256": "8d7f3edc4cc42bdd4c4a7f293e495f8bd878c8e23acd720703f4f4501f6a52e0",
+      "size": 578876
+    },
+    "evidence/expansion-confirmation.csv": {
+      "media_type": "text/csv",
+      "sha256": "41be3c818f0ebd60c700b9779c7ce9509f59656e54db9d5fa49391a2c8017cf6",
+      "size": 22320
+    },
+    "evidence/expansion-evidence.tar.gz": {
+      "media_type": "application/gzip",
+      "sha256": "a5cae55a0bba00e25a02f45db48921732d53e68fb6f32f79a06f70f4ba87b47a",
+      "size": 29116422
+    },
+    "evidence/expansion-findings.json": {
+      "media_type": "application/json",
+      "sha256": "857745cc6f75c38e125275cb2c5a04120a16ef27d5c326956821e3df897904e6",
+      "size": 534176
+    },
+    "evidence/expansion-replay-audit.json": {
+      "media_type": "application/json",
+      "sha256": "f3c1095966b5e522c3431c194cba62679f745f6392e8caaec643bfbe39cbfcc4",
+      "size": 3163
     },
     "evidence/findings.json": {
       "media_type": "application/json",
@@ -141,18 +166,18 @@
     },
     "index.html": {
       "media_type": "text/html",
-      "sha256": "3ba28eddaed74403ab73c1995927a87e5bfdf32a8399889f3647ae74f6985eeb",
-      "size": 284189
+      "sha256": "8c62c9cccef3262236a98ded0a3399ee8bf7af7e6a64067f3b5bbd4637c1cabc",
+      "size": 664352
     },
     "publication.json": {
       "media_type": "application/json",
-      "sha256": "54e92e7d391fee5c4fc38426f21b66545046190a757db4735ff880b57eb0ed35",
-      "size": 291
+      "sha256": "72eccab917765c1fdc5b3b6af048cb0f0d6d15a07d1f1451307936e7fad2f92c",
+      "size": 445
     },
     "site.css": {
       "media_type": "text/css",
-      "sha256": "f0a5589a983de0bda9a1e0038ec0a54c2c1821903dcb48ce1d9ac981c88b4225",
-      "size": 5870
+      "sha256": "50e2cbc5d513e5575e32581a121af3656b45aaa1eb53a3d346e1d65496630189",
+      "size": 6206
     }
   },
   "expanded_research_preregistration_commit": "12ab9e1",
@@ -167,5 +192,24 @@
     "test_research_statistics.py": "713e4a4d00f0f149834d67e1a46b801c45a7a2a47d0135a093d9bfb0e2a7a9eb",
     "test_research_strategies.py": "c3dac60a32f60dfacb583c96edcc0defaaac5a8943dd91d271d3565c2a51212d",
     "test_strategy_research.py": "1e3fcee6af0db80ac4047a78d6c6f1593a2dc0ac54bee4e59feee04cdf49da35"
+  },
+  "expansion_study": {
+    "bundle_manifest_sha256": "8d7f3edc4cc42bdd4c4a7f293e495f8bd878c8e23acd720703f4f4501f6a52e0",
+    "bundle_sha256": "a5cae55a0bba00e25a02f45db48921732d53e68fb6f32f79a06f70f4ba87b47a",
+    "findings_sha256": "857745cc6f75c38e125275cb2c5a04120a16ef27d5c326956821e3df897904e6",
+    "plan_sha256": "a76f7d94f3a4db07ff08f3cbfe7aa6c4f6032ede0b25a3c8ff0c61b82e8b172e",
+    "replay_audit_sha256": "f3c1095966b5e522c3431c194cba62679f745f6392e8caaec643bfbe39cbfcc4",
+    "schema_version": 1,
+    "source_sha256": {
+      "audit_expansion_research.py": "3aa8c957fcd51c5f61ca819c3aa9a8a7bad92d4a548c3c5b85bde7d72cd61e0a",
+      "expansion_policies.py": "fad17dd56e0c5fb894a2eb3603853143fb95734a515fc8b04419477b7463dc55",
+      "expansion_simulator.py": "bc6b3ccdb29209a5310a3ee4c75fcaebdd7c8ef81ed2dff7dca5fb7e6efe4f59",
+      "expansion_statistics.py": "9f11102015c38d992a1c3d964ac0f37b5a8794ae0fb2648dab14c6b8dd376eb3",
+      "expansion_study.py": "1fb0860e0efbf2cebf3ba7571db3e2f8247a8cb90b7c847a476f73c73d8ef99d",
+      "test_expansion_audit.py": "179905773ce99add5bb4785368c5feb831fd9c9b4374436ebf42e973dc7fe01f",
+      "test_expansion_simulator.py": "dd556573f0fb8a36151fa7067ae630c0576159eadd6cd1c6bd5ad94db7193f60",
+      "test_expansion_study.py": "83ebd77b2b744a53d3d768cedf8942a4a0f9853c8926d5234d356340f27ced44"
+    },
+    "study_path": "research_results/2026-10-18-expansion"
   }
 }

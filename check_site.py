@@ -6,6 +6,7 @@ import base64
 import csv
 import hashlib
 import io
+import importlib.util
 import json
 import math
 import re
@@ -334,6 +335,20 @@ def check(root=ROOT):
                 'expanded_research_source_sha256' in anchor,
                 'Reviewed anchor does not authorize the expanded study')
         verify_research_bundle(root, evidence, embedded, anchor, publication)
+    has_expansion = 'expansion' in embedded or 'expansion_study_games' in publication
+    if has_expansion:
+        require('expansion' in embedded and 'expansion_configs' in embedded and
+                'expansion_study_games' in publication and 'expansion_study' in anchor,
+                'Reviewed anchor does not authorize the expansion study')
+        # Load the reviewed checker beside this file. Isolated Python omits its
+        # directory from sys.path; bundled evidence is never imported or run.
+        spec = importlib.util.spec_from_file_location(
+            'coup_expansion_publication', ROOT / 'expansion_publication.py')
+        require(spec is not None and spec.loader is not None,
+                'Expansion publication verifier is unavailable')
+        verifier = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(verifier)
+        verifier.verify_expansion_bundle(root, evidence, embedded, anchor, publication)
     require(sum(int(r["games"]) for r in screening) == findings["screening_games"], "Screening total differs")
     require(sum(int(r["games"]) for r in confirmation) == findings["confirmation_games"], "Confirmation total differs")
     plan = json.loads((evidence / "confirmation-plan.json").read_text())
@@ -346,6 +361,14 @@ def check(root=ROOT):
                            'research-robust-body', 'counter-body', 'ablation-cards'):
             require(html.count(f'id="{element_id}"') == 1,
                     f'Expanded results element differs: {element_id}')
+    if has_expansion:
+        for element_id in ('rules-profile', 'study-scope', 'base-results',
+                           'expansion-results', 'expansion-players', 'expansion-field',
+                           'expansion-stage', 'expansion-strategy', 'expansion-body',
+                           'expansion-broad-body', 'expansion-counter-body',
+                           'expansion-pair', 'expansion-bounds'):
+            require(html.count(f'id="{element_id}"') == 1,
+                    f'Expansion results element differs: {element_id}')
     require(not re.search(r'__[A-Z][A-Z0-9_]*__', html),
             'Unfilled site template marker')
     for href in re.findall(r'href="\./([^"]+)"', html):

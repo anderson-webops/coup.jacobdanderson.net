@@ -1,0 +1,44 @@
+{
+  "diagnostics": {
+    "action_assassinate": 16370,
+    "action_coup": 21332,
+    "action_examine": 1505,
+    "action_exchange": 3017,
+    "action_foreign_aid": 38601,
+    "action_income": 9805,
+    "action_steal": 34046,
+    "action_tax": 63280,
+    "block": 74152,
+    "challenge": 553,
+    "claim": 192370,
+    "disproved": 553,
+    "elimination": 11964,
+    "examine": 1505,
+    "exchange": 3017,
+    "focal_coup": 13455,
+    "focal_tax": 32015,
+    "influence_loss": 25027
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "bluff",
+    "field": "honest",
+    "players": 4,
+    "profile": "inquisitor"
+  },
+  "raw_sha256": "658c2740d5594ff4c85c00686b5c0550ae53b69a6236937684880013f4315d1d",
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "bluff",
+    "draws": 35,
+    "field": "honest",
+    "games": 4000,
+    "mean_turns": 46.989,
+    "players": 4,
+    "profile": "inquisitor",
+    "stage": "confirmation",
+    "win_rate": 0.6295,
+    "wins": 2518
+  }
+}

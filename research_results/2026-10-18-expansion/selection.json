@@ -1,0 +1,436 @@
+{
+  "finalists": [
+    {
+      "first": "bluff",
+      "players": 2,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "balanced",
+        "honest",
+        "treasury",
+        "converter",
+        "skeptic",
+        "information"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "bluff",
+      "players": 3,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "converter",
+        "balanced",
+        "honest",
+        "treasury",
+        "information",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "bluff",
+      "players": 4,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "balanced",
+        "information",
+        "honest",
+        "converter",
+        "treasury",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "shield",
+      "players": 5,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "shield",
+        "honest",
+        "balanced",
+        "converter",
+        "treasury",
+        "information",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "honest"
+    },
+    {
+      "first": "honest",
+      "players": 6,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "honest",
+        "shield",
+        "converter",
+        "balanced",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "honest",
+      "players": 7,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "honest",
+        "bluff",
+        "shield",
+        "balanced",
+        "information",
+        "converter",
+        "treasury",
+        "skeptic"
+      ],
+      "second": "bluff"
+    },
+    {
+      "first": "honest",
+      "players": 8,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "honest",
+        "shield",
+        "information",
+        "converter",
+        "balanced",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "honest",
+      "players": 9,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "honest",
+        "shield",
+        "information",
+        "balanced",
+        "converter",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "honest",
+      "players": 10,
+      "profile": "inquisitor",
+      "screening_rank": [
+        "honest",
+        "shield",
+        "converter",
+        "balanced",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "bluff",
+      "players": 2,
+      "profile": "reformation",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "information",
+        "balanced",
+        "skeptic",
+        "honest",
+        "treasury",
+        "converter"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "bluff",
+      "players": 3,
+      "profile": "reformation",
+      "screening_rank": [
+        "bluff",
+        "converter",
+        "shield",
+        "balanced",
+        "information",
+        "treasury",
+        "honest",
+        "skeptic"
+      ],
+      "second": "converter"
+    },
+    {
+      "first": "shield",
+      "players": 4,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "bluff",
+        "balanced",
+        "converter",
+        "information",
+        "honest",
+        "treasury",
+        "skeptic"
+      ],
+      "second": "bluff"
+    },
+    {
+      "first": "shield",
+      "players": 5,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "information",
+        "converter",
+        "honest",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "balanced"
+    },
+    {
+      "first": "shield",
+      "players": 6,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "honest",
+        "balanced",
+        "converter",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "honest"
+    },
+    {
+      "first": "shield",
+      "players": 7,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "information",
+        "honest",
+        "balanced",
+        "bluff",
+        "converter",
+        "treasury",
+        "skeptic"
+      ],
+      "second": "information"
+    },
+    {
+      "first": "shield",
+      "players": 8,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "converter",
+        "honest",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "balanced"
+    },
+    {
+      "first": "information",
+      "players": 9,
+      "profile": "reformation",
+      "screening_rank": [
+        "information",
+        "shield",
+        "balanced",
+        "honest",
+        "converter",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "shield",
+      "players": 10,
+      "profile": "reformation",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "honest",
+        "information",
+        "converter",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "balanced"
+    },
+    {
+      "first": "bluff",
+      "players": 2,
+      "profile": "combined",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "skeptic",
+        "honest",
+        "balanced",
+        "information",
+        "converter",
+        "treasury"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "shield",
+      "players": 3,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "bluff",
+        "converter",
+        "balanced",
+        "honest",
+        "treasury",
+        "information",
+        "skeptic"
+      ],
+      "second": "bluff"
+    },
+    {
+      "first": "bluff",
+      "players": 4,
+      "profile": "combined",
+      "screening_rank": [
+        "bluff",
+        "shield",
+        "converter",
+        "balanced",
+        "honest",
+        "treasury",
+        "information",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "shield",
+      "players": 5,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "honest",
+        "converter",
+        "information",
+        "bluff",
+        "treasury",
+        "skeptic"
+      ],
+      "second": "balanced"
+    },
+    {
+      "first": "shield",
+      "players": 6,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "honest",
+        "converter",
+        "balanced",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "honest"
+    },
+    {
+      "first": "balanced",
+      "players": 7,
+      "profile": "combined",
+      "screening_rank": [
+        "balanced",
+        "shield",
+        "honest",
+        "converter",
+        "treasury",
+        "information",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "shield"
+    },
+    {
+      "first": "shield",
+      "players": 8,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "converter",
+        "balanced",
+        "honest",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "converter"
+    },
+    {
+      "first": "shield",
+      "players": 9,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "converter",
+        "honest",
+        "bluff",
+        "treasury",
+        "information",
+        "skeptic"
+      ],
+      "second": "balanced"
+    },
+    {
+      "first": "shield",
+      "players": 10,
+      "profile": "combined",
+      "screening_rank": [
+        "shield",
+        "balanced",
+        "converter",
+        "honest",
+        "information",
+        "treasury",
+        "bluff",
+        "skeptic"
+      ],
+      "second": "balanced"
+    }
+  ]
+}

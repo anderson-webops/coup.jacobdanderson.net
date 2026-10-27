@@ -1,10 +1,40 @@
 # Coup Strategy Lab
 
-A reproducible simulator and results page for the standard Coup bluffing game. The frozen rules engine models the five roles, all base actions, challenges, counteractions, influence loss, exchanges, and the two-player starting-coin rule. The expanded study adds card-aware decisions, conditional bluffs, public-history learning, threat targeting, adaptive card retention, and finite parameter tuning. Results identify which **tested policy** performed well in a named simulated matchup; they do not solve human Coup.
+A reproducible simulator and results page for Coup and Coup: Reformation. The preserved base-game engine models the five roles, base actions, challenges, counteractions, influence loss, exchanges and two-player starting coins. A separate expansion engine adds allegiances, conversion, the reserve, embezzlement, Inquisitor exchanges and private examinations, with decks for up to ten players. Results identify which **tested policy** performed well in a named simulated matchup; they do not solve human Coup.
 
 Open [the local findings page](dist/index.html) after running the commands below. The page focuses on statistics and strategy, with earlier comparisons and strategy definitions collapsed. Research and verification details are maintained in this repository. Expanded conclusions are in [docs/STRATEGY_FINDINGS.md](docs/STRATEGY_FINDINGS.md), with precise paired results in [the expanded findings](research_results/2026-10-12-v2/FINDINGS.md). The initial study remains in [FINDINGS.md](FINDINGS.md). The rule sources are listed in [SOURCE_LEDGER.md](SOURCE_LEDGER.md).
 
-## Expanded strategy research
+## Reformation and Inquisitor research
+
+The separate expansion study covers three rules options: **Inquisitor only**, **Reformation with Ambassador**, and **Reformation with Inquisitor**. Each is tested at every player count from two through ten against five programmed opponent fields. Eight fixed strategies enter screening; only the two highest equal-field strategies at each rules/player setting advance to fresh confirmation. Targeted counters have separate search and confirmation panels. Comparisons do not isolate the value of individual expansion mechanics.
+
+The completed study contains **1,908,576 games**, including **1,620,000 confirmation games**. Independent verification reconciled every outcome and strictly replayed **25,380 games**. All **17,960 capped games** remain in the rate denominators. Complete seat rotations, participant identity, separate deck and decision random streams, strict action checks, compressed outcomes and exact source snapshots are preserved. The protocol is a local hash registration, without an independent timestamp registry. Execution changes require a separate study.
+
+- [Expansion rules and model conventions](docs/EXPANSION_RULES.md)
+- [Study design, statistical interpretation and independent audit](docs/EXPANSION_STUDY.md)
+- [Expansion recommendations, conditional comparisons and limitations](docs/EXPANSION_FINDINGS.md)
+- [Complete numerical findings](research_results/2026-10-18-expansion/FINDINGS.md)
+- [Local validation and preservation checks](docs/EXPANSION_VALIDATION.md)
+- [Frozen plan, source snapshots and outcomes](research_results/2026-10-18-expansion/)
+
+After a complete run, verify the expansion evidence and independent replays with:
+
+```sh
+python3 -B -m unittest -v test_expansion_simulator test_expansion_study test_expansion_audit test_expansion_publication
+python3 -B expansion_study.py --output-dir research_results/2026-10-18-expansion --verify
+python3 -B audit_expansion_research.py --results-dir research_results/2026-10-18-expansion --write-receipt
+```
+
+To run a separate study, freeze its source and protocol before outcomes:
+
+```sh
+python3 -B expansion_study.py --output-dir ./research_results/my-expansion-study --freeze-only
+python3 -B expansion_study.py --output-dir ./research_results/my-expansion-study --workers 4
+```
+
+The site keeps expansion and base-game comparisons separate. The expansion model returns eliminated players' coins immediately to the bank, following the explicit base rule; the frozen earlier engine handles those coins differently. See the rules review for the conflicting worked example and other declared conventions. Approximate paired intervals and conservative simultaneous bounds remain distinct, and capped games stay in every rate denominator.
+
+## Expanded base-game strategy research
 
 The independent design and strategic reasoning are in [docs/RESEARCH_DESIGN.md](docs/RESEARCH_DESIGN.md) and [docs/STRATEGY_REVIEW.md](docs/STRATEGY_REVIEW.md). The source protocol was committed before any new outcomes in `12ab9e1`. The rejected initial protocol in `research_results/2026-10-12/` generated no games and is preserved with its explanation.
 
@@ -78,6 +108,12 @@ The model omits negotiations, nonbinding deals, expansion roles, team rules, and
 | [analyze_strategy_research.py](analyze_strategy_research.py) | Frozen independent raw outcome analyzer |
 | [verify_strategy_research.py](verify_strategy_research.py) | Portable delivery audit with exact discrete evidence |
 | [scripts/audit_research_replay.py](scripts/audit_research_replay.py) | Independent lineup reconstruction and strict saved-game replays |
+| [expansion_simulator.py](expansion_simulator.py) | Separate Reformation and Inquisitor rules engine, with 2–10 player decks |
+| [expansion_policies.py](expansion_policies.py) | Eight fixed expansion strategies using permitted information |
+| [expansion_study.py](expansion_study.py) | Frozen staged expansion runner, raw verification and findings |
+| [expansion_statistics.py](expansion_statistics.py) | Complete rotation-block comparisons and simultaneous bounds |
+| [audit_expansion_research.py](audit_expansion_research.py) | Independent schedule, selection and replay audit |
+| [expansion_publication.py](expansion_publication.py) | Deterministic evidence bundle and isolated static publication checks |
 | [build_site.py](build_site.py) | Builds the static local recap and evidence bundle |
 | [check_site.py](check_site.py) | Checks page data and downloaded files against the frozen study |
 | [dist/index.html](dist/index.html) | Strategy recommendations, interactive win-rate comparisons, counters and component analysis |
@@ -92,11 +128,14 @@ Before delivery, run:
 
 ```sh
 python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_verify_strategy_research test_site scripts.test_release_artifact
+python3 -B -m unittest -v test_expansion_simulator test_expansion_study test_expansion_audit test_expansion_publication
 python3 -B verify_strategy_research.py
+python3 -B expansion_study.py --output-dir research_results/2026-10-18-expansion --verify
+python3 -B audit_expansion_research.py --results-dir research_results/2026-10-18-expansion
 python3 -I -B check_site.py
 ```
 
-A clean committed checkout can build and verify the deterministic release archive, manifest, and checksums using `scripts/release_artifact.py`. Only the archive's `dist/` contents belong in the public root. The source-to-host contract and protected operator onboarding requirements are in [docs/PUBLICATION.md](docs/PUBLICATION.md). Preserve both IPv4 and IPv6 hosting. Production activation is performed by protected server automation.
+A clean committed checkout can build and verify the deterministic release archive, manifest, and checksums using `scripts/release_artifact.py`. Only the archive's `dist/` contents belong in the public root. The source-to-host artifact contract is documented in [docs/PUBLICATION.md](docs/PUBLICATION.md). The contract requires IPv4 and IPv6 readiness. Protected server automation performs production activation.
 
 The 11 October divergent draft and its inaccurate provenance claims are preserved in `archive/unvalidated-regression-draft-2026-10-11/`. They are excluded from the active study and public site; see [RESULTS_PROVENANCE.md](RESULTS_PROVENANCE.md).
 

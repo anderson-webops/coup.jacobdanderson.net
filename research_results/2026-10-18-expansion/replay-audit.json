@@ -1,0 +1,64 @@
+{
+  "audit_source_sha256": "3aa8c957fcd51c5f61ca819c3aa9a8a7bad92d4a548c3c5b85bde7d72cd61e0a",
+  "global_plan_sha256": "a76f7d94f3a4db07ff08f3cbfe7aa6c4f6032ede0b25a3c8ff0c61b82e8b172e",
+  "independence": "raw coordinates, counts, selection and schedules reconstructed without runner helpers; replay shares the expansion engine",
+  "sample_rule": "first, midpoint and last complete blocks; every physical seat",
+  "schema_version": 1,
+  "source_sha256": {
+    "audit_expansion_research.py": "3aa8c957fcd51c5f61ca819c3aa9a8a7bad92d4a548c3c5b85bde7d72cd61e0a",
+    "expansion_policies.py": "fad17dd56e0c5fb894a2eb3603853143fb95734a515fc8b04419477b7463dc55",
+    "expansion_simulator.py": "bc6b3ccdb29209a5310a3ee4c75fcaebdd7c8ef81ed2dff7dca5fb7e6efe4f59",
+    "expansion_statistics.py": "9f11102015c38d992a1c3d964ac0f37b5a8794ae0fb2648dab14c6b8dd376eb3",
+    "expansion_study.py": "1fb0860e0efbf2cebf3ba7571db3e2f8247a8cb90b7c847a476f73c73d8ef99d",
+    "test_expansion_audit.py": "179905773ce99add5bb4785368c5feb831fd9c9b4374436ebf42e973dc7fe01f",
+    "test_expansion_simulator.py": "dd556573f0fb8a36151fa7067ae630c0576159eadd6cd1c6bd5ad94db7193f60",
+    "test_expansion_study.py": "83ebd77b2b744a53d3d768cedf8942a4a0f9853c8926d5234d356340f27ced44"
+  },
+  "stages": [
+    {
+      "draws": 2294,
+      "jobs": 1080,
+      "raw_games": 207360,
+      "replay_identity_outcomes_sha256": "f30803997e814cec37c6f25f74a6d55d6cf4e88f4a9fdb2a51916c938e2edd34",
+      "replayed_games": 19440,
+      "stage": "screening",
+      "stage_manifest_sha256": "569fa41638b2a71825afeb81f0e9728bc572e4f5fdb7d6e57ae5e0d0b9563f33",
+      "stage_plan_sha256": "9147e627591425d29d86d6d5e639e7e826bd406080717e6a731e34ab80dfaa82"
+    },
+    {
+      "draws": 14992,
+      "jobs": 270,
+      "raw_games": 1620000,
+      "replay_identity_outcomes_sha256": "cb560a724504caf4fe935de19fa12385bbae919139a6a9dddfbbf5e10e648885",
+      "replayed_games": 4860,
+      "stage": "confirmation",
+      "stage_manifest_sha256": "61a410464a4cc6ed745b41346cb71c9456fdcd5ef9cae266418b95a3998bed03",
+      "stage_plan_sha256": "0705dd5adbfd67bff5f74f657291c2b08e9130474596526758c4458543d04ce6"
+    },
+    {
+      "draws": 79,
+      "jobs": 48,
+      "raw_games": 9216,
+      "replay_identity_outcomes_sha256": "e07a6e571b8bb1446d6bd328a60d9a06a5d4142b99ab2692f2645c8c3b3c1090",
+      "replayed_games": 864,
+      "stage": "counter_search",
+      "stage_manifest_sha256": "a9344f32a9c9a44a14590426b59631b6ee6ee87638a7e8efb077a6e42d32967e",
+      "stage_plan_sha256": "a48eaf5c218ad7928aa07095c23a116eb7b3877c67e66a96b135d464dcfb0a5b"
+    },
+    {
+      "draws": 595,
+      "jobs": 12,
+      "raw_games": 72000,
+      "replay_identity_outcomes_sha256": "7cbb4eaa1f895d0414aaf8c2e23ca006b3c7f67a0c8108660f5f299dd83673cb",
+      "replayed_games": 216,
+      "stage": "counters",
+      "stage_manifest_sha256": "ce8fcd62283e6f8f305c732c2d8e8e833b72ba925e650558966976800f201867",
+      "stage_plan_sha256": "54ba37368d29259cfb65b35558e9861b1599fe383a47f64fe01da11991f408ff"
+    }
+  ],
+  "status": "passed",
+  "total_draws": 17960,
+  "total_jobs": 1410,
+  "total_raw_games": 1908576,
+  "total_replayed_games": 25380
+}

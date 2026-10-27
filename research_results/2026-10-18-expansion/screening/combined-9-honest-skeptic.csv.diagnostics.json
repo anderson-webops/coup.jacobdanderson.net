@@ -1,0 +1,46 @@
+{
+  "diagnostics": {
+    "action_assassinate": 8729,
+    "action_coup": 2711,
+    "action_examine": 277,
+    "action_exchange": 719,
+    "action_foreign_aid": 14757,
+    "action_income": 4074,
+    "action_steal": 8021,
+    "action_tax": 8766,
+    "block": 17906,
+    "challenge": 576,
+    "claim": 44418,
+    "elimination": 2272,
+    "examine": 255,
+    "exchange": 719,
+    "focal_exchange": 8,
+    "focal_income": 21,
+    "focal_steal": 22,
+    "focal_tax": 25,
+    "influence_loss": 4676,
+    "proof": 576
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "skeptic",
+    "field": "honest",
+    "players": 9,
+    "profile": "combined"
+  },
+  "raw_sha256": "529d799681beb6465ef554cffb0148659cbe70a011907654e4610629fc76c46e",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "skeptic",
+    "draws": 22,
+    "field": "honest",
+    "games": 288,
+    "mean_turns": 166.85416666666666,
+    "players": 9,
+    "profile": "combined",
+    "stage": "screening",
+    "win_rate": 0.0,
+    "wins": 0
+  }
+}

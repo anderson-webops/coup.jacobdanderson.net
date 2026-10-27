@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "headers": {
-    "Content-Security-Policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; img-src 'self'; style-src 'self'; script-src 'sha256-XpoxvWBq2+DbqFHvuAm9Jwa7QsZiCSXENGBoDaWYmXY=' 'sha256-MepN+KRJoOJmop4diDa1LuLrXzLtspgj+eEbp9iH1+E='; connect-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+    "Content-Security-Policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; img-src 'self'; style-src 'self'; script-src 'sha256-YDnj33ktBaEx9fdzzjyJpjekseeR73yAPnu56uLQJS8=' 'sha256-s0d5mIWCCl7OfF5u0dj/gJ/TnwPgkokhg8+QX+t+jBc='; connect-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "no-referrer",
     "X-Frame-Options": "DENY"

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-19T02:24:52.509694+00:00",
+  "scope": "Local expansion simulator and recommendations extension",
+  "source_head": "34e8bfc2a5edbfb3dc2425f36ae90afbbeec4ccc",
+  "delivery": {
+    "local_only": true,
+    "committed": false,
+    "pushed": false,
+    "tagged": false,
+    "released": false,
+    "published": false,
+    "production_changed": false
+  },
+  "study": {
+    "path": "research_results/2026-10-18-expansion",
+    "plan_sha256": "a76f7d94f3a4db07ff08f3cbfe7aa6c4f6032ede0b25a3c8ff0c61b82e8b172e",
+    "findings_sha256": "857745cc6f75c38e125275cb2c5a04120a16ef27d5c326956821e3df897904e6",
+    "profiles": [
+      "inquisitor",
+      "reformation",
+      "combined"
+    ],
+    "players": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "total_games": 1908576,
+    "confirmation_games": 1620000,
+    "capped_games": 17960,
+    "independently_reconciled_outcomes": 1908576,
+    "strict_sampled_replays": 25380,
+    "jobs": 1410,
+    "replay_receipt_sha256": "f3c1095966b5e522c3431c194cba62679f745f6392e8caaec643bfbe39cbfcc4"
+  },
+  "automated_checks": {
+    "distinct_tests_passed": 241,
+    "initial_full_regression": 238,
+    "updated_publication_suite_after_containment_fix": 16,
+    "final_candidate_site_and_artifact_gate_reruns": 20,
+    "count_note": "The updated 16-test suite replaces the original 13-test publication suite and adds three cases; counts overlap.",
+    "isolated_site_check": "passed",
+    "base_research_full_audit": "passed"
+  },
+  "browser": {
+    "matrix": {
+      "panels": 270,
+      "tiedPanels": 61
+    },
+    "sizes": [
+      {
+        "width": 360,
+        "visibleSelects": 4,
+        "captionedTables": 3,
+        "pageWidth": 360
+      },
+      {
+        "width": 390,
+        "visibleSelects": 4,
+        "captionedTables": 3,
+        "pageWidth": 390
+      },
+      {
+        "width": 768,
+        "visibleSelects": 4,
+        "captionedTables": 3,
+        "pageWidth": 768
+      },
+      {
+        "width": 1440,
+        "visibleSelects": 4,
+        "captionedTables": 3,
+        "pageWidth": 1440
+      }
+    ],
+    "keyboardFocus": [
+      "expansion-players",
+      "expansion-field",
+      "expansion-stage",
+      "SUMMARY"
+    ],
+    "outline": "solid",
+    "browserErrors": []
+  },
+  "table_heading_contrast_ratio": 5.09,
+  "preservation": {
+    "status": "passed",
+    "public_files": 34,
+    "public_bytes": 61470319,
+    "old_evidence_files_preserved": 25,
+    "old_public_files_changed": [
+      "index.html",
+      "publication.json",
+      "site.css"
+    ],
+    "old_embedded_keys_preserved": [
+      "screening",
+      "confirmation",
+      "findings",
+      "research",
+      "research_configs"
+    ],
+    "new_files": [
+      "evidence/expansion-bundle-manifest.json",
+      "evidence/expansion-confirmation.csv",
+      "evidence/expansion-evidence.tar.gz",
+      "evidence/expansion-findings.json",
+      "evidence/expansion-replay-audit.json"
+    ]
+  },
+  "frozen_execution_sources_unchanged": 18,
+  "publication": {
+    "files": 34,
+    "bytes": 61470319,
+    "existing_size_cap_bytes": 134217728,
+    "approved_anchor_sha256": "071ad4ed297be2bb48c6fd6202c22506a326f1fcdbea581990be0a0ee5f93027",
+    "response_policy_sha256": "57f0bef9b93abf11514e5affe6e6cdc464acd2ef0da819113f633fd5e607ea27",
+    "index_sha256": "e31ff06b5995dddc369412d5b8d92970d02e1de73f68d45563d35576a5eeb82c"
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8867/?rules=combined",
+    "bind": "127.0.0.1",
+    "purpose": "local review",
+    "automated_browser_closed": true
+  },
+  "diagnostics": ".ai-work/runs/20261018-expansion/"
+}

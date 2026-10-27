@@ -1,0 +1,246 @@
+{
+  "blocks": {
+    "confirmation": 1000,
+    "counter_search": 32,
+    "counters": 1000,
+    "screening": 32
+  },
+  "configurations": {
+    "balanced": {
+      "block_bluff": 0.25,
+      "bluff": 0.2,
+      "challenge": "selective",
+      "convert": 1.0,
+      "coup_at": 7,
+      "defense": 1.2,
+      "information": 1.1,
+      "shield": 1.0,
+      "treasury": 1.2
+    },
+    "bluff": {
+      "block_bluff": 1.0,
+      "bluff": 1.0,
+      "challenge": "impossible",
+      "convert": 0.0,
+      "coup_at": 7,
+      "defense": 1.0,
+      "information": 0.0,
+      "shield": 0.0,
+      "tax_only": true,
+      "treasury": 0.0
+    },
+    "converter": {
+      "block_bluff": 0.2,
+      "bluff": 0.2,
+      "challenge": "selective",
+      "convert": 2.0,
+      "coup_at": 7,
+      "defense": 1.2,
+      "information": 0.6,
+      "shield": 1.5,
+      "treasury": 1.1
+    },
+    "honest": {
+      "block_bluff": 0.0,
+      "bluff": 0.0,
+      "challenge": "impossible",
+      "convert": 0.0,
+      "coup_at": 7,
+      "defense": 1.0,
+      "information": 0.5,
+      "shield": 0.0,
+      "survival_bluff": false,
+      "treasury": 1.0
+    },
+    "information": {
+      "block_bluff": 0.15,
+      "bluff": 0.1,
+      "challenge": "selective",
+      "convert": 0.5,
+      "coup_at": 8,
+      "defense": 1.0,
+      "information": 1.8,
+      "shield": 0.6,
+      "treasury": 1.0
+    },
+    "shield": {
+      "block_bluff": 0.1,
+      "bluff": 0.05,
+      "challenge": "cautious",
+      "convert": 0.4,
+      "coup_at": 8,
+      "defense": 1.8,
+      "information": 0.5,
+      "shield": 2.0,
+      "treasury": 1.0
+    },
+    "skeptic": {
+      "block_bluff": 0.1,
+      "bluff": 0.0,
+      "challenge": "always",
+      "convert": 0.3,
+      "coup_at": 7,
+      "defense": 1.0,
+      "information": 0.7,
+      "shield": 0.4,
+      "treasury": 1.0
+    },
+    "treasury": {
+      "block_bluff": 0.25,
+      "bluff": 0.25,
+      "challenge": "selective",
+      "convert": 0.6,
+      "coup_at": 7,
+      "defense": 1.0,
+      "information": 0.5,
+      "shield": 0.6,
+      "treasury": 1.8
+    }
+  },
+  "confirmation_family_size": 135,
+  "counter_family_size": 6,
+  "counter_selection_rule": "highest search win rate excluding target; ties lexical policy ID",
+  "counter_settings": [
+    [
+      "inquisitor",
+      2
+    ],
+    [
+      "inquisitor",
+      6
+    ],
+    [
+      "reformation",
+      4
+    ],
+    [
+      "reformation",
+      10
+    ],
+    [
+      "combined",
+      4
+    ],
+    [
+      "combined",
+      10
+    ]
+  ],
+  "counter_target_rule": "screening rank first per specified profile/player count",
+  "decision_rng_rule": "engine domain-separated per participant identity, independent from environment/deck randomness",
+  "deck_copies": {
+    "10": 5,
+    "2": 3,
+    "3": 3,
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 4,
+    "8": 4,
+    "9": 5
+  },
+  "fields": [
+    "honest",
+    "bluffing",
+    "skeptical",
+    "adaptive",
+    "mixed"
+  ],
+  "inference": {
+    "alpha": 0.05,
+    "draw_denominator": "all scheduled games",
+    "independent_unit": "complete rotation block",
+    "intervals": [
+      "approximate Bonferroni normal",
+      "conservative simultaneous Hoeffding"
+    ],
+    "no_confirmation_retuning": true,
+    "practical_threshold": 0.02
+  },
+  "lineup_rule": "identity 0 focal; mixed pool[(block+j)%8] for j=0..n-2, reverse on odd pool cycles; rotate every identity right by rotation",
+  "max_turns": 1000,
+  "mixed_pool": [
+    "honest",
+    "bluff",
+    "skeptic",
+    "treasury",
+    "shield",
+    "converter",
+    "information",
+    "balanced"
+  ],
+  "opponents": {
+    "adaptive": "balanced",
+    "bluffing": "bluff",
+    "honest": "honest",
+    "skeptical": "skeptic"
+  },
+  "players": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "policies": [
+    "honest",
+    "bluff",
+    "skeptic",
+    "treasury",
+    "shield",
+    "converter",
+    "information",
+    "balanced"
+  ],
+  "preregistration": {
+    "created_utc": "2026-10-19T01:33:51.633353+00:00",
+    "independent_timestamp_registry": false,
+    "kind": "local hashed source and protocol snapshot"
+  },
+  "profiles": [
+    "inquisitor",
+    "reformation",
+    "combined"
+  ],
+  "python": "3.14.8",
+  "raw_columns": [
+    "profile",
+    "stage",
+    "players",
+    "field",
+    "candidate",
+    "block",
+    "rotation",
+    "seed",
+    "winner",
+    "focal_seat",
+    "won",
+    "draw",
+    "turns"
+  ],
+  "schema_version": 1,
+  "seed_rule": "SHA256 ASCII coup-expansion-study-v1:profile:stage:players:field:block, big-endian integer",
+  "selection_rule": "per profile/player count, rank mean screening win rate equally across five fields; top two; ties lexical policy ID",
+  "source_sha256": {
+    "audit_expansion_research.py": "3aa8c957fcd51c5f61ca819c3aa9a8a7bad92d4a548c3c5b85bde7d72cd61e0a",
+    "expansion_policies.py": "fad17dd56e0c5fb894a2eb3603853143fb95734a515fc8b04419477b7463dc55",
+    "expansion_simulator.py": "bc6b3ccdb29209a5310a3ee4c75fcaebdd7c8ef81ed2dff7dca5fb7e6efe4f59",
+    "expansion_statistics.py": "9f11102015c38d992a1c3d964ac0f37b5a8794ae0fb2648dab14c6b8dd376eb3",
+    "expansion_study.py": "1fb0860e0efbf2cebf3ba7571db3e2f8247a8cb90b7c847a476f73c73d8ef99d",
+    "test_expansion_audit.py": "179905773ce99add5bb4785368c5feb831fd9c9b4374436ebf42e973dc7fe01f",
+    "test_expansion_simulator.py": "dd556573f0fb8a36151fa7067ae630c0576159eadd6cd1c6bd5ad94db7193f60",
+    "test_expansion_study.py": "83ebd77b2b744a53d3d768cedf8942a4a0f9853c8926d5234d356340f27ced44"
+  },
+  "stages": [
+    "screening",
+    "confirmation",
+    "counter_search",
+    "counters"
+  ],
+  "strict_every_action": true,
+  "study": "Coup expansion strategy study"
+}

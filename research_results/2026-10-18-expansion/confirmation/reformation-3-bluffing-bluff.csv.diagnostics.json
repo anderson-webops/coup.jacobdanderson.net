@@ -1,0 +1,35 @@
+{
+  "diagnostics": {
+    "action_coup": 11901,
+    "action_tax": 29817,
+    "challenge": 129,
+    "claim": 29817,
+    "disproved": 129,
+    "elimination": 6000,
+    "focal_coup": 3967,
+    "focal_tax": 9939,
+    "influence_loss": 12030
+  },
+  "job": {
+    "blocks": 1000,
+    "candidate": "bluff",
+    "field": "bluffing",
+    "players": 3,
+    "profile": "reformation"
+  },
+  "raw_sha256": "b38cd863b29c178a4af49a3f1dda726c029747c3392bc7cd16eb18285badbe24",
+  "stage": "confirmation",
+  "summary": {
+    "blocks": 1000,
+    "candidate": "bluff",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 3000,
+    "mean_turns": 13.906,
+    "players": 3,
+    "profile": "reformation",
+    "stage": "confirmation",
+    "win_rate": 0.3333333333333333,
+    "wins": 1000
+  }
+}

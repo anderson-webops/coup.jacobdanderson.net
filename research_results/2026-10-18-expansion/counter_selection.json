@@ -1,0 +1,46 @@
+{
+  "pairs": [
+    {
+      "field": "vs_bluff",
+      "first": "skeptic",
+      "players": 2,
+      "profile": "inquisitor",
+      "second": "bluff"
+    },
+    {
+      "field": "vs_honest",
+      "first": "bluff",
+      "players": 6,
+      "profile": "inquisitor",
+      "second": "honest"
+    },
+    {
+      "field": "vs_shield",
+      "first": "bluff",
+      "players": 4,
+      "profile": "reformation",
+      "second": "shield"
+    },
+    {
+      "field": "vs_shield",
+      "first": "bluff",
+      "players": 10,
+      "profile": "reformation",
+      "second": "shield"
+    },
+    {
+      "field": "vs_bluff",
+      "first": "skeptic",
+      "players": 4,
+      "profile": "combined",
+      "second": "bluff"
+    },
+    {
+      "field": "vs_shield",
+      "first": "bluff",
+      "players": 10,
+      "profile": "combined",
+      "second": "shield"
+    }
+  ]
+}

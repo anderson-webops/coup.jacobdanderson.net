@@ -1,0 +1,35 @@
+{
+  "diagnostics": {
+    "action_coup": 5520,
+    "action_tax": 16520,
+    "challenge": 280,
+    "claim": 16520,
+    "disproved": 280,
+    "elimination": 2880,
+    "focal_coup": 552,
+    "focal_tax": 1652,
+    "influence_loss": 5800
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "bluff",
+    "field": "bluffing",
+    "players": 10,
+    "profile": "inquisitor"
+  },
+  "raw_sha256": "083cfcfae911739886eb5f7496c2b0bffb69657aaff7e6a8699ddf4c57965fe4",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "bluff",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 320,
+    "mean_turns": 68.875,
+    "players": 10,
+    "profile": "inquisitor",
+    "stage": "screening",
+    "win_rate": 0.1,
+    "wins": 32
+  }
+}

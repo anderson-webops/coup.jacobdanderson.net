@@ -1,0 +1,46 @@
+{
+  "diagnostics": {
+    "action_assassinate": 25,
+    "action_coup": 15,
+    "action_examine": 1,
+    "action_exchange": 17,
+    "action_foreign_aid": 82,
+    "action_steal": 47,
+    "action_tax": 100,
+    "block": 67,
+    "challenge": 128,
+    "claim": 257,
+    "disproved": 55,
+    "elimination": 64,
+    "examine": 1,
+    "exchange": 17,
+    "focal_assassinate": 14,
+    "focal_foreign_aid": 53,
+    "focal_steal": 22,
+    "focal_tax": 52,
+    "influence_loss": 143,
+    "proof": 73
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "treasury",
+    "field": "skeptical",
+    "players": 2,
+    "profile": "combined"
+  },
+  "raw_sha256": "026a9328906e0ffbb0357b6e92ed3db3fc26c7f879a15cf01839e730a3892052",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "treasury",
+    "draws": 0,
+    "field": "skeptical",
+    "games": 64,
+    "mean_turns": 4.484375,
+    "players": 2,
+    "profile": "combined",
+    "stage": "screening",
+    "win_rate": 0.453125,
+    "wins": 29
+  }
+}

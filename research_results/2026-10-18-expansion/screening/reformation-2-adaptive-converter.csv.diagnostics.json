@@ -1,0 +1,45 @@
+{
+  "diagnostics": {
+    "action_assassinate": 112,
+    "action_coup": 93,
+    "action_exchange": 22,
+    "action_foreign_aid": 160,
+    "action_steal": 193,
+    "action_tax": 299,
+    "block": 319,
+    "challenge": 72,
+    "claim": 945,
+    "disproved": 19,
+    "elimination": 64,
+    "exchange": 22,
+    "focal_assassinate": 57,
+    "focal_coup": 42,
+    "focal_foreign_aid": 105,
+    "focal_steal": 107,
+    "focal_tax": 128,
+    "influence_loss": 165,
+    "proof": 53
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "converter",
+    "field": "adaptive",
+    "players": 2,
+    "profile": "reformation"
+  },
+  "raw_sha256": "8a828fb83ee9905cfa53d62ed13f986f15566f60032752b702ac28d39caea838",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "converter",
+    "draws": 0,
+    "field": "adaptive",
+    "games": 64,
+    "mean_turns": 13.734375,
+    "players": 2,
+    "profile": "reformation",
+    "stage": "screening",
+    "win_rate": 0.40625,
+    "wins": 26
+  }
+}

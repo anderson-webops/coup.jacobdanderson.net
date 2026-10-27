@@ -1,0 +1,1906 @@
+{
+  "global_plan_sha256": "a76f7d94f3a4db07ff08f3cbfe7aa6c4f6032ede0b25a3c8ff0c61b82e8b172e",
+  "jobs": [
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 2,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 3,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 4,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 5,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 6,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 7,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 8,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 9,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 10,
+      "profile": "inquisitor"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 2,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "honest",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "mixed",
+      "players": 3,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 4,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 5,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 6,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "honest",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "mixed",
+      "players": 7,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 8,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "honest",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "information",
+      "field": "mixed",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 9,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 10,
+      "profile": "reformation"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 2,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 3,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "honest",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "bluff",
+      "field": "mixed",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 4,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 5,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "honest",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "bluffing",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "skeptical",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "adaptive",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "honest",
+      "field": "mixed",
+      "players": 6,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 7,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "honest",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "bluffing",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "skeptical",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "adaptive",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "converter",
+      "field": "mixed",
+      "players": 8,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 9,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "honest",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "honest",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "bluffing",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "skeptical",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "adaptive",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "shield",
+      "field": "mixed",
+      "players": 10,
+      "profile": "combined"
+    },
+    {
+      "blocks": 1000,
+      "candidate": "balanced",
+      "field": "mixed",
+      "players": 10,
+      "profile": "combined"
+    }
+  ],
+  "source_sha256": {
+    "audit_expansion_research.py": "3aa8c957fcd51c5f61ca819c3aa9a8a7bad92d4a548c3c5b85bde7d72cd61e0a",
+    "expansion_policies.py": "fad17dd56e0c5fb894a2eb3603853143fb95734a515fc8b04419477b7463dc55",
+    "expansion_simulator.py": "bc6b3ccdb29209a5310a3ee4c75fcaebdd7c8ef81ed2dff7dca5fb7e6efe4f59",
+    "expansion_statistics.py": "9f11102015c38d992a1c3d964ac0f37b5a8794ae0fb2648dab14c6b8dd376eb3",
+    "expansion_study.py": "1fb0860e0efbf2cebf3ba7571db3e2f8247a8cb90b7c847a476f73c73d8ef99d",
+    "test_expansion_audit.py": "179905773ce99add5bb4785368c5feb831fd9c9b4374436ebf42e973dc7fe01f",
+    "test_expansion_simulator.py": "dd556573f0fb8a36151fa7067ae630c0576159eadd6cd1c6bd5ad94db7193f60",
+    "test_expansion_study.py": "83ebd77b2b744a53d3d768cedf8942a4a0f9853c8926d5234d356340f27ced44"
+  },
+  "stage": "confirmation"
+}

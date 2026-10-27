@@ -1,0 +1,35 @@
+{
+  "diagnostics": {
+    "action_coup": 4401,
+    "action_tax": 13743,
+    "challenge": 243,
+    "claim": 13743,
+    "disproved": 243,
+    "elimination": 2304,
+    "focal_coup": 489,
+    "focal_tax": 1527,
+    "influence_loss": 4644
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "bluff",
+    "field": "bluffing",
+    "players": 9,
+    "profile": "combined"
+  },
+  "raw_sha256": "d8ea63118dab26597507778f696e0953385038e9f73c69372eaa13c42be871ac",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "bluff",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 288,
+    "mean_turns": 63.0,
+    "players": 9,
+    "profile": "combined",
+    "stage": "screening",
+    "win_rate": 0.1111111111111111,
+    "wins": 32
+  }
+}

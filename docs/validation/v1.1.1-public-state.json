@@ -2,7 +2,6 @@
   "attempt": 7,
   "checked_at": "2026-10-13T02:36:13.326278+00:00",
   "expected_identity_sha256": "54e92e7d391fee5c4fc38426f21b66545046190a757db4735ff880b57eb0ed35",
-  "next_required_action": "Protected server automation must activate the exact v1.1.1 release, then verify all 29 file hashes, required response headers and real 404 over both HTTPS address families.",
   "public_acceptance": false,
   "ready": false,
   "records": [

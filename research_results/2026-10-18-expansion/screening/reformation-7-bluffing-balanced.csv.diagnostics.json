@@ -1,0 +1,53 @@
+{
+  "diagnostics": {
+    "action_assassinate": 379,
+    "action_convert_other": 50,
+    "action_convert_self": 117,
+    "action_coup": 2649,
+    "action_embezzle": 54,
+    "action_exchange": 73,
+    "action_foreign_aid": 229,
+    "action_income": 54,
+    "action_steal": 490,
+    "action_tax": 7820,
+    "block": 1081,
+    "challenge": 181,
+    "claim": 9897,
+    "disproved": 181,
+    "elimination": 1344,
+    "exchange": 73,
+    "focal_assassinate": 379,
+    "focal_convert_other": 50,
+    "focal_convert_self": 117,
+    "focal_coup": 161,
+    "focal_embezzle": 54,
+    "focal_exchange": 73,
+    "focal_foreign_aid": 229,
+    "focal_income": 54,
+    "focal_steal": 490,
+    "focal_tax": 819,
+    "influence_loss": 2834
+  },
+  "job": {
+    "blocks": 32,
+    "candidate": "balanced",
+    "field": "bluffing",
+    "players": 7,
+    "profile": "reformation"
+  },
+  "raw_sha256": "a602551cb72cd6ce04ce5e2c6f15babb9fef1defe6dd10bb2837c0369015cb63",
+  "stage": "screening",
+  "summary": {
+    "blocks": 32,
+    "candidate": "balanced",
+    "draws": 0,
+    "field": "bluffing",
+    "games": 224,
+    "mean_turns": 53.191964285714285,
+    "players": 7,
+    "profile": "reformation",
+    "stage": "screening",
+    "win_rate": 0.19642857142857142,
+    "wins": 44
+  }
+}

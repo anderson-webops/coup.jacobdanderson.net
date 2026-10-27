@@ -31,10 +31,6 @@ The three release assets are `coup-site-v<version>-<commit-prefix>.tar.gz`, `rel
 
 The repository workflow validates source and builds a candidate on pull requests and pushes to `main`. It retains the candidate as a short-lived CI artifact. A release-worthy change should use an annotated `v<version>` tag at the exact validated commit and publish the verified candidate bytes as an immutable GitHub release. A CI artifact or GitHub release establishes source and artifact readiness only.
 
-## Protected host onboarding
+## Activation evidence
 
-The protected server automation must independently recognize the canonical repository, annotated tag, commit, archive digest, deployment contract version, and minimum host capabilities before staging or activating a release. It must verify the exact public-file inventory and apply the separately reviewed response policy, including the hash-approved inline script in CSP, without running scripts from the candidate repository. The host retains DNS, TLS, Nginx configuration, file ownership, release pointers, and deployment credentials under its own control.
-
-The new custom domain requires protected host onboarding and both IPv4 and IPv6 DNS records. After immutable staging, the host should compare the served `/` response with the release manifest's `dist/index.html` digest, verify other public assets and response headers over IPv4 and IPv6, and require a real 404 for the missing probe path. It should promote atomically. For the first activation, failed acceptance restores the prior absent state. After the first successful activation, the host retains the prior immutable release and its policy for rollback. There are no migrations or application writable paths. A missing host capability must leave the serving state unchanged and be reported as an onboarding requirement.
-
-Source workspace agents do not connect to or administer the production host. Source delivery or a published release does not establish that `coup.jacobdanderson.net` is serving the new content. Verify the exact live bytes and both address families separately after protected activation.
+The deployment contract records the required host capabilities, exact-byte HTTPS readiness, both address families and retained rollback behavior. Protected automation owns activation. Source, tag, release and public acceptance receipts record these as separate states.

@@ -16,7 +16,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Check out exact source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -25,12 +25,19 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: "1"
           RUNNER_TEMP: ${{ runner.temp }}
-        run: python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_verify_strategy_research test_site scripts.test_release_artifact
+        run: python3 -B -m unittest -v test_coup_simulator test_extensive_rules test_research_strategies test_research_statistics test_strategy_research test_analyze_strategy_research test_verify_strategy_research test_site scripts.test_release_artifact test_expansion_simulator test_expansion_study test_expansion_audit test_expansion_publication
 
       - name: Independently audit the expanded frozen research
         env:
           PYTHONDONTWRITEBYTECODE: "1"
         run: python3 -B verify_strategy_research.py
+
+      - name: Audit frozen expansion outcomes and independent replays
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 -B expansion_study.py --output-dir research_results/2026-10-18-expansion --verify
+          python3 -B audit_expansion_research.py --results-dir research_results/2026-10-18-expansion
 
       - name: Validate exact static publication
         env:
