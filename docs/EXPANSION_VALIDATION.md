@@ -1,6 +1,6 @@
-# Expansion validation
+# Expansion validation, 18 October 2026
 
-This is a local candidate from source HEAD `34e8bfc2a5edbfb3dc2425f36ae90afbbeec4ccc`. No source commit, push, tag, release, publication or production change was made. The earlier local editorial work was preserved and incorporated.
+This historical record describes the local candidate at source HEAD `34e8bfc2a5edbfb3dc2425f36ae90afbbeec4ccc`. At that checkpoint, no source commit, push, tag, release, publication or production change had been made. The earlier local editorial work was preserved and incorporated. Subsequent v1.2.0 delivery is recorded in the [source/release receipt](validation/v1.2.0-source.json) and [public-state receipt](validation/v1.2.0-public-state.json).
 
 ## Scientific evidence
 
@@ -26,6 +26,6 @@ A separate disposable UI fixture exercised exact broad ties, reversed supported 
 
 All 25 earlier public evidence files and every earlier embedded study-data member are byte/value equivalent to the preserved editorial candidate. Its four initial local files were copied before integration. Among the earlier public files, only the homepage, stylesheet and publication metadata changed; five new expansion evidence assets were added. The reviewed static tree has **34 files, 61,470,319 bytes**. Controls remain outside `dist/`; the page uses the two exact hashed script blocks and no remote requests or writable state.
 
-HEAD and the initially empty staging area are unchanged. Source, outcomes and generated-site changes remain local. The own automated browser and disposable fixture server were closed. A loopback-only preview of `dist/` remains available at [the local preview](http://127.0.0.1:8867/?rules=combined) for review.
+At this checkpoint, HEAD and the initially empty staging area were unchanged, and source, outcomes and generated-site changes remained local. The automated browser and disposable fixture server were closed. The loopback review preview was subsequently closed on 27 October 2026.
 
 Exact counts and hashes are in the [validation receipt](validation/2026-10-18-expansion-local.json). Diagnostic logs, snapshots and captures are indexed under `.ai-work/runs/20261018-expansion/`.

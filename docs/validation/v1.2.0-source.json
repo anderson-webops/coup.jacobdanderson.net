@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-27T18:22:33.979563+00:00",
+  "version": "1.2.0",
+  "source_commit": "07ac3224f4ea20889a4a5222c274c1e3ebe0dcea",
+  "source_clean_at_build": true,
+  "annotated_tag": {
+    "tag": "v1.2.0",
+    "object_type": "tag",
+    "tag_object": "d5c852164c8b255554151e65d514952031163a2f",
+    "source_commit": "07ac3224f4ea20889a4a5222c274c1e3ebe0dcea",
+    "remote_matches": true
+  },
+  "release_url": "https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.2.0",
+  "published_at": "2026-10-27T18:18:51Z",
+  "ci": {
+    "run_id": 40555215609,
+    "url": "https://github.com/anderson-webops/coup.jacobdanderson.net/actions/runs/40555215609",
+    "status": "passed",
+    "source_commit": "07ac3224f4ea20889a4a5222c274c1e3ebe0dcea",
+    "tests": 241,
+    "linux_expansion_outcomes_and_strict_replays": "passed"
+  },
+  "local_verification": {
+    "base_tests": 133,
+    "expansion_tests": 108,
+    "expansion_raw_outcomes": 1908576,
+    "expansion_jobs": 1410,
+    "expansion_strict_replays": 25380,
+    "browser_panels": 305,
+    "isolated_site_and_release_verification": "passed",
+    "frozen_source_fingerprints_verified": 20
+  },
+  "secret_scans": {
+    "gitleaks": {
+      "status": "passed",
+      "findings": 0
+    },
+    "gitguardian": {
+      "status": "unavailable",
+      "reason": "No more API calls available"
+    }
+  },
+  "assets_sha256": {
+    "coup-site-v1.2.0-07ac3224f4ea.tar.gz": "8ac03e7ec0ceed796a7f2c0b82df8d446ce75f509a458ca0dd29d96977e19178",
+    "release-manifest.json": "628068d4caba37beb58a1ff25f6f80282112c12ab1a98c573219d35ff0572344",
+    "SHA256SUMS": "ba9c43c812e43af8bc910d6158d52e13327eced860aa8e1d225e7bb22111fd02"
+  },
+  "local_ci_uploaded_assets_identical": true,
+  "publication": {
+    "public_files": 34,
+    "public_bytes": 61469009,
+    "approved_publication_sha256": "19cbdc4b5d61d87ed879a6840859550f348b370f67e01f9c1c5f0afa99d64909",
+    "site_policy_sha256": "e5e3954b579b1290f15a0afe0aed04646eb859c2d3e5d9225e54ffe88151653d",
+    "deployment_contract_sha256": "45c67a2392c8f18a7179b0eec4507c5bf22f727bef8030cc167a9537793f5c4e"
+  },
+  "public_acceptance_record": "v1.2.0-public-state.json"
+}

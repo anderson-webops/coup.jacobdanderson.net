@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-27T18:36:26.636985+00:00",
+  "requested_version": "1.2.0",
+  "source_commit": "07ac3224f4ea20889a4a5222c274c1e3ebe0dcea",
+  "release_url": "https://github.com/anderson-webops/coup.jacobdanderson.net/releases/tag/v1.2.0",
+  "status": "pending-protected-public-activation",
+  "public_acceptance": false,
+  "full_new_release_public_acceptance": false,
+  "host_side_activation_attempt_status": "unknown",
+  "expected_identity_sha256": "72eccab917765c1fdc5b3b6af048cb0f0d6d15a07d1f1451307936e7fad2f92c",
+  "observation_window": {
+    "first": "2026-10-27T18:19:14.104047+00:00",
+    "last": "2026-10-27T18:36:26.636985+00:00",
+    "paired_identity_observations": 32
+  },
+  "records": [
+    {
+      "family": "ipv4",
+      "expected_address": "45.17.197.196",
+      "transport_exit": 0,
+      "response": "200 45.17.197.196",
+      "ready": false,
+      "sha256": "54e92e7d391fee5c4fc38426f21b66545046190a757db4735ff880b57eb0ed35",
+      "identity": {
+        "application_id": "coup.jacobdanderson.net",
+        "version": "1.1.1",
+        "research_snapshot": "2026-10-12",
+        "initial_research_snapshot": "2026-10-10",
+        "screening_games": 88000,
+        "confirmation_games": 168000,
+        "expanded_study_games": 2814728,
+        "expanded_confirmation_games": 2240000
+      }
+    },
+    {
+      "family": "ipv6",
+      "expected_address": "2600:1700:1960:2adf::41",
+      "transport_exit": 0,
+      "response": "200 2600:1700:1960:2adf::41",
+      "ready": false,
+      "sha256": "54e92e7d391fee5c4fc38426f21b66545046190a757db4735ff880b57eb0ed35",
+      "identity": {
+        "application_id": "coup.jacobdanderson.net",
+        "version": "1.1.1",
+        "research_snapshot": "2026-10-12",
+        "initial_research_snapshot": "2026-10-10",
+        "screening_games": 88000,
+        "confirmation_games": 168000,
+        "expanded_study_games": 2814728,
+        "expanded_confirmation_games": 2240000
+      }
+    }
+  ],
+  "remaining_blocker": "The published v1.2.0 release is not publicly active; both direct HTTPS address families still return version 1.1.1."
+}
